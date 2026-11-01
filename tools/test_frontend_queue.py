@@ -82,6 +82,30 @@ class FrontendQueueRules(unittest.TestCase):
             queue.reconcile('owner/repo', dry_run=True)
         self.assertEqual(fake.mutations, [])
 
+    def test_delayed_issue_listing_retries_reads_without_duplicate_creates(self):
+        fake = FakeGitHub()
+        omitted = []
+
+        def delayed(*args, payload=None):
+            result = fake(*args, payload=payload)
+            if payload is None and 'state=open' in args[1] and not omitted:
+                omitted.append(True)
+                return [result[0][:-1]]
+            return result
+
+        with patch.object(queue, 'gh', delayed), patch.object(queue, 'read_plan', fixture_plan), patch.object(queue.time, 'sleep') as pause:
+            queue.reconcile('owner/repo')
+        self.assertEqual(len(fake.issues[1:]), 7)
+        self.assertEqual(len(fake.mutations), 7)
+        pause.assert_called_once_with(2)
+
+    def test_persistent_verification_difference_fails_without_rewriting_work(self):
+        fake = FakeGitHub()
+        with patch.object(queue, 'gh', fake), patch.object(queue.time, 'sleep'):
+            with self.assertRaisesRegex(RuntimeError, 'after read retries'):
+                queue.verify_queues('owner/repo', [{'track':'react-web','github':'PratikTalware26','window':[1], 'current_session':1}])
+        self.assertEqual(fake.mutations, [])
+
     def test_marker_cannot_adopt_python_or_unlabeled_issue(self):
         fake = FakeGitHub()
         item = fake.issues[0]

@@ -6,6 +6,7 @@ import json
 import os
 from pathlib import Path
 import re
+import time
 
 from learning_queue import desired_window, eligible_current_day, gh
 
@@ -59,6 +60,34 @@ def body_for(person, plan, prior, repository):
         "Only both together release the next frontend assignment. Closing without approval prepares the next window but leaves it unassigned. "
         "Concept explanations and retention are coached separately; unanswered learning questions alone do not block an otherwise correct implementation.\n"
     )
+
+
+def verify_queues(repository, report):
+    """Retry only reads: newly created issues can take a moment to appear in lists."""
+    failures = []
+    for attempt in range(4):
+        pages = gh("api", f"repos/{repository}/issues?state=open&per_page=100", "--paginate", "--slurp")
+        actual = {}
+        for item in (i for page in pages for i in page if "pull_request" not in i):
+            key = task_key(item)
+            if key:
+                if key in actual:
+                    raise RuntimeError("Duplicate frontend task identity; inspect without creating more")
+                actual[key] = item
+        failures = []
+        for row in report:
+            own = {n: i for (t, g, n), i in actual.items() if (t, g) == (row["track"], row["github"])}
+            if set(own) != set(row["window"]):
+                failures.append(f"{row['github']}: expected {row['window']}, observed {sorted(own)}")
+            assigned = {n: [a["login"] for a in i["assignees"]] for n, i in own.items() if i["assignees"]}
+            wanted = {row["current_session"]: [row["github"]]} if row["current_session"] else {}
+            if assigned != wanted:
+                failures.append(f"{row['github']}: expected assignments {wanted}, observed {assigned}")
+        if not failures:
+            return
+        if attempt < 3:
+            time.sleep(2)
+    raise RuntimeError("Frontend verification still differs after read retries: " + "; ".join(failures))
 
 
 def reconcile(repository, dry_run=False):
@@ -116,20 +145,9 @@ def reconcile(repository, dry_run=False):
                 created.append(result["number"])
         report.append({"github": login, "track": track, "window": window, "current_session": current, "activated_issues": created})
     if not dry_run:
-        pages = gh("api", f"repos/{repository}/issues?state=open&per_page=100", "--paginate", "--slurp")
-        actual = {}
-        for item in (i for page in pages for i in page if "pull_request" not in i):
-            key = task_key(item)
-            if key:
-                actual[key] = item
-        for row in report:
-            own = {n: i for (t, g, n), i in actual.items() if (t, g) == (row["track"], row["github"])}
-            if set(own) != set(row["window"]):
-                raise RuntimeError("Frontend window changed during reconciliation")
-            assigned = {n: [a["login"] for a in i["assignees"]] for n, i in own.items() if i["assignees"]}
-            wanted = {row["current_session"]: [row["github"]]} if row["current_session"] else {}
-            if assigned != wanted:
-                raise RuntimeError("Unexpected frontend assignment")
+        # Record durable issue IDs before verification, without retrying mutations.
+        print(json.dumps({"frontend_changes_applied": report}, indent=2))
+        verify_queues(repository, report)
     result = {"dry_run": dry_run, "scope": "frontend-only", "learners": report}
     print(json.dumps(result, indent=2))
     if os.environ.get("GITHUB_STEP_SUMMARY"):
