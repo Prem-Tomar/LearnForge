@@ -1,6 +1,6 @@
 # AI/ML, data science, and mathematics extension path
 
-LearnForge has room for deeper AI/ML and data-science work. The core stays **26 weeks / 182 daily issues / 598 scheduled hours per person**. This is a defined next path, not hidden extra work inside that budget. A suggested follow-on is **12 weeks at 23 hours per week: 276 additional scheduled hours**. Adjust from individual mastery rather than promising a fixed completion date.
+LearnForge has room for deeper AI/ML and data-science work. The core stays **26 weeks / 1,092 personal issues / 598 scheduled hours per person**. This is a defined next path, not hidden extra work inside that budget. A suggested follow-on is **12 weeks at 23 hours per week: 276 additional scheduled hours**. Adjust from individual mastery rather than promising a fixed completion date.
 
 The core already introduces arrays, vector similarity, probability, train/development/held-out splits, leakage, token budgets, model evaluation, local inference, and adaptation. The extension develops deliberate data analysis, mathematical reasoning, classical ML, neural-network training, and model operation.
 
@@ -16,7 +16,7 @@ Predictions do not replace individual mastery evidence. Start with synthetic dat
 
 ## Twelve-week extension curriculum
 
-Keep the five lesson / integration / individual repair pattern. Both developers learn every mathematical and technical concept, rotate roles, and review each other. Every day ships a small feature slice and personal proof. No assignment is testing-only. API documentation remains opt-in.
+Keep the five lesson / integration / individual repair pattern. All six learners learn every mathematical and technical concept, rotate roles, and review each other. Every day ships a small feature slice and personal proof. No assignment is testing-only. API documentation remains opt-in.
 
 | Module | Concepts and mathematics | Working increment | Individual mastery question |
 |---|---|---|---|
@@ -43,11 +43,11 @@ Run the extension after week 26. Bringing it into the first six months requires 
 
 Extend the existing separation between rules, providers, storage, and user flows. Do not put pandas, training logic, or model SDK details inside HTTP routes or trusted agent-policy code.
 
-| Boundary | Future responsibility | Existing two-person role |
+| Boundary | Future responsibility | Current rotating role |
 |---|---|---|
-| `core/ml/` | Prediction/recommendation values, units, feature meaning, uncertainty, accepted outcomes, business limits | Current core role |
-| `adapters/ml/` | pandas/scikit-learn/PyTorch connections, model loading, transformations, inference, registry storage | Current integration role |
-| `experience/ml/` | Thin analytics, training-status, prediction, and comparison commands | Current integration role; small product slice |
+| `core/ml/` | Prediction/recommendation values, units, feature meaning, uncertainty, accepted outcomes, business limits | Current values/operations pair |
+| `adapters/ml/` | pandas/scikit-learn/PyTorch connections, model loading, transformations, inference, registry storage | Current storage/connections or commands/workflows role |
+| `experience/ml/` | Thin analytics, training-status, prediction, and comparison commands | Current storage/connections or commands/workflows role; small product slice |
 | Existing durable jobs | Training, batch inference, feature backfills, reconciliation with resource bounds | Core owns allowed transitions; integration implements adapters |
 | Existing approval/policy layer | Authorize impactful actions based on predictions and exact payload | Core decision plus integration enforcement in separate owned files |
 

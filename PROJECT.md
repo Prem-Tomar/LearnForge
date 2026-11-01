@@ -1,4 +1,4 @@
-# LearnForge: one project that grows
+# LearnForge: an AI/ML workbench that grows from deep Python
 
 LearnForge helps a learner or a team record study work, keep a workspace knowledge library, ask questions with sources, and turn knowledge into approved study plans. The same project grows throughout the course. Weekly increments are learning milestones within this product, not unrelated portfolio projects.
 
@@ -69,6 +69,11 @@ Large-scale replication and partitioning are learned through a bounded routing s
 
 ## Growth constraints
 
-The [AI/ML and data-science extension plan](EXTENSIONS.md) reserves prediction, analytics, dataset/feature/model versioning, and batch/online inference boundaries. Its [mathematics bridge](MATH_FOUNDATIONS.md) connects statistics, probability, linear algebra, calculus, and optimization to the working product. It is a separate follow-on path; the core remains 26 weeks and 182 issues.
+The [AI/ML and data-science extension plan](EXTENSIONS.md) reserves prediction, analytics, dataset/feature/model versioning, and batch/online inference boundaries. Its [mathematics bridge](MATH_FOUNDATIONS.md) connects statistics, probability, linear algebra, calculus, and optimization to the working product. It is a separate follow-on path; the core remains 26 weeks and 1,092 personal issues.
 
 Build useful vertical slices. Keep a last working baseline. Do not create a framework for a hypothetical future feature. Never let a model enforce its own permission policy. Bind approvals and idempotency at actual effect boundaries. Keep user data scoped in database reads, retrieval, caches, memory, and logs. Make partial and unknown outcomes visible. Add API documentation only on request; keep testing light and attached to implementation.
+
+
+## Primary learning destination
+
+The project favors AI/ML learning and implementation. Its study records, documents, jobs, APIs, and model contracts supply meaningful data and runtime boundaries. All six build the common foundation, then each chooses and implements an advanced AI/ML capability in weeks 21–26. See [SPECIALIZATIONS.md](SPECIALIZATIONS.md). They retain one project-level architecture and contribute separate owned modules, rather than creating six unrelated platforms.

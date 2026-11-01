@@ -32,7 +32,7 @@ Days run in this order. Each depends on the previous day's skill and working bas
 
 ## Review, integration, and mastery
 
-Core role this week: **Developer 2**. Integration role: **Developer 1**. Swap next week. Both complete all five individual concept proofs, all seven questions, and cross-reviews. In three-person mode rotate three roles instead.
+Learner 06: Values and validation | Learner 01: Rules and application operations | Learner 02: State and storage | Learner 03: Input and external connections | Learner 04: Commands and visible results | Learner 05: Workflow and resource lifetime Everyone completes the common concept proofs and independent questions. Review targets rotate across all five peers. Architecture is one shared topic and decision for the whole cohort.
 
 Day six demonstrates the working increment. Day seven includes an individual unseen variant, a bounded production repair, and a teach-back of the other role's code. It is an implementation day with a mastery focus, never a testing-only task.
 

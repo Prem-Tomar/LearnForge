@@ -1,11 +1,12 @@
-# Individual progress
+# Personal progress for six learners
 
-`mastery.csv` starts with **364 not-started rows**: 182 days × two developer slots. These are empty learning records, not completed assessments.
+`mastery.csv` has **1,092 not-started rows: 182 days × six learners**. These are learning records to fill, not completed assessments. Each learner records their own proof, implementation, explanation, shared-architecture understanding, review evidence, hints, personal gap, repair, and chosen AI/ML track.
 
-Each person records their own concept proof and implementation evidence. The coach/rotating integrator updates the shared CSV after both report, so two branches do not edit the same progress file simultaneously. Use GitHub usernames in place of role slots only after the real identities are known and assignment is requested. Do not publish private email addresses.
+The rotating integrator updates the shared CSV after collecting all six results. Only one person edits this shared file at a time. A group demo or someone else's pass never replaces personal evidence. Use [ASSESSMENT.md](../ASSESSMENT.md).
 
-Use [ASSESSMENT.md](../ASSESSMENT.md) for scores. Keep evidence short: an owned practice path, PR or commit, hints used, the specific gap, and a next action. Status values can be `not-started`, `in-progress`, `needs-repair`, or `passed`. Never fill another person's record from a group demonstration.
+Follow your own sequence in [ISSUES.md](../ISSUES.md). Personal issues close independently; common contracts and project invariants can still block integration. Use `not-started`, `in-progress`, `needs-repair`, or `passed` and keep a concrete next action.
 
-Recall older questions at roughly 1, 7, 21, and 42 days. Revisit one short example instead of repeating a full lesson. Track a recurring gap by concept and give it a fresh variant on the next review day.
+Revisit one short question from roughly 1, 7, 21, and 42 days ago. Record recurring gaps by concept. Architecture has one common decision log, while each learner separately proves understanding. Choose the advanced AI/ML track at the week-20 gate. Real GitHub identities remain unassigned until known; do not publish private emails.
 
-For three people, add Developer 3 for every day and apply the same personal checks. For the current request, no invitations or GitHub assignments have been made.
+
+Record implementation_status separately from understanding_status. A correct implementation can be accepted while a Question-of-the-Day correction remains pending. Keep original answers and targeted follow-up in the review discussion; do not turn them into new feature/test/documentation requirements. Learning readiness still needs individual evidence.

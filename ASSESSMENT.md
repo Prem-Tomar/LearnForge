@@ -11,7 +11,7 @@ Score each person separately. Each criterion is 0, 1, or 2.
 | System design | Cannot locate state or boundary | Names the boundary and one relevant concern | Explains the invariant, failure path, chosen trade-off, and an alternative |
 | Peer review | No meaningful review | Finds or discusses a behavior case with help | Gives specific concept-based feedback and responds thoughtfully as author |
 
-A day passes at **7/8 or higher**, with **no criterion at 0**. Record the proof path, PR/commit, hints, gap, and next action in [mastery.csv](progress/mastery.csv). A pass does not mean mastery of every specialist detail. It means sufficient independent understanding of this day's target to continue.
+A personal learning gate passes at **7/8 or higher**, with **no criterion at 0**. Record the proof path, PR/commit, hints, gap, and next action in [mastery.csv](progress/mastery.csv). A pass does not mean mastery of every specialist detail. It means sufficient independent understanding of this day's target to continue.
 
 An unresolved authorization leak, destructive data-loss case, or repeated unapproved effect blocks the dependent flow even if a score is high. Repair the actual implementation with a small relevant example; do not respond by requiring a large test suite.
 
@@ -49,12 +49,23 @@ Score **0–4** in each domain: 0 cannot begin; 1 needs continuous direction; 2 
 | GenAI and RAG | Diagnose an unseen answer failure; distinguish retrieval, generation, citations, evaluation, freshness, and model limits |
 | Agents | Trace state/tool/effect boundaries; design scope, budgets, approval, replay, checkpoint, cancellation, and failure handling |
 | System design | Clarify requirements, quantify assumptions, draw read/write flow, choose storage and boundaries, and discuss failures, scale, security, and cost |
+| Chosen AI/ML topic | A real baseline and fitted model/retriever/analysis, clean data/splits, relevant mathematical explanation, measured results, serving, debugging, and honest limitations |
 | Communication and ownership | Clear English, truthful contribution story, respectful review discussion, and cross-role understanding supported by real work |
 
 Interview-ready for this course means **at least 3/4 in every domain**, no critical security/effect gap, and two successful fresh mock rounds separated by feedback and repair. Do not average a weak domain away. Record target job requirements too; a research-heavy ML role or specialist infrastructure role may require further study.
 
 ## Mock format within the scheduled hours
 
-Weeks 25 and 26 spread the rounds across existing sessions. Candidate and interviewer alternate, with different problems. Use 35 minutes for coding, 30–40 for system design, 15–20 for project discussion, and short concrete feedback. Use the rest for bounded implementation repair. The final two 4-hour sessions include separate attempts for both people; the interviewer's observation counts as review learning, not as their own pass. A coach should validate both independently when available.
+Weeks 25 and 26 spread the rounds across existing sessions. Candidate and interviewer alternate, with different problems. Use 35 minutes for coding, 30–40 for system design, 15–20 for project discussion, and short concrete feedback. Use the rest for bounded implementation repair. The final two 4-hour sessions include separate attempts for all six learners; the interviewer's observation counts as review learning, not as their own pass. A coach should validate both independently when available.
 
 Record problem version, hints, correctness evidence, design assumptions, individual scores, and next action. “We built it” is not individual assessment evidence.
+
+
+## Six-learner architecture and specialization evidence
+
+All six discuss one architecture topic; score each person's understanding of that shared decision, not six independent designs. Each learner also needs at least 3/4 for their chosen AI/ML topic, with a running baseline/capability, mathematical explanation, clean held-out reasoning, measured failures, and a correct bounded improvement. The 182 personal daily gates and final mocks remain individual. Similar topics do not merge evidence or ownership.
+
+
+## Implementation acceptance is separate
+
+The implementation_status and understanding_status fields are independent. Accept the bounded original code behavior when correct, while keeping conceptual follow-up visible. An unanswered learning question alone is not a PR blocker and must not create an extra test/report requirement. Final readiness and prerequisite coaching still require personal evidence. Preserve original answers, mark correct/partial/incorrect/missing parts, explain a worked correction, and revisit weak ideas later.

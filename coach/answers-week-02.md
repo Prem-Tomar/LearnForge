@@ -1,12 +1,20 @@
-# Coach key — week 02: Collections, loops, and functions
+# Coach key — week 02
 
-Open after an independent attempt. These are reasoning guides, not completed feature code.
+Use only after the learner's independent attempt. Initial questions and research hints do not expose these answers.
 
 ## Day 008
 
-**Question:** Why is a[-1] unsafe when a is empty?
+**Retention source:** Day 007
 
-**Expected reasoning:** There is no last element, so indexing raises IndexError; check the contract or handle the empty case.
+**Question of the Day:** Your partner reports a failure in first programs and clear decisions. Using this week's concrete cases, how do you locate the first broken boundary, repair it, and explain the design choice?
+
+**Expected reasoning after an independent attempt:** Choose an unseen variant of: 30 minutes for 4 days gives 2 hours; negative minutes are rejected; non-numeric input gets a clear message. Trace actual values across the relevant boundaries, name the invariant, reproduce the smallest failure, and make a bounded repair. Each developer must also answer the five lesson questions without reading the key.
+
+**Today's new-concept check:** Why is a[-1] unsafe when a is empty?
+
+**Expected mechanism:** There is no last element, so indexing raises IndexError; check the contract or handle the empty case.
+
+Use the step-by-step walkthrough in the guide: input/state → ordered checks → actual intermediate values/mechanism → result/state → failure variation. Assess correct, partial, incorrect, and missing answer parts; preserve the original answer and ask a targeted follow-up. Keep understanding status separate from implementation acceptance. Do not require an extra test or report to answer the question.
 
 **Quiz 1:** The misconception to correct is: Changing a list while iterating can skip items; append returns None. Use the behavior cases to demonstrate the correction: [10,20,30] totals 60 and its last two are [20,30]; empty list is handled.
 
@@ -14,13 +22,22 @@ Open after an independent attempt. These are reasoning guides, not completed fea
 
 **Coding drill:** Use a dictionary/set; average O(n) time and O(u) space for u distinct topics.
 
-**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess both developers separately.
+**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess all six learners separately.
+
 
 ## Day 009
 
-**Question:** Why is a set useful for duplicate detection?
+**Retention source:** Day 008
 
-**Expected reasoning:** Membership checks are average constant time and adding a repeated value does not create another entry.
+**Question of the Day:** Why is a[-1] unsafe when a is empty?
+
+**Expected reasoning after an independent attempt:** There is no last element, so indexing raises IndexError; check the contract or handle the empty case.
+
+**Today's new-concept check:** Why is a set useful for duplicate detection?
+
+**Expected mechanism:** Membership checks are average constant time and adding a repeated value does not create another entry.
+
+Use the step-by-step walkthrough in the guide: input/state → ordered checks → actual intermediate values/mechanism → result/state → failure variation. Assess correct, partial, incorrect, and missing answer parts; preserve the original answer and ask a targeted follow-up. Keep understanding status separate from implementation acceptance. Do not require an extra test or report to answer the question.
 
 **Quiz 1:** The misconception to correct is: Dictionary keys must be hashable; a tuple containing a list is not hashable. Use the behavior cases to demonstrate the correction: ['api','python','api'] gives api:2 and python:1; unknown topic lookup returns 0.
 
@@ -28,13 +45,22 @@ Open after an independent attempt. These are reasoning guides, not completed fea
 
 **Coding drill:** Use a dictionary/set; average O(n) time and O(u) space for u distinct topics.
 
-**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess both developers separately.
+**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess all six learners separately.
+
 
 ## Day 010
 
-**Question:** How can a retry loop become an infinite loop?
+**Retention source:** Day 009
 
-**Expected reasoning:** If the state or stopping condition never changes, the same failing work repeats forever; add a clear bound.
+**Question of the Day:** Why is a set useful for duplicate detection?
+
+**Expected reasoning after an independent attempt:** Membership checks are average constant time and adding a repeated value does not create another entry.
+
+**Today's new-concept check:** How can a retry loop become an infinite loop?
+
+**Expected mechanism:** If the state or stopping condition never changes, the same failing work repeats forever; add a clear bound.
+
+Use the step-by-step walkthrough in the guide: input/state → ordered checks → actual intermediate values/mechanism → result/state → failure variation. Assess correct, partial, incorrect, and missing answer parts; preserve the original answer and ask a targeted follow-up. Keep understanding status separate from implementation acceptance. Do not require an extra test or report to answer the question.
 
 **Quiz 1:** The misconception to correct is: A loop needs an exit condition that can actually change. Use the behavior cases to demonstrate the correction: 30, blank, -2, 10, done totals 40.
 
@@ -42,13 +68,22 @@ Open after an independent attempt. These are reasoning guides, not completed fea
 
 **Coding drill:** Use a dictionary/set; average O(n) time and O(u) space for u distinct topics.
 
-**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess both developers separately.
+**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess all six learners separately.
+
 
 ## Day 011
 
-**Question:** Why separate calculation from input and printing?
+**Retention source:** Day 004
 
-**Expected reasoning:** Pure calculation can be reused and checked without simulating a terminal or a web request.
+**Question of the Day:** What does short-circuit evaluation protect in x != 0 and 10 / x > 1?
+
+**Expected reasoning after an independent attempt:** If x is zero the second expression is not evaluated, avoiding division by zero.
+
+**Today's new-concept check:** Why separate calculation from input and printing?
+
+**Expected mechanism:** Pure calculation can be reused and checked without simulating a terminal or a web request.
+
+Use the step-by-step walkthrough in the guide: input/state → ordered checks → actual intermediate values/mechanism → result/state → failure variation. Assess correct, partial, incorrect, and missing answer parts; preserve the original answer and ask a targeted follow-up. Keep understanding status separate from implementation acceptance. Do not require an extra test or report to answer the question.
 
 **Quiz 1:** The misconception to correct is: Printing a result does not return it; a missing return produces None. Use the behavior cases to demonstrate the correction: [30,60] gives 90 and 45; [] gives 0 and None.
 
@@ -56,13 +91,22 @@ Open after an independent attempt. These are reasoning guides, not completed fea
 
 **Coding drill:** Use a dictionary/set; average O(n) time and O(u) space for u distinct topics.
 
-**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess both developers separately.
+**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess all six learners separately.
+
 
 ## Day 012
 
-**Question:** Why does def f(items=[]) keep old items across calls?
+**Retention source:** Day 011
 
-**Expected reasoning:** The same default list is reused. Use None and create a fresh list inside the function.
+**Question of the Day:** Why separate calculation from input and printing?
+
+**Expected reasoning after an independent attempt:** Pure calculation can be reused and checked without simulating a terminal or a web request.
+
+**Today's new-concept check:** Why does def f(items=[]) keep old items across calls?
+
+**Expected mechanism:** The same default list is reused. Use None and create a fresh list inside the function.
+
+Use the step-by-step walkthrough in the guide: input/state → ordered checks → actual intermediate values/mechanism → result/state → failure variation. Assess correct, partial, incorrect, and missing answer parts; preserve the original answer and ask a targeted follow-up. Keep understanding status separate from implementation acceptance. Do not require an extra test or report to answer the question.
 
 **Quiz 1:** The misconception to correct is: A default argument [] can keep data between calls; assignment inside a function does not rebind the caller's name. Use the behavior cases to demonstrate the correction: Starting [30], adding 15 in the copy version returns [30,15] and preserves [30].
 
@@ -70,13 +114,22 @@ Open after an independent attempt. These are reasoning guides, not completed fea
 
 **Coding drill:** Use a dictionary/set; average O(n) time and O(u) space for u distinct topics.
 
-**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess both developers separately.
+**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess all six learners separately.
+
 
 ## Day 013
 
-**Question:** For this increment — Build an in-memory study-session tracker with add, total, and list operations. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?
+**Retention source:** Day 012
 
-**Expected reasoning:** Use the implemented flow as evidence. Expected behavior: Add sessions 30 and 60: total 90; empty list totals 0; negative durations fail. Explain validation, state ownership, dependency failure, and one simpler alternative; link the exact implementation. Do not claim unused infrastructure exists.
+**Question of the Day:** Why does def f(items=[]) keep old items across calls?
+
+**Expected reasoning after an independent attempt:** The same default list is reused. Use None and create a fresh list inside the function.
+
+**Today's new-concept check:** For this increment — Build an in-memory study-session tracker with add, total, and list operations. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?
+
+**Expected mechanism:** Use the implemented flow as evidence. Expected behavior: Add sessions 30 and 60: total 90; empty list totals 0; negative durations fail. Explain validation, state ownership, dependency failure, and one simpler alternative; link the exact implementation. Do not claim unused infrastructure exists.
+
+Use the step-by-step walkthrough in the guide: input/state → ordered checks → actual intermediate values/mechanism → result/state → failure variation. Assess correct, partial, incorrect, and missing answer parts; preserve the original answer and ask a targeted follow-up. Keep understanding status separate from implementation acceptance. Do not require an extra test or report to answer the question.
 
 **Quiz 1:** The misconception to correct is: Merging branches is not evidence of integration. Run the complete user flow and show its saved or visible result. Use the behavior cases to demonstrate the correction: Add sessions 30 and 60: total 90; empty list totals 0; negative durations fail.
 
@@ -84,13 +137,22 @@ Open after an independent attempt. These are reasoning guides, not completed fea
 
 **Coding drill:** Use a dictionary/set; average O(n) time and O(u) space for u distinct topics.
 
-**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess both developers separately.
+**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess all six learners separately.
+
 
 ## Day 014
 
-**Question:** Your partner reports a failure in collections, loops, and functions. Using this week's concrete cases, how do you locate the first broken boundary, repair it, and explain the design choice?
+**Retention source:** Day 013
 
-**Expected reasoning:** Choose an unseen variant of: Add sessions 30 and 60: total 90; empty list totals 0; negative durations fail. Trace actual values across the relevant boundaries, name the invariant, reproduce the smallest failure, and make a bounded repair. Each developer must also answer the five lesson questions without reading the key.
+**Question of the Day:** For this increment — Build an in-memory study-session tracker with add, total, and list operations. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?
+
+**Expected reasoning after an independent attempt:** Use the implemented flow as evidence. Expected behavior: Add sessions 30 and 60: total 90; empty list totals 0; negative durations fail. Explain validation, state ownership, dependency failure, and one simpler alternative; link the exact implementation. Do not claim unused infrastructure exists.
+
+**Today's new-concept check:** Your partner reports a failure in collections, loops, and functions. Using this week's concrete cases, how do you locate the first broken boundary, repair it, and explain the design choice?
+
+**Expected mechanism:** Choose an unseen variant of: Add sessions 30 and 60: total 90; empty list totals 0; negative durations fail. Trace actual values across the relevant boundaries, name the invariant, reproduce the smallest failure, and make a bounded repair. Each developer must also answer the five lesson questions without reading the key.
+
+Use the step-by-step walkthrough in the guide: input/state → ordered checks → actual intermediate values/mechanism → result/state → failure variation. Assess correct, partial, incorrect, and missing answer parts; preserve the original answer and ask a targeted follow-up. Keep understanding status separate from implementation acceptance. Do not require an extra test or report to answer the question.
 
 **Quiz 1:** The misconception to correct is: A team demo or a memorized answer does not prove each person understands the concept. Record individual evidence and hints used. Use the behavior cases to demonstrate the correction: Add sessions 30 and 60: total 90; empty list totals 0; negative durations fail.
 
@@ -98,4 +160,4 @@ Open after an independent attempt. These are reasoning guides, not completed fea
 
 **Coding drill:** Use a dictionary/set; average O(n) time and O(u) space for u distinct topics.
 
-**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess both developers separately.
+**Follow-up:** Change one input or assumption. Do not award independent mastery if the learner repeats this key without adapting the explanation. Record hints given and assess all six learners separately.

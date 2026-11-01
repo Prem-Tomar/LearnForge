@@ -1,8 +1,10 @@
 # Week 24: Capstone polish, maintainability, and demonstration
 
+**Main build:** each learner implements their chosen AI/ML capability using the week/day outcomes in SPECIALIZATIONS.md. The engineering reference below supplies common architecture and reliability lessons.
+
 **23 hours per person.** Days 162–168. Three-hour weekdays, four-hour weekend sessions. Move the long sessions if needed.
 
-## Working project milestone
+## Shared engineering reference case
 
 Release a coherent local demo with startup instructions, sample data, architecture notes, and an honest project story.
 
@@ -32,7 +34,7 @@ Days run in this order. Each depends on the previous day's skill and working bas
 
 ## Review, integration, and mastery
 
-Core role this week: **Developer 2**. Integration role: **Developer 1**. Swap next week. Both complete all five individual concept proofs, all seven questions, and cross-reviews. In three-person mode rotate three roles instead.
+All six own a separate complete chosen AI/ML capability; use SPECIALIZATIONS.md for the week/day outcomes. Everyone completes the common concept proofs and independent questions. Review targets rotate across all five peers. Architecture is one shared topic and decision for the whole cohort.
 
 Day six demonstrates the working increment. Day seven includes an individual unseen variant, a bounded production repair, and a teach-back of the other role's code. It is an implementation day with a mastery focus, never a testing-only task.
 
@@ -49,3 +51,8 @@ Explain this week's feature as a system: inputs, output, state, invariants, depe
 ## Selected sources
 
 - [Python tutorial, selected named sections](https://docs.python.org/3.13/tutorial/)
+
+
+## Personal AI/ML implementation
+
+Each learner applies this week's shared engineering concepts to their own chosen AI/ML capability. The daily main implementation is defined in [SPECIALIZATIONS.md](../SPECIALIZATIONS.md); the engineering reference cases remain learning examples. All six discuss one architecture topic together.

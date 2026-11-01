@@ -1,8 +1,10 @@
 # Week 23: Capstone performance, cost, and incident recovery
 
+**Main build:** each learner implements their chosen AI/ML capability using the week/day outcomes in SPECIALIZATIONS.md. The engineering reference below supplies common architecture and reliability lessons.
+
 **23 hours per person.** Days 155–161. Three-hour weekdays, four-hour weekend sessions. Move the long sessions if needed.
 
-## Working project milestone
+## Shared engineering reference case
 
 Add admission control, useful operational views, and rehearsed recovery for the integrated platform.
 
@@ -32,7 +34,7 @@ Days run in this order. Each depends on the previous day's skill and working bas
 
 ## Review, integration, and mastery
 
-Core role this week: **Developer 1**. Integration role: **Developer 2**. Swap next week. Both complete all five individual concept proofs, all seven questions, and cross-reviews. In three-person mode rotate three roles instead.
+All six own a separate complete chosen AI/ML capability; use SPECIALIZATIONS.md for the week/day outcomes. Everyone completes the common concept proofs and independent questions. Review targets rotate across all five peers. Architecture is one shared topic and decision for the whole cohort.
 
 Day six demonstrates the working increment. Day seven includes an individual unseen variant, a bounded production repair, and a teach-back of the other role's code. It is an implementation day with a mastery focus, never a testing-only task.
 
@@ -50,3 +52,8 @@ Explain this week's feature as a system: inputs, output, state, invariants, depe
 
 - [Docker getting started](https://docs.docker.com/get-started/)
 - [Official OpenAI documentation: evaluation practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices)
+
+
+## Personal AI/ML implementation
+
+Each learner applies this week's shared engineering concepts to their own chosen AI/ML capability. The daily main implementation is defined in [SPECIALIZATIONS.md](../SPECIALIZATIONS.md); the engineering reference cases remain learning examples. All six discuss one architecture topic together.

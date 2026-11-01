@@ -2,7 +2,7 @@
 
 This course targets Python backend and applied GenAI/agent interviews. Start with no Python knowledge. It builds one working product, **LearnForge**, through progressively richer increments. Practical advanced competence is checked through implementation, explanation, debugging, and design; the course does not promise that six months equals years of professional experience.
 
-Each week contains five focused lessons, a working integration day, and an individual mastery/repair day. The two developers work in parallel on separate production paths and review each other. Everyone completes every core concept proof. Testing stays light and attached to implementation. API documentation is opt-in.
+Each week contains five focused lessons, a working integration day, and an individual mastery/repair day. The six learners work in parallel on six exclusive production paths and rotate reviews across all peers. Architecture is taught as one common project-level discussion. Everyone completes every core concept proof. Testing stays light and attached to implementation. API documentation is opt-in.
 
 Use the weekly guides for outcomes, the daily guides for coaching, the coach keys after an attempt, and the individual ledger for evidence. The schedule is relative: no start date or deadlines are imposed.
 
@@ -73,3 +73,8 @@ Weeks 25–26. Exit product: **Independent mock evidence and specific remediatio
 |---|---|---|
 | [25: Python, API, SQL, and coding interviews](weeks/week-25.md) | Complete two individual backend mock interviews and repair each person's largest remaining gap in the same project. | Python output prediction and debugging; Data structures and coding under time; FastAPI, async, and security debugging; SQL, transactions, and query reasoning; Backend system-design mock and remediation |
 | [26: GenAI, agent, and complete interview simulations](weeks/week-26.md) | Complete a final coding round, an AI-system design round, and a project discussion per developer; publish individual readiness evidence. | GenAI and RAG diagnosis interviews; Agent design and security interviews; Full mock loop: coding and debugging; Full mock loop: AI system design; Project discussion, behavior, and individual readiness |
+
+
+## Personal sequences and AI/ML destination
+
+There are 182 shared daily guides and **1,092 personal issues: 182 for each of six learners**. Everyone completes the common Python, backend, mathematics/data, GenAI/agent, deployment/debugging, and architecture foundation. Weeks 21–26 apply shared engineering topics to each learner's chosen AI/ML capability, including real data preparation, baseline, fitting/retrieval, evaluation, serving, and failure analysis. Use [SPECIALIZATIONS.md](SPECIALIZATIONS.md) and [the architecture policy](ARCHITECTURE.md).
