@@ -1,12 +1,12 @@
-# Short task, complete contract, linked teaching
+# Self-contained learning issues
 
 Every topic follows [day 1/3/7/10/15 mixed revision](REVISION.md): teach first, then progressively harder questions alongside other topics and current project work.
 
 Every learning issue is a small task card, using Payment API's clear goal/scope and FieldOps Mastery's explicit function contracts and concrete cases. Their subject matter and project governance are not imported here.
 
-Keep the issue around 250–450 words when its contract fits. Use a goal, exact file and named unit, inputs, outputs, normal/error cases, boundaries, three research hints, and observable completion. A task with several methods needs a separate contract for each. Do not cut important behavior just to meet a word count. Split unrelated work before publication.
+Keep the main task short and concrete. The issue itself contains the explanation, worked code, exact file and method signature, inputs, outputs, test cases, boundaries, research hints and acceptance criteria. Use optional expandable sections for deeper traces without leaving the issue. A task with several methods needs a separate contract for each. Do not cut important behavior just to meet a word count. Split unrelated work before publication.
 
-Project rules belong in [QUEUE_POLICY.md](QUEUE_POLICY.md), [TEAM.md](TEAM.md), [COACHING.md](COACHING.md), and [REVIEW_GUIDE.md](REVIEW_GUIDE.md). Do not repeat queue sizes, assignment/closure rules, labels, merger policy, curriculum summaries or long review procedures in issue bodies. The task card links its detailed teaching guide, which explains unfamiliar terms, prerequisites, examples, pitfalls and method placement. Daily shared guides remain available too.
+Project rules belong in README and the existing project guides. Do not repeat queue sizes, assignment/closure rules, labels or merger policy in issue bodies. Do not send a learner to another lesson file to understand the current task. Existing curriculum documents can help the coach plan, but an issue must stand on its own. Production files are named after features, never after learners; ownership belongs in issue metadata.
 
 ## Required task contract
 
@@ -41,9 +41,9 @@ If code cannot run, state **not executed**, give the reason, and label any outpu
 
 Template example:
 
-> **Goal:** Show the project title on LearnForge's first screen.  
-> **File:** `src/learnforge/experience/onboarding/learner_01.py`  
-> **Method:** `project_title()`; no arguments; returns `str`.  
-> **Expected:** `"LearnForge"`; does not print or change another function.  
-> **Hint:** Research Python assignment, indented function bodies, and `return` versus `print`; change the local text and trace the caller's display.  
+> **Goal:** Show the project title on LearnForge's first screen.
+> **File:** `src/learnforge/experience/onboarding/project_title.py`
+> **Method:** `project_title()`; no arguments; returns `str`.
+> **Expected:** `"LearnForge"`; does not print or change another function.
+> **Hint:** Research Python assignment, indented function bodies, and `return` versus `print`; change the local text and trace the caller's display.
 > **Done:** The provided runner displays the new title; explain the changed-value run.

@@ -1,10 +1,23 @@
-# LearnForge — personal Python and AI/ML coaching for six learners
+# LearnForge
 
-Every topic follows [day 1/3/7/10/15 mixed revision](REVISION.md): teach first, then progressively harder questions alongside other topics and current project work.
+## Project goal
 
-Day 001 now teaches variables, indentation and a tiny function before an owned change to the welcome screen. Run `python run_first_steps.py` to see the six learner placeholders. [Short task cards](TASK_FORMAT.md) link to detailed teaching; [execution pictures](EXECUTION_VISUALS.md) and line-by-line reviews support understanding.
+Build a learning and knowledge workbench that helps a person plan study, record progress, organize notes, ask questions with sources, and approve useful AI-assisted study plans. Add measurable AI/ML capabilities such as recommendations, forecasts or text analysis as the product grows.
 
-## Goal
+The working starter currently has a welcome/status flow and a small onboarding screen. The curriculum describes future features. Run `python run_demo.py` for status or `python run_demo.py onboarding` for onboarding. Each small function belongs to a real feature; completing a task changes the product's visible behavior.
+
+## The soul of LearnForge
+
+- **Understand before use:** teach each new idea with a small working example before asking the learner to change project code.
+- **Make useful progress:** grow one coherent product through clear, small feature changes with exact expected results.
+- **Explain why:** run the code and trace each relevant line, value, object and effect in plain English.
+- **Use evidence:** show sources, measured model results, actual execution and honest limitations.
+- **Keep people in control:** Python enforces access, budgets and exact approval for impactful AI actions.
+- **Share understanding:** give developers distinct feature ownership while each learns every common concept and reviews peers.
+
+Production files are named for their feature, such as `experience/onboarding/next_lesson.py`. Ownership is recorded in issues. Every learning issue contains its own explanation, method signature, inputs, outputs, test cases, acceptance criteria and research hints, so the learner can stay on that page. Shared project rules live here and in the project guides.
+
+## Learning goal
 
 Build independent, interview-ready developers who can implement, debug, deploy, and explain Python applications and a chosen AI/ML capability. Start with Python in depth, then gradually apply FastAPI, data and mathematics, GenAI, agents, and shared architecture through one growing project.
 

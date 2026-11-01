@@ -13,12 +13,12 @@
       "week-01",
       "learner-01"
     ],
-    "owned_path": "src/learnforge/experience/onboarding/learner_01.py",
+    "owned_path": "src/learnforge/experience/onboarding/project_title.py",
     "role": "First welcome-screen function",
     "review_target": 2,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/experience/onboarding/learner_01.py",
+    "file": "src/learnforge/experience/onboarding/project_title.py",
     "unit": "`project_title()`",
     "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
@@ -37,12 +37,12 @@
       "week-01",
       "learner-02"
     ],
-    "owned_path": "src/learnforge/experience/onboarding/learner_02.py",
+    "owned_path": "src/learnforge/experience/onboarding/welcome_message.py",
     "role": "First welcome-screen function",
     "review_target": 3,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/experience/onboarding/learner_02.py",
+    "file": "src/learnforge/experience/onboarding/welcome_message.py",
     "unit": "`welcome_message()`",
     "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
@@ -61,12 +61,12 @@
       "week-01",
       "learner-03"
     ],
-    "owned_path": "src/learnforge/experience/onboarding/learner_03.py",
+    "owned_path": "src/learnforge/experience/onboarding/current_topic.py",
     "role": "First welcome-screen function",
     "review_target": 4,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/experience/onboarding/learner_03.py",
+    "file": "src/learnforge/experience/onboarding/current_topic.py",
     "unit": "`today_topic()`",
     "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
@@ -85,12 +85,12 @@
       "week-01",
       "learner-04"
     ],
-    "owned_path": "src/learnforge/experience/onboarding/learner_04.py",
+    "owned_path": "src/learnforge/experience/onboarding/study_plan.py",
     "role": "First welcome-screen function",
     "review_target": 5,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/experience/onboarding/learner_04.py",
+    "file": "src/learnforge/experience/onboarding/study_plan.py",
     "unit": "`planned_minutes()`",
     "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
@@ -109,12 +109,12 @@
       "week-01",
       "learner-05"
     ],
-    "owned_path": "src/learnforge/experience/onboarding/learner_05.py",
+    "owned_path": "src/learnforge/experience/onboarding/next_lesson.py",
     "role": "First welcome-screen function",
     "review_target": 6,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/experience/onboarding/learner_05.py",
+    "file": "src/learnforge/experience/onboarding/next_lesson.py",
     "unit": "`next_step()`",
     "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
@@ -133,12 +133,12 @@
       "week-01",
       "learner-06"
     ],
-    "owned_path": "src/learnforge/experience/onboarding/learner_06.py",
+    "owned_path": "src/learnforge/experience/onboarding/readiness.py",
     "role": "First welcome-screen function",
     "review_target": 1,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/experience/onboarding/learner_06.py",
+    "file": "src/learnforge/experience/onboarding/readiness.py",
     "unit": "`ready_message()`",
     "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null

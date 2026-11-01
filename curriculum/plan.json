@@ -23,37 +23,37 @@
       {
         "learner": 1,
         "role": "First welcome-screen function",
-        "path": "src/learnforge/experience/onboarding/learner_01.py",
+        "path": "src/learnforge/experience/onboarding/project_title.py",
         "task": "Implement project_title() after the taught variable/indentation example."
       },
       {
         "learner": 2,
         "role": "First welcome-screen function",
-        "path": "src/learnforge/experience/onboarding/learner_02.py",
+        "path": "src/learnforge/experience/onboarding/welcome_message.py",
         "task": "Implement welcome_message() after the taught variable/indentation example."
       },
       {
         "learner": 3,
         "role": "First welcome-screen function",
-        "path": "src/learnforge/experience/onboarding/learner_03.py",
+        "path": "src/learnforge/experience/onboarding/current_topic.py",
         "task": "Implement today_topic() after the taught variable/indentation example."
       },
       {
         "learner": 4,
         "role": "First welcome-screen function",
-        "path": "src/learnforge/experience/onboarding/learner_04.py",
+        "path": "src/learnforge/experience/onboarding/study_plan.py",
         "task": "Implement planned_minutes() after the taught variable/indentation example."
       },
       {
         "learner": 5,
         "role": "First welcome-screen function",
-        "path": "src/learnforge/experience/onboarding/learner_05.py",
+        "path": "src/learnforge/experience/onboarding/next_lesson.py",
         "task": "Implement next_step() after the taught variable/indentation example."
       },
       {
         "learner": 6,
         "role": "First welcome-screen function",
-        "path": "src/learnforge/experience/onboarding/learner_06.py",
+        "path": "src/learnforge/experience/onboarding/readiness.py",
         "task": "Implement ready_message() after the taught variable/indentation example."
       }
     ],

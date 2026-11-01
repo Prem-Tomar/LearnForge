@@ -1,6 +1,12 @@
 # LearnForge: an AI/ML workbench that grows from deep Python
 
-The first beginner increment uses `python run_first_steps.py`: six small learner-owned functions supply the onboarding screen. Their placeholders are runnable; learners change one value after a taught example. The earlier offline demo stays available.
+## Goal and soul
+
+LearnForge is one growing study and knowledge product. Its user journey is study planning → recorded sessions → a searchable knowledge library → cited answers → approved AI actions → useful measured AI/ML insights. Features become real through the implementation tasks.
+
+Its learning approach is to teach the next required idea, implement a small useful function, execute it, explain every relevant change, and revisit the topic through mixed revision. Feature-based modules give each developer clear ownership; everyone retains common concepts and peer understanding. The issue itself contains the teaching needed for that task.
+
+The first beginner increment uses `python run_demo.py onboarding`: six small learner-owned functions supply the onboarding screen. Their placeholders are runnable; learners change one value after a taught example. The earlier offline demo stays available.
 
 LearnForge helps a learner or a team record study work, keep a workspace knowledge library, ask questions with sources, and turn knowledge into approved study plans. The same project grows throughout the course. Weekly increments are learning milestones within this product, not unrelated portfolio projects.
 

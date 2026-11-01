@@ -1,1 +1,1 @@
-"""Small first-day welcome features, completed by the six learners."""
+"""Presentation values for the product's onboarding screen."""
