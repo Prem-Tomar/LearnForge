@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "learnforge-coaching"
+version = "0.1.0"
+description = "Small offline starter for the LearnForge team learning project"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+learnforge = "learnforge.experience.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

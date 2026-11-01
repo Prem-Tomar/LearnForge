@@ -1,0 +1,1 @@
+"""Thin user-facing wiring."""

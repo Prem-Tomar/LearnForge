@@ -1,0 +1,365 @@
+day,week,developer_slot,concept,implementation_0_2,explanation_0_2,design_0_2,peer_review_0_2,independent_proof_path,pr_or_commit,hints_used,gap,next_action,status
+1,1,developer-1,"Day 001: Files, folders, and the interpreter",,,,,practice/developer-1/day-001/,,,,,not-started
+1,1,developer-2,"Day 001: Files, folders, and the interpreter",,,,,practice/developer-2/day-001/,,,,,not-started
+2,1,developer-1,"Day 002: Values, names, and types",,,,,practice/developer-1/day-002/,,,,,not-started
+2,1,developer-2,"Day 002: Values, names, and types",,,,,practice/developer-2/day-002/,,,,,not-started
+3,1,developer-1,"Day 003: Input, conversion, and output",,,,,practice/developer-1/day-003/,,,,,not-started
+3,1,developer-2,"Day 003: Input, conversion, and output",,,,,practice/developer-2/day-003/,,,,,not-started
+4,1,developer-1,Day 004: Boolean logic and comparisons,,,,,practice/developer-1/day-004/,,,,,not-started
+4,1,developer-2,Day 004: Boolean logic and comparisons,,,,,practice/developer-2/day-004/,,,,,not-started
+5,1,developer-1,Day 005: Branches and error reading,,,,,practice/developer-1/day-005/,,,,,not-started
+5,1,developer-2,Day 005: Branches and error reading,,,,,practice/developer-2/day-005/,,,,,not-started
+6,1,developer-1,Day 006: Working increment: First programs and clear decisions,,,,,practice/developer-1/day-006/,,,,,not-started
+6,1,developer-2,Day 006: Working increment: First programs and clear decisions,,,,,practice/developer-2/day-006/,,,,,not-started
+7,1,developer-1,Day 007: Individual mastery and repair: First programs and clear decisions,,,,,practice/developer-1/day-007/,,,,,not-started
+7,1,developer-2,Day 007: Individual mastery and repair: First programs and clear decisions,,,,,practice/developer-2/day-007/,,,,,not-started
+8,2,developer-1,Day 008: Lists and safe iteration,,,,,practice/developer-1/day-008/,,,,,not-started
+8,2,developer-2,Day 008: Lists and safe iteration,,,,,practice/developer-2/day-008/,,,,,not-started
+9,2,developer-1,"Day 009: Dictionaries, sets, and tuples",,,,,practice/developer-1/day-009/,,,,,not-started
+9,2,developer-2,"Day 009: Dictionaries, sets, and tuples",,,,,practice/developer-2/day-009/,,,,,not-started
+10,2,developer-1,Day 010: Loops and termination,,,,,practice/developer-1/day-010/,,,,,not-started
+10,2,developer-2,Day 010: Loops and termination,,,,,practice/developer-2/day-010/,,,,,not-started
+11,2,developer-1,Day 011: Functions and contracts,,,,,practice/developer-1/day-011/,,,,,not-started
+11,2,developer-2,Day 011: Functions and contracts,,,,,practice/developer-2/day-011/,,,,,not-started
+12,2,developer-1,"Day 012: Arguments, scope, and mutation",,,,,practice/developer-1/day-012/,,,,,not-started
+12,2,developer-2,"Day 012: Arguments, scope, and mutation",,,,,practice/developer-2/day-012/,,,,,not-started
+13,2,developer-1,"Day 013: Working increment: Collections, loops, and functions",,,,,practice/developer-1/day-013/,,,,,not-started
+13,2,developer-2,"Day 013: Working increment: Collections, loops, and functions",,,,,practice/developer-2/day-013/,,,,,not-started
+14,2,developer-1,"Day 014: Individual mastery and repair: Collections, loops, and functions",,,,,practice/developer-1/day-014/,,,,,not-started
+14,2,developer-2,"Day 014: Individual mastery and repair: Collections, loops, and functions",,,,,practice/developer-2/day-014/,,,,,not-started
+15,3,developer-1,Day 015: Exceptions and recovery,,,,,practice/developer-1/day-015/,,,,,not-started
+15,3,developer-2,Day 015: Exceptions and recovery,,,,,practice/developer-2/day-015/,,,,,not-started
+16,3,developer-1,"Day 016: Text files, paths, and cleanup",,,,,practice/developer-1/day-016/,,,,,not-started
+16,3,developer-2,"Day 016: Text files, paths, and cleanup",,,,,practice/developer-2/day-016/,,,,,not-started
+17,3,developer-1,"Day 017: JSON, CSV, and durable writes",,,,,practice/developer-1/day-017/,,,,,not-started
+17,3,developer-2,"Day 017: JSON, CSV, and durable writes",,,,,practice/developer-2/day-017/,,,,,not-started
+18,3,developer-1,"Day 018: Modules, imports, and environments",,,,,practice/developer-1/day-018/,,,,,not-started
+18,3,developer-2,"Day 018: Modules, imports, and environments",,,,,practice/developer-2/day-018/,,,,,not-started
+19,3,developer-1,Day 019: Git history and small changes,,,,,practice/developer-1/day-019/,,,,,not-started
+19,3,developer-2,Day 019: Git history and small changes,,,,,practice/developer-2/day-019/,,,,,not-started
+20,3,developer-1,"Day 020: Working increment: Files, errors, modules, and Git",,,,,practice/developer-1/day-020/,,,,,not-started
+20,3,developer-2,"Day 020: Working increment: Files, errors, modules, and Git",,,,,practice/developer-2/day-020/,,,,,not-started
+21,3,developer-1,"Day 021: Individual mastery and repair: Files, errors, modules, and Git",,,,,practice/developer-1/day-021/,,,,,not-started
+21,3,developer-2,"Day 021: Individual mastery and repair: Files, errors, modules, and Git",,,,,practice/developer-2/day-021/,,,,,not-started
+22,4,developer-1,"Day 022: Classes, objects, and dataclasses",,,,,practice/developer-1/day-022/,,,,,not-started
+22,4,developer-2,"Day 022: Classes, objects, and dataclasses",,,,,practice/developer-2/day-022/,,,,,not-started
+23,4,developer-1,"Day 023: Composition, inheritance, and protocols",,,,,practice/developer-1/day-023/,,,,,not-started
+23,4,developer-2,"Day 023: Composition, inheritance, and protocols",,,,,practice/developer-2/day-023/,,,,,not-started
+24,4,developer-1,"Day 024: Type hints, unions, and validation",,,,,practice/developer-1/day-024/,,,,,not-started
+24,4,developer-2,"Day 024: Type hints, unions, and validation",,,,,practice/developer-2/day-024/,,,,,not-started
+25,4,developer-1,"Day 025: Identity, equality, copying, and hashing",,,,,practice/developer-1/day-025/,,,,,not-started
+25,4,developer-2,"Day 025: Identity, equality, copying, and hashing",,,,,practice/developer-2/day-025/,,,,,not-started
+26,4,developer-1,"Day 026: Properties, special methods, and object lookup",,,,,practice/developer-1/day-026/,,,,,not-started
+26,4,developer-2,"Day 026: Properties, special methods, and object lookup",,,,,practice/developer-2/day-026/,,,,,not-started
+27,4,developer-1,"Day 027: Working increment: Objects, types, and Python behavior",,,,,practice/developer-1/day-027/,,,,,not-started
+27,4,developer-2,"Day 027: Working increment: Objects, types, and Python behavior",,,,,practice/developer-2/day-027/,,,,,not-started
+28,4,developer-1,"Day 028: Individual mastery and repair: Objects, types, and Python behavior",,,,,practice/developer-1/day-028/,,,,,not-started
+28,4,developer-2,"Day 028: Individual mastery and repair: Objects, types, and Python behavior",,,,,practice/developer-2/day-028/,,,,,not-started
+29,5,developer-1,"Day 029: Assertions, pytest, and boundary cases",,,,,practice/developer-1/day-029/,,,,,not-started
+29,5,developer-2,"Day 029: Assertions, pytest, and boundary cases",,,,,practice/developer-2/day-029/,,,,,not-started
+30,5,developer-1,"Day 030: Fixtures, fakes, and test isolation",,,,,practice/developer-1/day-030/,,,,,not-started
+30,5,developer-2,"Day 030: Fixtures, fakes, and test isolation",,,,,practice/developer-2/day-030/,,,,,not-started
+31,5,developer-1,"Day 031: Comprehensions, iterators, and generators",,,,,practice/developer-1/day-031/,,,,,not-started
+31,5,developer-2,"Day 031: Comprehensions, iterators, and generators",,,,,practice/developer-2/day-031/,,,,,not-started
+32,5,developer-1,"Day 032: Closures, decorators, and context managers",,,,,practice/developer-1/day-032/,,,,,not-started
+32,5,developer-2,"Day 032: Closures, decorators, and context managers",,,,,practice/developer-2/day-032/,,,,,not-started
+33,5,developer-1,"Day 033: Packaging, Big O, and measurement",,,,,practice/developer-1/day-033/,,,,,not-started
+33,5,developer-2,"Day 033: Packaging, Big O, and measurement",,,,,practice/developer-2/day-033/,,,,,not-started
+34,5,developer-1,"Day 034: Working increment: Testing, iteration, packaging, and performance",,,,,practice/developer-1/day-034/,,,,,not-started
+34,5,developer-2,"Day 034: Working increment: Testing, iteration, packaging, and performance",,,,,practice/developer-2/day-034/,,,,,not-started
+35,5,developer-1,"Day 035: Individual mastery and repair: Testing, iteration, packaging, and performance",,,,,practice/developer-1/day-035/,,,,,not-started
+35,5,developer-2,"Day 035: Individual mastery and repair: Testing, iteration, packaging, and performance",,,,,practice/developer-2/day-035/,,,,,not-started
+36,6,developer-1,"Day 036: HTTP, DNS, and network failures",,,,,practice/developer-1/day-036/,,,,,not-started
+36,6,developer-2,"Day 036: HTTP, DNS, and network failures",,,,,practice/developer-2/day-036/,,,,,not-started
+37,6,developer-1,"Day 037: Async functions, tasks, and cancellation",,,,,practice/developer-1/day-037/,,,,,not-started
+37,6,developer-2,"Day 037: Async functions, tasks, and cancellation",,,,,practice/developer-2/day-037/,,,,,not-started
+38,6,developer-1,"Day 038: Threads, processes, and the GIL",,,,,practice/developer-1/day-038/,,,,,not-started
+38,6,developer-2,"Day 038: Threads, processes, and the GIL",,,,,practice/developer-2/day-038/,,,,,not-started
+39,6,developer-1,"Day 039: SQL tables, keys, joins, and indexes",,,,,practice/developer-1/day-039/,,,,,not-started
+39,6,developer-2,"Day 039: SQL tables, keys, joins, and indexes",,,,,practice/developer-2/day-039/,,,,,not-started
+40,6,developer-1,"Day 040: Transactions, isolation, and resource pools",,,,,practice/developer-1/day-040/,,,,,not-started
+40,6,developer-2,"Day 040: Transactions, isolation, and resource pools",,,,,practice/developer-2/day-040/,,,,,not-started
+41,6,developer-1,"Day 041: Working increment: Concurrency, HTTP, and SQL foundations",,,,,practice/developer-1/day-041/,,,,,not-started
+41,6,developer-2,"Day 041: Working increment: Concurrency, HTTP, and SQL foundations",,,,,practice/developer-2/day-041/,,,,,not-started
+42,6,developer-1,"Day 042: Individual mastery and repair: Concurrency, HTTP, and SQL foundations",,,,,practice/developer-1/day-042/,,,,,not-started
+42,6,developer-2,"Day 042: Individual mastery and repair: Concurrency, HTTP, and SQL foundations",,,,,practice/developer-2/day-042/,,,,,not-started
+43,7,developer-1,"Day 043: ASGI, routing, and the first endpoint",,,,,practice/developer-1/day-043/,,,,,not-started
+43,7,developer-2,"Day 043: ASGI, routing, and the first endpoint",,,,,practice/developer-2/day-043/,,,,,not-started
+44,7,developer-1,"Day 044: Path, query, headers, and request bodies",,,,,practice/developer-1/day-044/,,,,,not-started
+44,7,developer-2,"Day 044: Path, query, headers, and request bodies",,,,,practice/developer-2/day-044/,,,,,not-started
+45,7,developer-1,Day 045: Pydantic models and validation,,,,,practice/developer-1/day-045/,,,,,not-started
+45,7,developer-2,Day 045: Pydantic models and validation,,,,,practice/developer-2/day-045/,,,,,not-started
+46,7,developer-1,"Day 046: Response schemas, status, and errors",,,,,practice/developer-1/day-046/,,,,,not-started
+46,7,developer-2,"Day 046: Response schemas, status, and errors",,,,,practice/developer-2/day-046/,,,,,not-started
+47,7,developer-1,Day 047: Dependency injection and application boundaries,,,,,practice/developer-1/day-047/,,,,,not-started
+47,7,developer-2,Day 047: Dependency injection and application boundaries,,,,,practice/developer-2/day-047/,,,,,not-started
+48,7,developer-1,"Day 048: Working increment: FastAPI requests, validation, and contracts",,,,,practice/developer-1/day-048/,,,,,not-started
+48,7,developer-2,"Day 048: Working increment: FastAPI requests, validation, and contracts",,,,,practice/developer-2/day-048/,,,,,not-started
+49,7,developer-1,"Day 049: Individual mastery and repair: FastAPI requests, validation, and contracts",,,,,practice/developer-1/day-049/,,,,,not-started
+49,7,developer-2,"Day 049: Individual mastery and repair: FastAPI requests, validation, and contracts",,,,,practice/developer-2/day-049/,,,,,not-started
+50,8,developer-1,Day 050: Relational modeling and constraints,,,,,practice/developer-1/day-050/,,,,,not-started
+50,8,developer-2,Day 050: Relational modeling and constraints,,,,,practice/developer-2/day-050/,,,,,not-started
+51,8,developer-1,Day 051: SQLAlchemy sessions and mappings,,,,,practice/developer-1/day-051/,,,,,not-started
+51,8,developer-2,Day 051: SQLAlchemy sessions and mappings,,,,,practice/developer-2/day-051/,,,,,not-started
+52,8,developer-1,Day 052: Repository interfaces and unit of work,,,,,practice/developer-1/day-052/,,,,,not-started
+52,8,developer-2,Day 052: Repository interfaces and unit of work,,,,,practice/developer-2/day-052/,,,,,not-started
+53,8,developer-1,Day 053: Migrations and backward compatibility,,,,,practice/developer-1/day-053/,,,,,not-started
+53,8,developer-2,Day 053: Migrations and backward compatibility,,,,,practice/developer-2/day-053/,,,,,not-started
+54,8,developer-1,"Day 054: Pagination, query plans, and N+1 reads",,,,,practice/developer-1/day-054/,,,,,not-started
+54,8,developer-2,"Day 054: Pagination, query plans, and N+1 reads",,,,,practice/developer-2/day-054/,,,,,not-started
+55,8,developer-1,Day 055: Working increment: Persistent APIs and database evolution,,,,,practice/developer-1/day-055/,,,,,not-started
+55,8,developer-2,Day 055: Working increment: Persistent APIs and database evolution,,,,,practice/developer-2/day-055/,,,,,not-started
+56,8,developer-1,Day 056: Individual mastery and repair: Persistent APIs and database evolution,,,,,practice/developer-1/day-056/,,,,,not-started
+56,8,developer-2,Day 056: Individual mastery and repair: Persistent APIs and database evolution,,,,,practice/developer-2/day-056/,,,,,not-started
+57,9,developer-1,Day 057: Password storage and identity,,,,,practice/developer-1/day-057/,,,,,not-started
+57,9,developer-2,Day 057: Password storage and identity,,,,,practice/developer-2/day-057/,,,,,not-started
+58,9,developer-1,"Day 058: Tokens, cookies, OAuth, and JWT validation",,,,,practice/developer-1/day-058/,,,,,not-started
+58,9,developer-2,"Day 058: Tokens, cookies, OAuth, and JWT validation",,,,,practice/developer-2/day-058/,,,,,not-started
+59,9,developer-1,Day 059: Authorization and tenant isolation,,,,,practice/developer-1/day-059/,,,,,not-started
+59,9,developer-2,Day 059: Authorization and tenant isolation,,,,,practice/developer-2/day-059/,,,,,not-started
+60,9,developer-1,"Day 060: CORS, CSRF, injection, and input limits",,,,,practice/developer-1/day-060/,,,,,not-started
+60,9,developer-2,"Day 060: CORS, CSRF, injection, and input limits",,,,,practice/developer-2/day-060/,,,,,not-started
+61,9,developer-1,"Day 061: Configuration, secret handling, and audit events",,,,,practice/developer-1/day-061/,,,,,not-started
+61,9,developer-2,"Day 061: Configuration, secret handling, and audit events",,,,,practice/developer-2/day-061/,,,,,not-started
+62,9,developer-1,"Day 062: Working increment: Authentication, authorization, and API safety",,,,,practice/developer-1/day-062/,,,,,not-started
+62,9,developer-2,"Day 062: Working increment: Authentication, authorization, and API safety",,,,,practice/developer-2/day-062/,,,,,not-started
+63,9,developer-1,"Day 063: Individual mastery and repair: Authentication, authorization, and API safety",,,,,practice/developer-1/day-063/,,,,,not-started
+63,9,developer-2,"Day 063: Individual mastery and repair: Authentication, authorization, and API safety",,,,,practice/developer-2/day-063/,,,,,not-started
+64,10,developer-1,Day 064: Async database and HTTP clients,,,,,practice/developer-1/day-064/,,,,,not-started
+64,10,developer-2,Day 064: Async database and HTTP clients,,,,,practice/developer-2/day-064/,,,,,not-started
+65,10,developer-1,"Day 065: Retries, backoff, and circuit breakers",,,,,practice/developer-1/day-065/,,,,,not-started
+65,10,developer-2,"Day 065: Retries, backoff, and circuit breakers",,,,,practice/developer-2/day-065/,,,,,not-started
+66,10,developer-1,"Day 066: Idempotency, race conditions, and conflicts",,,,,practice/developer-1/day-066/,,,,,not-started
+66,10,developer-2,"Day 066: Idempotency, race conditions, and conflicts",,,,,practice/developer-2/day-066/,,,,,not-started
+67,10,developer-1,"Day 067: Queues, workers, and durable jobs",,,,,practice/developer-1/day-067/,,,,,not-started
+67,10,developer-2,"Day 067: Queues, workers, and durable jobs",,,,,practice/developer-2/day-067/,,,,,not-started
+68,10,developer-1,"Day 068: Streaming, backpressure, and cancellation",,,,,practice/developer-1/day-068/,,,,,not-started
+68,10,developer-2,"Day 068: Streaming, backpressure, and cancellation",,,,,practice/developer-2/day-068/,,,,,not-started
+69,10,developer-1,"Day 069: Working increment: Async services, resilience, and background work",,,,,practice/developer-1/day-069/,,,,,not-started
+69,10,developer-2,"Day 069: Working increment: Async services, resilience, and background work",,,,,practice/developer-2/day-069/,,,,,not-started
+70,10,developer-1,"Day 070: Individual mastery and repair: Async services, resilience, and background work",,,,,practice/developer-1/day-070/,,,,,not-started
+70,10,developer-2,"Day 070: Individual mastery and repair: Async services, resilience, and background work",,,,,practice/developer-2/day-070/,,,,,not-started
+71,11,developer-1,Day 071: Route checks and database integration,,,,,practice/developer-1/day-071/,,,,,not-started
+71,11,developer-2,Day 071: Route checks and database integration,,,,,practice/developer-2/day-071/,,,,,not-started
+72,11,developer-1,Day 072: Docker images and process startup,,,,,practice/developer-1/day-072/,,,,,not-started
+72,11,developer-2,Day 072: Docker images and process startup,,,,,practice/developer-2/day-072/,,,,,not-started
+73,11,developer-1,"Day 073: CI, dependency locks, and release checks",,,,,practice/developer-1/day-073/,,,,,not-started
+73,11,developer-2,"Day 073: CI, dependency locks, and release checks",,,,,practice/developer-2/day-073/,,,,,not-started
+74,11,developer-1,"Day 074: Logs, metrics, traces, and SLOs",,,,,practice/developer-1/day-074/,,,,,not-started
+74,11,developer-2,"Day 074: Logs, metrics, traces, and SLOs",,,,,practice/developer-2/day-074/,,,,,not-started
+75,11,developer-1,"Day 075: Deployment, load tests, and recovery",,,,,practice/developer-1/day-075/,,,,,not-started
+75,11,developer-2,"Day 075: Deployment, load tests, and recovery",,,,,practice/developer-2/day-075/,,,,,not-started
+76,11,developer-1,"Day 076: Working increment: API testing, containers, and operations",,,,,practice/developer-1/day-076/,,,,,not-started
+76,11,developer-2,"Day 076: Working increment: API testing, containers, and operations",,,,,practice/developer-2/day-076/,,,,,not-started
+77,11,developer-1,"Day 077: Individual mastery and repair: API testing, containers, and operations",,,,,practice/developer-1/day-077/,,,,,not-started
+77,11,developer-2,"Day 077: Individual mastery and repair: API testing, containers, and operations",,,,,practice/developer-2/day-077/,,,,,not-started
+78,12,developer-1,"Day 078: Arrays, shapes, and vector operations",,,,,practice/developer-1/day-078/,,,,,not-started
+78,12,developer-2,"Day 078: Arrays, shapes, and vector operations",,,,,practice/developer-2/day-078/,,,,,not-started
+79,12,developer-1,"Day 079: Probability, similarity, and numeric stability",,,,,practice/developer-1/day-079/,,,,,not-started
+79,12,developer-2,"Day 079: Probability, similarity, and numeric stability",,,,,practice/developer-2/day-079/,,,,,not-started
+80,12,developer-1,"Day 080: ML splits, leakage, and baselines",,,,,practice/developer-1/day-080/,,,,,not-started
+80,12,developer-2,"Day 080: ML splits, leakage, and baselines",,,,,practice/developer-2/day-080/,,,,,not-started
+81,12,developer-1,"Day 081: Tokenization, context, and transformers",,,,,practice/developer-1/day-081/,,,,,not-started
+81,12,developer-2,"Day 081: Tokenization, context, and transformers",,,,,practice/developer-2/day-081/,,,,,not-started
+82,12,developer-1,"Day 082: Sampling, hallucination, and model limits",,,,,practice/developer-1/day-082/,,,,,not-started
+82,12,developer-2,"Day 082: Sampling, hallucination, and model limits",,,,,practice/developer-2/day-082/,,,,,not-started
+83,12,developer-1,"Day 083: Working increment: Data, basic mathematics, and how LLMs work",,,,,practice/developer-1/day-083/,,,,,not-started
+83,12,developer-2,"Day 083: Working increment: Data, basic mathematics, and how LLMs work",,,,,practice/developer-2/day-083/,,,,,not-started
+84,12,developer-1,"Day 084: Individual mastery and repair: Data, basic mathematics, and how LLMs work",,,,,practice/developer-1/day-084/,,,,,not-started
+84,12,developer-2,"Day 084: Individual mastery and repair: Data, basic mathematics, and how LLMs work",,,,,practice/developer-2/day-084/,,,,,not-started
+85,13,developer-1,"Day 085: Prompt instructions, examples, and delimiters",,,,,practice/developer-1/day-085/,,,,,not-started
+85,13,developer-2,"Day 085: Prompt instructions, examples, and delimiters",,,,,practice/developer-2/day-085/,,,,,not-started
+86,13,developer-1,Day 086: Provider adapters and explicit outcomes,,,,,practice/developer-1/day-086/,,,,,not-started
+86,13,developer-2,Day 086: Provider adapters and explicit outcomes,,,,,practice/developer-2/day-086/,,,,,not-started
+87,13,developer-1,Day 087: Structured outputs and business validation,,,,,practice/developer-1/day-087/,,,,,not-started
+87,13,developer-2,Day 087: Structured outputs and business validation,,,,,practice/developer-2/day-087/,,,,,not-started
+88,13,developer-1,Day 088: Streaming generation and request budgets,,,,,practice/developer-1/day-088/,,,,,not-started
+88,13,developer-2,Day 088: Streaming generation and request budgets,,,,,practice/developer-2/day-088/,,,,,not-started
+89,13,developer-1,"Day 089: Prompt experiments, evaluation, and cost",,,,,practice/developer-1/day-089/,,,,,not-started
+89,13,developer-2,"Day 089: Prompt experiments, evaluation, and cost",,,,,practice/developer-2/day-089/,,,,,not-started
+90,13,developer-1,"Day 090: Working increment: Prompts, provider boundaries, and structured output",,,,,practice/developer-1/day-090/,,,,,not-started
+90,13,developer-2,"Day 090: Working increment: Prompts, provider boundaries, and structured output",,,,,practice/developer-2/day-090/,,,,,not-started
+91,13,developer-1,"Day 091: Individual mastery and repair: Prompts, provider boundaries, and structured output",,,,,practice/developer-1/day-091/,,,,,not-started
+91,13,developer-2,"Day 091: Individual mastery and repair: Prompts, provider boundaries, and structured output",,,,,practice/developer-2/day-091/,,,,,not-started
+92,14,developer-1,Day 092: Document loading and ingestion states,,,,,practice/developer-1/day-092/,,,,,not-started
+92,14,developer-2,Day 092: Document loading and ingestion states,,,,,practice/developer-2/day-092/,,,,,not-started
+93,14,developer-1,"Day 093: Chunking, overlap, and provenance",,,,,practice/developer-1/day-093/,,,,,not-started
+93,14,developer-2,"Day 093: Chunking, overlap, and provenance",,,,,practice/developer-2/day-093/,,,,,not-started
+94,14,developer-1,Day 094: Embeddings and vector indexes,,,,,practice/developer-1/day-094/,,,,,not-started
+94,14,developer-2,Day 094: Embeddings and vector indexes,,,,,practice/developer-2/day-094/,,,,,not-started
+95,14,developer-1,"Day 095: Keyword, vector, hybrid, and reranking",,,,,practice/developer-1/day-095/,,,,,not-started
+95,14,developer-2,"Day 095: Keyword, vector, hybrid, and reranking",,,,,practice/developer-2/day-095/,,,,,not-started
+96,14,developer-1,"Day 096: Filters, updates, and index consistency",,,,,practice/developer-1/day-096/,,,,,not-started
+96,14,developer-2,"Day 096: Filters, updates, and index consistency",,,,,practice/developer-2/day-096/,,,,,not-started
+97,14,developer-1,"Day 097: Working increment: Document ingestion, embeddings, and retrieval",,,,,practice/developer-1/day-097/,,,,,not-started
+97,14,developer-2,"Day 097: Working increment: Document ingestion, embeddings, and retrieval",,,,,practice/developer-2/day-097/,,,,,not-started
+98,14,developer-1,"Day 098: Individual mastery and repair: Document ingestion, embeddings, and retrieval",,,,,practice/developer-1/day-098/,,,,,not-started
+98,14,developer-2,"Day 098: Individual mastery and repair: Document ingestion, embeddings, and retrieval",,,,,practice/developer-2/day-098/,,,,,not-started
+99,15,developer-1,Day 099: Context assembly and grounded generation,,,,,practice/developer-1/day-099/,,,,,not-started
+99,15,developer-2,Day 099: Context assembly and grounded generation,,,,,practice/developer-2/day-099/,,,,,not-started
+100,15,developer-1,"Day 100: Citations, abstention, and conflicting sources",,,,,practice/developer-1/day-100/,,,,,not-started
+100,15,developer-2,"Day 100: Citations, abstention, and conflicting sources",,,,,practice/developer-2/day-100/,,,,,not-started
+101,15,developer-1,Day 101: Retrieval metrics and small evaluation sets,,,,,practice/developer-1/day-101/,,,,,not-started
+101,15,developer-2,Day 101: Retrieval metrics and small evaluation sets,,,,,practice/developer-2/day-101/,,,,,not-started
+102,15,developer-1,Day 102: Prompt injection and untrusted evidence,,,,,practice/developer-1/day-102/,,,,,not-started
+102,15,developer-2,Day 102: Prompt injection and untrusted evidence,,,,,practice/developer-2/day-102/,,,,,not-started
+103,15,developer-1,"Day 103: Caching, freshness, and RAG observability",,,,,practice/developer-1/day-103/,,,,,not-started
+103,15,developer-2,"Day 103: Caching, freshness, and RAG observability",,,,,practice/developer-2/day-103/,,,,,not-started
+104,15,developer-1,"Day 104: Working increment: Grounded answers, RAG evaluation, and safe retrieval",,,,,practice/developer-1/day-104/,,,,,not-started
+104,15,developer-2,"Day 104: Working increment: Grounded answers, RAG evaluation, and safe retrieval",,,,,practice/developer-2/day-104/,,,,,not-started
+105,15,developer-1,"Day 105: Individual mastery and repair: Grounded answers, RAG evaluation, and safe retrieval",,,,,practice/developer-1/day-105/,,,,,not-started
+105,15,developer-2,"Day 105: Individual mastery and repair: Grounded answers, RAG evaluation, and safe retrieval",,,,,practice/developer-2/day-105/,,,,,not-started
+106,16,developer-1,"Day 106: Open weights, tokenizers, and inference",,,,,practice/developer-1/day-106/,,,,,not-started
+106,16,developer-2,"Day 106: Open weights, tokenizers, and inference",,,,,practice/developer-2/day-106/,,,,,not-started
+107,16,developer-1,"Day 107: Quantization, batching, and KV cache",,,,,practice/developer-1/day-107/,,,,,not-started
+107,16,developer-2,"Day 107: Quantization, batching, and KV cache",,,,,practice/developer-2/day-107/,,,,,not-started
+108,16,developer-1,"Day 108: Fine-tuning, RAG, and adaptation choices",,,,,practice/developer-1/day-108/,,,,,not-started
+108,16,developer-2,"Day 108: Fine-tuning, RAG, and adaptation choices",,,,,practice/developer-2/day-108/,,,,,not-started
+109,16,developer-1,"Day 109: Images, audio, and untrusted media",,,,,practice/developer-1/day-109/,,,,,not-started
+109,16,developer-2,"Day 109: Images, audio, and untrusted media",,,,,practice/developer-2/day-109/,,,,,not-started
+110,16,developer-1,Day 110: Model changes and reproducible comparisons,,,,,practice/developer-1/day-110/,,,,,not-started
+110,16,developer-2,Day 110: Model changes and reproducible comparisons,,,,,practice/developer-2/day-110/,,,,,not-started
+111,16,developer-1,"Day 111: Working increment: Local models, adaptation, and multimodal input",,,,,practice/developer-1/day-111/,,,,,not-started
+111,16,developer-2,"Day 111: Working increment: Local models, adaptation, and multimodal input",,,,,practice/developer-2/day-111/,,,,,not-started
+112,16,developer-1,"Day 112: Individual mastery and repair: Local models, adaptation, and multimodal input",,,,,practice/developer-1/day-112/,,,,,not-started
+112,16,developer-2,"Day 112: Individual mastery and repair: Local models, adaptation, and multimodal input",,,,,practice/developer-2/day-112/,,,,,not-started
+113,17,developer-1,Day 113: Workflows versus agents,,,,,practice/developer-1/day-113/,,,,,not-started
+113,17,developer-2,Day 113: Workflows versus agents,,,,,practice/developer-2/day-113/,,,,,not-started
+114,17,developer-1,Day 114: Tool schemas and trusted dispatch,,,,,practice/developer-1/day-114/,,,,,not-started
+114,17,developer-2,Day 114: Tool schemas and trusted dispatch,,,,,practice/developer-2/day-114/,,,,,not-started
+115,17,developer-1,Day 115: Tool-result loops and execution budgets,,,,,practice/developer-1/day-115/,,,,,not-started
+115,17,developer-2,Day 115: Tool-result loops and execution budgets,,,,,practice/developer-2/day-115/,,,,,not-started
+116,17,developer-1,"Day 116: Tool errors, replay, and duplicate calls",,,,,practice/developer-1/day-116/,,,,,not-started
+116,17,developer-2,"Day 116: Tool errors, replay, and duplicate calls",,,,,practice/developer-2/day-116/,,,,,not-started
+117,17,developer-1,"Day 117: Planning, self-critique, and observable reasoning",,,,,practice/developer-1/day-117/,,,,,not-started
+117,17,developer-2,"Day 117: Planning, self-critique, and observable reasoning",,,,,practice/developer-2/day-117/,,,,,not-started
+118,17,developer-1,"Day 118: Working increment: Agents, tools, and bounded execution",,,,,practice/developer-1/day-118/,,,,,not-started
+118,17,developer-2,"Day 118: Working increment: Agents, tools, and bounded execution",,,,,practice/developer-2/day-118/,,,,,not-started
+119,17,developer-1,"Day 119: Individual mastery and repair: Agents, tools, and bounded execution",,,,,practice/developer-1/day-119/,,,,,not-started
+119,17,developer-2,"Day 119: Individual mastery and repair: Agents, tools, and bounded execution",,,,,practice/developer-2/day-119/,,,,,not-started
+120,18,developer-1,Day 120: Run state and checkpointing,,,,,practice/developer-1/day-120/,,,,,not-started
+120,18,developer-2,Day 120: Run state and checkpointing,,,,,practice/developer-2/day-120/,,,,,not-started
+121,18,developer-1,Day 121: Conversation memory and retrieval memory,,,,,practice/developer-1/day-121/,,,,,not-started
+121,18,developer-2,Day 121: Conversation memory and retrieval memory,,,,,practice/developer-2/day-121/,,,,,not-started
+122,18,developer-1,"Day 122: Graph nodes, edges, and reducers",,,,,practice/developer-1/day-122/,,,,,not-started
+122,18,developer-2,"Day 122: Graph nodes, edges, and reducers",,,,,practice/developer-2/day-122/,,,,,not-started
+123,18,developer-1,Day 123: Human approval and action previews,,,,,practice/developer-1/day-123/,,,,,not-started
+123,18,developer-2,Day 123: Human approval and action previews,,,,,practice/developer-2/day-123/,,,,,not-started
+124,18,developer-1,Day 124: Durable execution and compensating actions,,,,,practice/developer-1/day-124/,,,,,not-started
+124,18,developer-2,Day 124: Durable execution and compensating actions,,,,,practice/developer-2/day-124/,,,,,not-started
+125,18,developer-1,"Day 125: Working increment: Agent state, memory, and durable workflows",,,,,practice/developer-1/day-125/,,,,,not-started
+125,18,developer-2,"Day 125: Working increment: Agent state, memory, and durable workflows",,,,,practice/developer-2/day-125/,,,,,not-started
+126,18,developer-1,"Day 126: Individual mastery and repair: Agent state, memory, and durable workflows",,,,,practice/developer-1/day-126/,,,,,not-started
+126,18,developer-2,"Day 126: Individual mastery and repair: Agent state, memory, and durable workflows",,,,,practice/developer-2/day-126/,,,,,not-started
+127,19,developer-1,Day 127: MCP roles and protocol boundaries,,,,,practice/developer-1/day-127/,,,,,not-started
+127,19,developer-2,Day 127: MCP roles and protocol boundaries,,,,,practice/developer-2/day-127/,,,,,not-started
+128,19,developer-1,"Day 128: Resources, tools, prompts, and schema changes",,,,,practice/developer-1/day-128/,,,,,not-started
+128,19,developer-2,"Day 128: Resources, tools, prompts, and schema changes",,,,,practice/developer-2/day-128/,,,,,not-started
+129,19,developer-1,"Day 129: Transport, authentication, and credential scope",,,,,practice/developer-1/day-129/,,,,,not-started
+129,19,developer-2,"Day 129: Transport, authentication, and credential scope",,,,,practice/developer-2/day-129/,,,,,not-started
+130,19,developer-1,"Day 130: Injection, exfiltration, and safe destinations",,,,,practice/developer-1/day-130/,,,,,not-started
+130,19,developer-2,"Day 130: Injection, exfiltration, and safe destinations",,,,,practice/developer-2/day-130/,,,,,not-started
+131,19,developer-1,"Day 131: Audit trails, retention, and deletion",,,,,practice/developer-1/day-131/,,,,,not-started
+131,19,developer-2,"Day 131: Audit trails, retention, and deletion",,,,,practice/developer-2/day-131/,,,,,not-started
+132,19,developer-1,"Day 132: Working increment: MCP, integration boundaries, and agent security",,,,,practice/developer-1/day-132/,,,,,not-started
+132,19,developer-2,"Day 132: Working increment: MCP, integration boundaries, and agent security",,,,,practice/developer-2/day-132/,,,,,not-started
+133,19,developer-1,"Day 133: Individual mastery and repair: MCP, integration boundaries, and agent security",,,,,practice/developer-1/day-133/,,,,,not-started
+133,19,developer-2,"Day 133: Individual mastery and repair: MCP, integration boundaries, and agent security",,,,,practice/developer-2/day-133/,,,,,not-started
+134,20,developer-1,Day 134: Routing and specialist roles,,,,,practice/developer-1/day-134/,,,,,not-started
+134,20,developer-2,Day 134: Routing and specialist roles,,,,,practice/developer-2/day-134/,,,,,not-started
+135,20,developer-1,Day 135: Parallel branches and shared budgets,,,,,practice/developer-1/day-135/,,,,,not-started
+135,20,developer-2,Day 135: Parallel branches and shared budgets,,,,,practice/developer-2/day-135/,,,,,not-started
+136,20,developer-1,Day 136: Agent evaluation and failure categories,,,,,practice/developer-1/day-136/,,,,,not-started
+136,20,developer-2,Day 136: Agent evaluation and failure categories,,,,,practice/developer-2/day-136/,,,,,not-started
+137,20,developer-1,Day 137: Framework adapters and lock-in,,,,,practice/developer-1/day-137/,,,,,not-started
+137,20,developer-2,Day 137: Framework adapters and lock-in,,,,,practice/developer-2/day-137/,,,,,not-started
+138,20,developer-1,"Day 138: Agent APIs, workers, and cancellation",,,,,practice/developer-1/day-138/,,,,,not-started
+138,20,developer-2,"Day 138: Agent APIs, workers, and cancellation",,,,,practice/developer-2/day-138/,,,,,not-started
+139,20,developer-1,"Day 139: Working increment: Agent orchestration, evaluation, and service operation",,,,,practice/developer-1/day-139/,,,,,not-started
+139,20,developer-2,"Day 139: Working increment: Agent orchestration, evaluation, and service operation",,,,,practice/developer-2/day-139/,,,,,not-started
+140,20,developer-1,"Day 140: Individual mastery and repair: Agent orchestration, evaluation, and service operation",,,,,practice/developer-1/day-140/,,,,,not-started
+140,20,developer-2,"Day 140: Individual mastery and repair: Agent orchestration, evaluation, and service operation",,,,,practice/developer-2/day-140/,,,,,not-started
+141,21,developer-1,"Day 141: Use cases, requirements, and nonfunctional goals",,,,,practice/developer-1/day-141/,,,,,not-started
+141,21,developer-2,"Day 141: Use cases, requirements, and nonfunctional goals",,,,,practice/developer-2/day-141/,,,,,not-started
+142,21,developer-1,"Day 142: Time, money, IDs, enums, and regular expressions",,,,,practice/developer-1/day-142/,,,,,not-started
+142,21,developer-2,"Day 142: Time, money, IDs, enums, and regular expressions",,,,,practice/developer-2/day-142/,,,,,not-started
+143,21,developer-1,Day 143: Versioned application contracts,,,,,practice/developer-1/day-143/,,,,,not-started
+143,21,developer-2,Day 143: Versioned application contracts,,,,,practice/developer-2/day-143/,,,,,not-started
+144,21,developer-1,Day 144: State machines and invariant checks,,,,,practice/developer-1/day-144/,,,,,not-started
+144,21,developer-2,Day 144: State machines and invariant checks,,,,,practice/developer-2/day-144/,,,,,not-started
+145,21,developer-1,Day 145: Integration boundaries and modular monoliths,,,,,practice/developer-1/day-145/,,,,,not-started
+145,21,developer-2,Day 145: Integration boundaries and modular monoliths,,,,,practice/developer-2/day-145/,,,,,not-started
+146,21,developer-1,"Day 146: Working increment: Capstone integration: workspaces, plans, and contracts",,,,,practice/developer-1/day-146/,,,,,not-started
+146,21,developer-2,"Day 146: Working increment: Capstone integration: workspaces, plans, and contracts",,,,,practice/developer-2/day-146/,,,,,not-started
+147,21,developer-1,"Day 147: Individual mastery and repair: Capstone integration: workspaces, plans, and contracts",,,,,practice/developer-1/day-147/,,,,,not-started
+147,21,developer-2,"Day 147: Individual mastery and repair: Capstone integration: workspaces, plans, and contracts",,,,,practice/developer-2/day-147/,,,,,not-started
+148,22,developer-1,Day 148: Transactional outbox and event delivery,,,,,practice/developer-1/day-148/,,,,,not-started
+148,22,developer-2,Day 148: Transactional outbox and event delivery,,,,,practice/developer-2/day-148/,,,,,not-started
+149,22,developer-1,Day 149: Optimistic concurrency and lost updates,,,,,practice/developer-1/day-149/,,,,,not-started
+149,22,developer-2,Day 149: Optimistic concurrency and lost updates,,,,,practice/developer-2/day-149/,,,,,not-started
+150,22,developer-1,"Day 150: Read models, denormalization, and consistency",,,,,practice/developer-1/day-150/,,,,,not-started
+150,22,developer-2,"Day 150: Read models, denormalization, and consistency",,,,,practice/developer-2/day-150/,,,,,not-started
+151,22,developer-1,"Day 151: Replication, partitioning, and consistency trade-offs",,,,,practice/developer-1/day-151/,,,,,not-started
+151,22,developer-2,"Day 151: Replication, partitioning, and consistency trade-offs",,,,,practice/developer-2/day-151/,,,,,not-started
+152,22,developer-1,"Day 152: Reconciliation, cache invalidation, and backfills",,,,,practice/developer-1/day-152/,,,,,not-started
+152,22,developer-2,"Day 152: Reconciliation, cache invalidation, and backfills",,,,,practice/developer-2/day-152/,,,,,not-started
+153,22,developer-1,Day 153: Working increment: Capstone data reliability and scale,,,,,practice/developer-1/day-153/,,,,,not-started
+153,22,developer-2,Day 153: Working increment: Capstone data reliability and scale,,,,,practice/developer-2/day-153/,,,,,not-started
+154,22,developer-1,Day 154: Individual mastery and repair: Capstone data reliability and scale,,,,,practice/developer-1/day-154/,,,,,not-started
+154,22,developer-2,Day 154: Individual mastery and repair: Capstone data reliability and scale,,,,,practice/developer-2/day-154/,,,,,not-started
+155,23,developer-1,Day 155: Capacity estimates and bottleneck analysis,,,,,practice/developer-1/day-155/,,,,,not-started
+155,23,developer-2,Day 155: Capacity estimates and bottleneck analysis,,,,,practice/developer-2/day-155/,,,,,not-started
+156,23,developer-1,"Day 156: Rate limits, quotas, and fairness",,,,,practice/developer-1/day-156/,,,,,not-started
+156,23,developer-2,"Day 156: Rate limits, quotas, and fairness",,,,,practice/developer-2/day-156/,,,,,not-started
+157,23,developer-1,Day 157: Cost budgets and graceful degradation,,,,,practice/developer-1/day-157/,,,,,not-started
+157,23,developer-2,Day 157: Cost budgets and graceful degradation,,,,,practice/developer-2/day-157/,,,,,not-started
+158,23,developer-1,"Day 158: Incidents, diagnosis, and error budgets",,,,,practice/developer-1/day-158/,,,,,not-started
+158,23,developer-2,"Day 158: Incidents, diagnosis, and error budgets",,,,,practice/developer-2/day-158/,,,,,not-started
+159,23,developer-1,"Day 159: Backups, restore, rollout, and rollback",,,,,practice/developer-1/day-159/,,,,,not-started
+159,23,developer-2,"Day 159: Backups, restore, rollout, and rollback",,,,,practice/developer-2/day-159/,,,,,not-started
+160,23,developer-1,"Day 160: Working increment: Capstone performance, cost, and incident recovery",,,,,practice/developer-1/day-160/,,,,,not-started
+160,23,developer-2,"Day 160: Working increment: Capstone performance, cost, and incident recovery",,,,,practice/developer-2/day-160/,,,,,not-started
+161,23,developer-1,"Day 161: Individual mastery and repair: Capstone performance, cost, and incident recovery",,,,,practice/developer-1/day-161/,,,,,not-started
+161,23,developer-2,"Day 161: Individual mastery and repair: Capstone performance, cost, and incident recovery",,,,,practice/developer-2/day-161/,,,,,not-started
+162,24,developer-1,Day 162: Refactoring and dependency direction,,,,,practice/developer-1/day-162/,,,,,not-started
+162,24,developer-2,Day 162: Refactoring and dependency direction,,,,,practice/developer-2/day-162/,,,,,not-started
+163,24,developer-1,Day 163: Useful UX and error explanations,,,,,practice/developer-1/day-163/,,,,,not-started
+163,24,developer-2,Day 163: Useful UX and error explanations,,,,,practice/developer-2/day-163/,,,,,not-started
+164,24,developer-1,Day 164: Reproducible local demonstration,,,,,practice/developer-1/day-164/,,,,,not-started
+164,24,developer-2,Day 164: Reproducible local demonstration,,,,,practice/developer-2/day-164/,,,,,not-started
+165,24,developer-1,Day 165: Trade-off records and portfolio evidence,,,,,practice/developer-1/day-165/,,,,,not-started
+165,24,developer-2,Day 165: Trade-off records and portfolio evidence,,,,,practice/developer-2/day-165/,,,,,not-started
+166,24,developer-1,Day 166: Cross-role teach-back and release gate,,,,,practice/developer-1/day-166/,,,,,not-started
+166,24,developer-2,Day 166: Cross-role teach-back and release gate,,,,,practice/developer-2/day-166/,,,,,not-started
+167,24,developer-1,"Day 167: Working increment: Capstone polish, maintainability, and demonstration",,,,,practice/developer-1/day-167/,,,,,not-started
+167,24,developer-2,"Day 167: Working increment: Capstone polish, maintainability, and demonstration",,,,,practice/developer-2/day-167/,,,,,not-started
+168,24,developer-1,"Day 168: Individual mastery and repair: Capstone polish, maintainability, and demonstration",,,,,practice/developer-1/day-168/,,,,,not-started
+168,24,developer-2,"Day 168: Individual mastery and repair: Capstone polish, maintainability, and demonstration",,,,,practice/developer-2/day-168/,,,,,not-started
+169,25,developer-1,Day 169: Python output prediction and debugging,,,,,practice/developer-1/day-169/,,,,,not-started
+169,25,developer-2,Day 169: Python output prediction and debugging,,,,,practice/developer-2/day-169/,,,,,not-started
+170,25,developer-1,Day 170: Data structures and coding under time,,,,,practice/developer-1/day-170/,,,,,not-started
+170,25,developer-2,Day 170: Data structures and coding under time,,,,,practice/developer-2/day-170/,,,,,not-started
+171,25,developer-1,"Day 171: FastAPI, async, and security debugging",,,,,practice/developer-1/day-171/,,,,,not-started
+171,25,developer-2,"Day 171: FastAPI, async, and security debugging",,,,,practice/developer-2/day-171/,,,,,not-started
+172,25,developer-1,"Day 172: SQL, transactions, and query reasoning",,,,,practice/developer-1/day-172/,,,,,not-started
+172,25,developer-2,"Day 172: SQL, transactions, and query reasoning",,,,,practice/developer-2/day-172/,,,,,not-started
+173,25,developer-1,Day 173: Backend system-design mock and remediation,,,,,practice/developer-1/day-173/,,,,,not-started
+173,25,developer-2,Day 173: Backend system-design mock and remediation,,,,,practice/developer-2/day-173/,,,,,not-started
+174,25,developer-1,"Day 174: Working increment: Python, API, SQL, and coding interviews",,,,,practice/developer-1/day-174/,,,,,not-started
+174,25,developer-2,"Day 174: Working increment: Python, API, SQL, and coding interviews",,,,,practice/developer-2/day-174/,,,,,not-started
+175,25,developer-1,"Day 175: Individual mastery and repair: Python, API, SQL, and coding interviews",,,,,practice/developer-1/day-175/,,,,,not-started
+175,25,developer-2,"Day 175: Individual mastery and repair: Python, API, SQL, and coding interviews",,,,,practice/developer-2/day-175/,,,,,not-started
+176,26,developer-1,Day 176: GenAI and RAG diagnosis interviews,,,,,practice/developer-1/day-176/,,,,,not-started
+176,26,developer-2,Day 176: GenAI and RAG diagnosis interviews,,,,,practice/developer-2/day-176/,,,,,not-started
+177,26,developer-1,Day 177: Agent design and security interviews,,,,,practice/developer-1/day-177/,,,,,not-started
+177,26,developer-2,Day 177: Agent design and security interviews,,,,,practice/developer-2/day-177/,,,,,not-started
+178,26,developer-1,Day 178: Full mock loop: coding and debugging,,,,,practice/developer-1/day-178/,,,,,not-started
+178,26,developer-2,Day 178: Full mock loop: coding and debugging,,,,,practice/developer-2/day-178/,,,,,not-started
+179,26,developer-1,Day 179: Full mock loop: AI system design,,,,,practice/developer-1/day-179/,,,,,not-started
+179,26,developer-2,Day 179: Full mock loop: AI system design,,,,,practice/developer-2/day-179/,,,,,not-started
+180,26,developer-1,"Day 180: Project discussion, behavior, and individual readiness",,,,,practice/developer-1/day-180/,,,,,not-started
+180,26,developer-2,"Day 180: Project discussion, behavior, and individual readiness",,,,,practice/developer-2/day-180/,,,,,not-started
+181,26,developer-1,"Day 181: Working increment: GenAI, agent, and complete interview simulations",,,,,practice/developer-1/day-181/,,,,,not-started
+181,26,developer-2,"Day 181: Working increment: GenAI, agent, and complete interview simulations",,,,,practice/developer-2/day-181/,,,,,not-started
+182,26,developer-1,"Day 182: Individual mastery and repair: GenAI, agent, and complete interview simulations",,,,,practice/developer-1/day-182/,,,,,not-started
+182,26,developer-2,"Day 182: Individual mastery and repair: GenAI, agent, and complete interview simulations",,,,,practice/developer-2/day-182/,,,,,not-started
