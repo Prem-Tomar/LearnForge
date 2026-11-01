@@ -4,335 +4,345 @@
     "day": 1,
     "issue_number": 1,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/1",
-    "depends_on_issue": null,
-    "snapshot": "initialization"
+    "assignees": [
+      "PratikTalware26"
+    ],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 1,
     "day": 2,
     "issue_number": 2,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/2",
-    "depends_on_issue": 1,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 1,
     "day": 3,
     "issue_number": 3,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/3",
-    "depends_on_issue": 2,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 1,
     "day": 4,
     "issue_number": 4,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/4",
-    "depends_on_issue": 3,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 1,
     "day": 5,
     "issue_number": 5,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/5",
-    "depends_on_issue": 4,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 1,
     "day": 6,
     "issue_number": 6,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/6",
-    "depends_on_issue": 5,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 1,
     "day": 7,
     "issue_number": 7,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/7",
-    "depends_on_issue": 6,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 2,
     "day": 1,
     "issue_number": 183,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/183",
-    "depends_on_issue": null,
-    "snapshot": "initialization"
+    "assignees": [
+      "YogeshPatil991"
+    ],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 2,
     "day": 2,
     "issue_number": 188,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/188",
-    "depends_on_issue": 183,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 2,
     "day": 3,
     "issue_number": 193,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/193",
-    "depends_on_issue": 188,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 2,
     "day": 4,
     "issue_number": 198,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/198",
-    "depends_on_issue": 193,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 2,
     "day": 5,
     "issue_number": 203,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/203",
-    "depends_on_issue": 198,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 2,
     "day": 6,
     "issue_number": 208,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/208",
-    "depends_on_issue": 203,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 2,
     "day": 7,
     "issue_number": 213,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/213",
-    "depends_on_issue": 208,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 3,
     "day": 1,
     "issue_number": 184,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/184",
-    "depends_on_issue": null,
-    "snapshot": "initialization"
+    "assignees": [
+      "Rohan5607"
+    ],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 3,
     "day": 2,
     "issue_number": 189,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/189",
-    "depends_on_issue": 184,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 3,
     "day": 3,
     "issue_number": 194,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/194",
-    "depends_on_issue": 189,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 3,
     "day": 4,
     "issue_number": 199,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/199",
-    "depends_on_issue": 194,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 3,
     "day": 5,
     "issue_number": 204,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/204",
-    "depends_on_issue": 199,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 3,
     "day": 6,
     "issue_number": 209,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/209",
-    "depends_on_issue": 204,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 3,
     "day": 7,
     "issue_number": 214,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/214",
-    "depends_on_issue": 209,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 4,
     "day": 1,
     "issue_number": 185,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/185",
-    "depends_on_issue": null,
-    "snapshot": "initialization"
+    "assignees": [
+      "praadeep28101995"
+    ],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 4,
     "day": 2,
     "issue_number": 190,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/190",
-    "depends_on_issue": 185,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 4,
     "day": 3,
     "issue_number": 195,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/195",
-    "depends_on_issue": 190,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 4,
     "day": 4,
     "issue_number": 200,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/200",
-    "depends_on_issue": 195,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 4,
     "day": 5,
     "issue_number": 205,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/205",
-    "depends_on_issue": 200,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 4,
     "day": 6,
     "issue_number": 210,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/210",
-    "depends_on_issue": 205,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 4,
     "day": 7,
     "issue_number": 215,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/215",
-    "depends_on_issue": 210,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 5,
     "day": 1,
     "issue_number": 186,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/186",
-    "depends_on_issue": null,
-    "snapshot": "initialization"
+    "assignees": [
+      "bitsnbyt3s"
+    ],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 5,
     "day": 2,
     "issue_number": 191,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/191",
-    "depends_on_issue": 186,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 5,
     "day": 3,
     "issue_number": 196,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/196",
-    "depends_on_issue": 191,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 5,
     "day": 4,
     "issue_number": 201,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/201",
-    "depends_on_issue": 196,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 5,
     "day": 5,
     "issue_number": 206,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/206",
-    "depends_on_issue": 201,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 5,
     "day": 6,
     "issue_number": 211,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/211",
-    "depends_on_issue": 206,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 5,
     "day": 7,
     "issue_number": 216,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/216",
-    "depends_on_issue": 211,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 6,
     "day": 1,
     "issue_number": 187,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/187",
-    "depends_on_issue": null,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 6,
     "day": 2,
     "issue_number": 192,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/192",
-    "depends_on_issue": 187,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 6,
     "day": 3,
     "issue_number": 197,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/197",
-    "depends_on_issue": 192,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 6,
     "day": 4,
     "issue_number": 202,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/202",
-    "depends_on_issue": 197,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 6,
     "day": 5,
     "issue_number": 207,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/207",
-    "depends_on_issue": 202,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 6,
     "day": 6,
     "issue_number": 212,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/212",
-    "depends_on_issue": 207,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   },
   {
     "learner": 6,
     "day": 7,
     "issue_number": 217,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/217",
-    "depends_on_issue": 212,
-    "snapshot": "initialization"
+    "assignees": [],
+    "snapshot": "verified-setup"
   }
 ]
