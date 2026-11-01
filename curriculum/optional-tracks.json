@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "status": "awaiting-collaborator-selection",
+  "queue_integration_enabled": false,
+  "default_timing": "after-core-26-weeks",
+  "session_hours": 3,
+  "core_scheduled_hours_preserved": 598,
+  "limits_across_all_tracks": {
+    "prepared_open_per_learner": 7,
+    "assigned_current_per_confirmed_learner": 1
+  },
+  "shared_prerequisite": {
+    "id": "javascript",
+    "guide": "tracks/javascript/README.md",
+    "session_ids": ["J01", "J02", "J03", "J04", "J05", "J06", "J07", "J08", "J09", "J10", "J11", "J12", "J13", "J14"],
+    "interview_question_count": 42,
+    "selected_learners": []
+  },
+  "tracks": [
+    {
+      "id": "react-web",
+      "guide": "tracks/react/README.md",
+      "selected_learners": [],
+      "session_ids": ["R01", "R02", "R03", "R04", "R05", "R06", "R07", "R08", "R09", "R10", "R11", "R12", "R13", "R14"],
+      "prerequisites": ["J01-J14"],
+      "minimum_sessions_including_prerequisites": 28,
+      "minimum_added_hours": 84
+    },
+    {
+      "id": "react-native",
+      "guide": "tracks/react-native/README.md",
+      "selected_learners": [],
+      "session_ids": ["N01", "N02", "N03", "N04", "N05", "N06", "N07", "N08", "N09", "N10", "N11", "N12", "N13", "N14"],
+      "prerequisites": ["J01-J14", "R01-R06"],
+      "minimum_sessions_including_prerequisites": 34,
+      "minimum_added_hours": 102
+    }
+  ],
+  "both_tracks_without_duplicate_prerequisites": {"sessions": 42, "minimum_added_hours": 126}
+}

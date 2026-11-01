@@ -18,6 +18,7 @@ LearnForge is the learning product and workbench. Its study records, documents, 
 | Deployment and debugging | Containers, CI, logs/metrics/traces, failure diagnosis, load/capacity reasoning, graceful fallback, rollback, backup/restore, and recovery |
 | System design and architecture | One shared project-level topic at a time: requirements, units, contracts, state ownership, boundaries, consistency, security, reliability, scale, cost, and trade-offs |
 | Personal coaching and teamwork | Dedicated implementation slices, exact files/functions and why, step-by-step mechanisms, retention questions, prediction scenarios, rotating peer reviews, personal evidence, and targeted repair |
+| Optional React and React Native | Browser/mobile interfaces for the same project, shared JavaScript/TypeScript foundations and 42 JavaScript interview questions; collaborator selection and extra scheduling are pending |
 
 Each confirmed collaborator has one current assigned task and six prepared unassigned tasks. The next assignment requires implementation review approval and closure. Architecture is shared; production code ownership is separate. Testing stays light and attached to implementation, with no testing-only assignment. API documentation is added only when requested.
 
@@ -34,6 +35,8 @@ Every active issue has its learner's dedicated task, exact file/unit, ownership,
 Weeks 1–20 divide each shared feature into six exclusive implementation roles. Roles rotate weekly. Reviews rotate across all five peers. Everyone learns every common concept; a teammate's implementation never replaces an individual's proof.
 
 Weeks 21–26 give each learner a complete chosen AI/ML capability in a separate owned module. Options include supervised prediction, recommendations, forecasting, NLP, vision, GenAI/agents, and data science. No track is selected on an unidentified learner's behalf.
+
+[Optional React web and React Native mobile tracks](CLIENT_TRACKS.md) add visible interfaces to this project. Both include JavaScript interview preparation, implementation scenarios, retention questions, and separate coach keys. No collaborator is enrolled yet. They preserve the core learning and require an explicit personal schedule; the default is an extension after the core, not hidden extra work inside 598 hours.
 
 ## One project architecture
 
@@ -65,7 +68,7 @@ Use simple English and define unfamiliar terms beside examples. Every day includ
 
 Testing is light and attached to implementation. There is no testing-only assignment, tester-only role, coverage quota, or large test-suite project. **API documentation is added only when requested**; future FastAPI setup disables Swagger, ReDoc, and public OpenAPI endpoints by default. Internal working contracts still support parallel implementation.
 
-Five confirmed collaborators are mapped in [LEARNERS.md](LEARNERS.md). Each gets **one current assigned task**, while six more remain prepared and unassigned. The next task is assigned only after implementation review approval and closure. Learner 06 remains unassigned by request. No email addresses or guessed identities are published. Public work uses ordinary contributor identities and descriptive names without generator attribution.
+Six confirmed collaborators are mapped in [LEARNERS.md](LEARNERS.md), including GlidingScorpion on Learner 06. Each gets **one current assigned task**, while six more remain prepared and unassigned. The next task is assigned only after implementation review approval and closure. Optional client-track selections remain pending. No email addresses or guessed identities are published. Public work uses ordinary contributor identities and descriptive names without generator attribution.
 
 ## Guides
 
@@ -77,6 +80,7 @@ Five confirmed collaborators are mapped in [LEARNERS.md](LEARNERS.md). Each gets
 - [Micro-detail teaching standard](PYTHON_DETAILS.md) and [predict-the-program scenarios](SCENARIO_LAB.md)
 - [Shared architecture](ARCHITECTURE.md)
 - [AI/ML specialization choices and finish lines](SPECIALIZATIONS.md)
+- [Optional React and React Native tracks](CLIENT_TRACKS.md), [JavaScript interview questions](tracks/javascript/INTERVIEW_QUESTIONS.md), and [pending selections](curriculum/optional-tracks.json)
 - [Day-by-day personal AI/ML build outcomes](specializations/DAILY_OUTCOMES.md)
 - [Personal assessment and interview readiness](ASSESSMENT.md)
 - [Question of the Day index](questions/README.md) and [coach keys](coach/README.md)

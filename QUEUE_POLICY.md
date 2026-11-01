@@ -2,7 +2,7 @@
 
 Each of the six learners has a **rolling window of seven open implementation issues**, including the current task. The initial window is Day 001–007. The complete curriculum has 182 planned days per person, but the repository does not publish the entire plan as an active issue queue.
 
-**Only one issue is assigned to a confirmed learner at a time.** The other six remain prepared and unassigned. Five collaborator accounts are mapped; Learner 06 stays unassigned by request. Queue refill and assignment are separate: the next assignment requires implementation review approval (`review-approved`) and predecessor closure as completed. The workflow also reacts when the review label is added after closure.
+**Only one issue is assigned to a confirmed learner at a time.** The other six remain prepared and unassigned. All six collaborator accounts are mapped, including GlidingScorpion on Learner 06. Queue refill and assignment are separate: the next assignment requires implementation review approval (`review-approved`) and predecessor closure as completed. The workflow also reacts when the review label is added after closure.
 
 When an accepted implementation issue is resolved **as completed**, the next planned day enters that learner's queue. The workflow reopens and refreshes an existing deferred issue first; it creates a new issue only when that learner/day does not already exist. This prevents duplicates. If fewer than seven concepts remain, the queue shrinks naturally and stops when the curriculum is exhausted.
 

@@ -31,4 +31,6 @@ Add virtual environments, package installation, databases, containers, model SDK
 
 Use the review/repair block. Cut optional polish, repeated reading, extra abstractions, and excessive test work first. Preserve the concept, personal proof, shared architecture, review, working feature, and important permission/data/effect checks. If a prerequisite still fails, record extra time and move dependent work; do not silently remove concepts or award a calendar-based pass.
 
-Five collaborator accounts are verified and mapped in LEARNERS.md. Each has one current assigned issue and six prepared unassigned issues. Learner 06 remains unassigned by request. Review approval and predecessor closure release the next assignment. Never publish private email addresses.
+Six collaborator accounts are verified and mapped in LEARNERS.md, including GlidingScorpion on Learner 06. Each has one current assigned issue and six prepared unassigned issues. Review approval and predecessor closure release the next assignment. Never publish private email addresses.
+
+Optional [React and React Native tracks](CLIENT_TRACKS.md) include a shared JavaScript bridge and interview questions. Their collaborator selection and personal schedule are pending; continue the assigned core task until selection is recorded.

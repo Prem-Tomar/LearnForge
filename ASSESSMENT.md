@@ -69,3 +69,7 @@ All six discuss one architecture topic; score each person's understanding of tha
 ## Implementation acceptance is separate
 
 The implementation_status and understanding_status fields are independent. Accept the bounded original code behavior when correct, while keeping conceptual follow-up visible. An unanswered learning question alone is not a PR blocker and must not create an extra test/report requirement. Final readiness and prerequisite coaching still require personal evidence. Preserve original answers, mark correct/partial/incorrect/missing parts, explain a worked correction, and revisit weak ideas later.
+
+## Optional client readiness
+
+Selected [React/React Native learners](CLIENT_TRACKS.md) additionally prove the common JavaScript foundation and their chosen platform's finish line through fresh implementation, debugging and explanation. Use the shared JS bank and platform interview prompts; check causal reasoning and a changed case. These are extra role-specific criteria after enrollment, not replacements for any core domain or requirements for people who have not selected a client track. Record additional sessions honestly.

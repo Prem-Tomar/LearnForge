@@ -7,9 +7,9 @@
 | Learner 03 | [Rohan5607](https://github.com/Rohan5607) | One current task |
 | Learner 04 | [praadeep28101995](https://github.com/praadeep28101995) | One current task |
 | Learner 05 | [bitsnbyt3s](https://github.com/bitsnbyt3s) | One current task |
-| Learner 06 | Unassigned by request | Seven prepared tasks; no account assigned |
+| Learner 06 | [GlidingScorpion](https://github.com/GlidingScorpion) | One current task |
 
-Each path keeps seven open prepared issues. Only its earliest eligible task is assigned; the other six remain unassigned. Learner 06 remains unassigned, including its current task, until an identity is provided. Accounts were verified from the repository's collaborator list; no emails or guessed identities are published.
+Each path keeps seven open prepared issues. Only its earliest eligible task is assigned; the other six remain unassigned. All six accounts were verified from the repository's collaborator list; no emails or guessed identities are published. Optional [React and React Native](CLIENT_TRACKS.md) enrollment is separate and awaits the user's selection.
 
 ## Review before the next assignment
 

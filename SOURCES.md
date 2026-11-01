@@ -15,6 +15,10 @@ Official sources inspected while preparing this course on **1 November 2026**. E
 - [MCP introduction](https://modelcontextprotocol.io/docs/getting-started/intro)
 - [Docker getting started](https://docs.docker.com/get-started/)
 - [GitHub Actions quickstart](https://docs.github.com/en/actions/get-started/quickstart)
+- [MDN JavaScript fundamentals](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/), [closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures), [promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises), and [execution model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model)
+- [MDN ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+- [React learning guide](https://react.dev/learn), [state snapshots](https://react.dev/learn/state-as-a-snapshot), and [effects/cleanup](https://react.dev/learn/synchronizing-with-effects)
+- [React Native introduction](https://reactnative.dev/docs/getting-started), [framework/setup choices](https://reactnative.dev/docs/environment-setup), and [security/storage](https://reactnative.dev/docs/security)
 
 ## Teaching baseline and updates
 
