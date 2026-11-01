@@ -47,19 +47,12 @@ def body_for(person, plan, prior, repository):
     track, login, session = person["track"], person["github"], plan["session"]
     marker = f"<!-- frontend-task: {track}/{login}/{session:03d} -->"
     if session == 1:
-        dependency = "Your separate frontend sequence starts here. Your Python issue stays assigned and unchanged."
+        dependency = "**Prerequisite:** first JavaScript lesson."
     elif prior:
-        dependency = f"Frontend prerequisite: [session {session - 1:03d}](https://github.com/{repository}/issues/{prior['number']}); implementation review approval and closure are required."
+        dependency = f"**Prerequisite:** [frontend session {session - 1:03d}](https://github.com/{repository}/issues/{prior['number']})."
     else:
         raise ValueError("Missing frontend predecessor")
-    return f"{marker}\n\n{dependency}\n\n{plan['body']}\n\n" + (
-        "## Separate frontend review gate\n\n"
-        "This queue has seven prepared frontend issues and one current assigned frontend issue. "
-        "It runs alongside your existing Python queue. Do not close, unassign, relabel, move, or replace a Python issue to advance here. "
-        "After accepting the original bounded implementation, a peer/maintainer adds `review-approved` and closes this issue as completed. "
-        "Only both together release the next frontend assignment. Closing without approval prepares the next window but leaves it unassigned. "
-        "Concept explanations and retention are coached separately; unanswered learning questions alone do not block an otherwise correct implementation.\n"
-    )
+    return f"{marker}\n\n{dependency}\n\n{plan['body']}"
 
 
 def verify_queues(repository, report):
@@ -165,4 +158,8 @@ if __name__ == "__main__":
     arguments = parser.parse_args()
     if not arguments.repo:
         parser.error("Supply --repo or GH_REPO")
+    from validate_curriculum import validate
+    curriculum_errors, _ = validate()
+    if curriculum_errors:
+        raise ValueError("Fix curriculum authoring rules before publishing: " + "; ".join(curriculum_errors[:10]))
     reconcile(arguments.repo, arguments.dry_run)

@@ -1,5 +1,11 @@
 # JavaScript bridge for both client tracks
 
+## J01: teach the syntax before the task
+
+Run `node examples/frontend/j01-basics.mjs` before editing your own unit. `const projectName = "LearnForge"` connects a name to text; `console.log` displays a value. `function projectLabel(name)` defines a callable unit with one input, and its brace-delimited body runs when called. `return` gives a value back without displaying it. The backtick string inserts `${name}` into text. The last example creates an object with `id` and `minutes`; a dot reads one field. Zero is a value, not a missing field. Unlike Python blocks, these JavaScript blocks use braces. The coach traces the actual output line by line before asking you to make the separate `describeSession` change. TypeScript, React hooks and classes are introduced later.
+
+All topics follow [their own day 1/3/7/10/15 mixed revision cycle](../../REVISION.md). New constructs are taught before use; interview independence grows after the learner demonstrates understanding.
+
 Read [the client-track agreement](../../CLIENT_TRACKS.md) first. Pratik, Pradeep and Shubham each complete these fourteen sessions in their separate frontend queue. Complete them in order. Python experience helps with problem solving but does not prove JavaScript scope, equality, objects, or scheduling.
 
 Use `clients/learning/learner_NN/javascript/` as the root for every file below. Keep individual exercises separate. Start with `.mjs` ES modules, run with an available supported Node.js runtime, and record its version. A browser module playground is also useful when explicitly studying the browser. Introduce TypeScript only in J13; JS still determines runtime behavior. Do not add a Node backend beside FastAPI.
@@ -31,4 +37,4 @@ For each pure function, name the input/output and prove whether the input change
 
 ## Exit check
 
-Without a teammate's implementation, each person validates a record, makes an immutable update, explains a closure and promise ordering, prevents an old search overwriting a new search, and cleans up a subscription. Ask one question from each completed session with a new value or timing. A guessed output without a causal explanation needs another example. Use [the separate coach key](../../coach/javascript-interview-key.md) after the initial attempt. Keep difficult items warm at +1, +3, and +7 later sessions and during the feature reviews.
+Without a teammate's implementation, each person validates a record, makes an immutable update, explains a closure and promise ordering, prevents an old search overwriting a new search, and cleans up a subscription. Ask one question from each completed session with a new value or timing. A guessed output without a causal explanation needs another example. Use [the separate coach key](../../coach/javascript-interview-key.md) after the initial attempt. Use topic days 1, 3, 7, 10 and 15 from first teaching, mixing other topics and feature reviews; harden the later questions after demonstrated understanding.

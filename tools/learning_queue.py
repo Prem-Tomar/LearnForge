@@ -227,4 +227,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if not args.repo:
         parser.error("Supply --repo or GH_REPO")
+    from validate_curriculum import validate
+    curriculum_errors, _ = validate()
+    if curriculum_errors:
+        raise ValueError("Fix curriculum authoring rules before publishing: " + "; ".join(curriculum_errors[:10]))
     reconcile(args.repo, args.dry_run, args.simulate_completed, args.refresh_day_one)

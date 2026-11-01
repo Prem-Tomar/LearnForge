@@ -26,4 +26,4 @@ Run `python tools/revision_schedule.py --on 2026-11-01` with the intended local 
 
 ## Short review trace
 
-Show command, actual input/output and revision. Then use **line/event → name/object/class/attribute before → after or no change → why → contribution**. Follow actual call order and run a changed case. If not executed, state that and label predictions. Use [REVIEW_GUIDE.md](REVIEW_GUIDE.md) and [small execution pictures](EXECUTION_VISUALS.md). Keep long teaching in guides; issues remain [short task cards](TASK_FORMAT.md).
+Show command, actual input/output and revision. Then use **line/event → name/object/class/attribute before → after or no change → why → contribution**. Follow actual call order and run a changed case. If not executed, state that and label predictions. Use [REVIEW_GUIDE.md](REVIEW_GUIDE.md) and [small execution pictures](EXECUTION_VISUALS.md). Keep the task teaching in the issue, using clear sections and optional expandable detail; shared rules remain in the project guides.

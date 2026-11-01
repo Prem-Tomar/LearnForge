@@ -1,6 +1,6 @@
 # Start here — six learners
 
-Start with [Day 001’s taught examples](days/day-001.md), run `python run_first_steps.py`, then change your own small welcome-screen function. Short issues link to detailed teaching guides; [the task format](TASK_FORMAT.md) keeps project rules outside issue bodies.
+Start with [Day 001’s taught examples](days/day-001.md), run `python run_demo.py onboarding`, then change your own small welcome-screen function. Each issue contains its own teaching and concrete examples; [the task format](TASK_FORMAT.md) keeps project rules outside issue bodies.
 
 ## Day 001 setup
 

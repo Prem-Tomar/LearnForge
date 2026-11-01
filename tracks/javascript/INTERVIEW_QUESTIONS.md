@@ -2,7 +2,7 @@
 
 **42 questions, shared by both tracks.** Use the prerequisite session in [the bridge](README.md); do not ask beginners to guess untaught behavior. Each group has a prediction or concrete case, a mechanism question, and a project variation. Some interview questions have several valid designs; explain the assumptions. Answer before opening [the coach key](../../coach/javascript-interview-key.md).
 
-Run snippets independently as ES modules in a recorded modern runtime unless another environment is stated. Console formatting of objects can differ, so predict values and identity rather than exact pretty printing. An intentional error stops that snippet; it does not stop the other questions. After every answer: explain step by step, change one input, and connect it to a LearnForge feature. From the second completed session, reuse one earlier question as Question of the Day. Revisit difficult items after 1, 3, and 7 sessions. Do not turn every interview question into an additional GitHub issue.
+Run snippets independently as ES modules in a recorded modern runtime unless another environment is stated. Console formatting of objects can differ, so predict values and identity rather than exact pretty printing. An intentional error stops that snippet; it does not stop the other questions. After every answer: explain step by step, change one input, and connect it to a LearnForge feature. From the second completed session, reuse one earlier question as Question of the Day. Use topic days 1, 3, 7, 10 and 15 from first teaching; mix other topics into the same review. Do not turn every interview question into an additional GitHub issue.
 
 ## J01: values and declarations
 

@@ -1,5 +1,7 @@
 # LearnForge
 
+Authoritative coaching/issue rules are recorded in [AGENTS.md](AGENTS.md), with machine-checked policy in [curriculum/coaching-policy.json](curriculum/coaching-policy.json). All learning details stay inside their issue; shared project rules stay here.
+
 ## Project goal
 
 Build a learning and knowledge workbench that helps a person plan study, record progress, organize notes, ask questions with sources, and approve useful AI-assisted study plans. Add measurable AI/ML capabilities such as recommendations, forecasts or text analysis as the product grows.

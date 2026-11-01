@@ -1,8 +1,10 @@
 # Coaching in clear English
 
+Authoritative coaching/issue rules are recorded in [AGENTS.md](AGENTS.md), with machine-checked policy in [curriculum/coaching-policy.json](curriculum/coaching-policy.json). All learning details stay inside their issue; shared project rules stay here.
+
 Every topic follows [day 1/3/7/10/15 mixed revision](REVISION.md): teach first, then progressively harder questions alongside other topics and current project work.
 
-Teach the needed syntax first with a tiny runnable example, then ask for a bounded change to the learner's own project function. Use [Day 001's gentle first function](days/day-001.md) as the starting standard. Every topic has [research-led hints and a compact task contract](TASK_FORMAT.md), with detailed explanations in the linked teaching guide. For Question of the Day, execute the code and trace each line's before/after values, purpose and project contribution using [the review guide](REVIEW_GUIDE.md). A small [execution picture](EXECUTION_VISUALS.md) can help; it does not replace a real run.
+Teach the needed syntax first with a tiny runnable example, then ask for a bounded change to the learner's own project function. Use [Day 001's gentle first function](days/day-001.md) as the starting standard. Every topic has [research-led hints and a compact task contract](TASK_FORMAT.md), with detailed explanations inside the issue itself. For Question of the Day, execute the code and trace each line's before/after values, purpose and project contribution using [the review guide](REVIEW_GUIDE.md). A small [execution picture](EXECUTION_VISUALS.md) can help; it does not replace a real run.
 
 ## Explain one idea at a time
 

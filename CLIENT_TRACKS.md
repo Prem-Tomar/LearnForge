@@ -1,5 +1,7 @@
 # Optional React web and React Native mobile tracks
 
+Frontend issues use [the short task format](TASK_FORMAT.md). Detailed explanations, concept proof and reciprocal review are included in each issue; research hints name the specific concept, official source and small experiment. Queue policy remains in this guide, not repeated in each issue.
+
 **Selected: Pratik and Pradeep for React web; Shubham for React Native.** These are separate frontend queues alongside the existing Python course. They add user interfaces to the same LearnForge Python/FastAPI/AI project. They do not replace any learner's common Python, FastAPI, GenAI, agents, deployment, architecture, mathematics, or AI/ML proof. The starter does not yet contain these applications.
 
 ## Choose later, schedule honestly

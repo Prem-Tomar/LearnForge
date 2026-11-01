@@ -52,6 +52,14 @@ class FrontendQueueRules(unittest.TestCase):
         quiet.start()
         self.addCleanup(quiet.stop)
 
+    def test_task_body_does_not_reintroduce_project_policy(self):
+        person={'track':'react-web','github':'PratikTalware26'}
+        rendered=queue.body_for(person,{'session':1,'body':'## Goal\n\nBuild the owned feature.'},None,'owner/repo')
+        self.assertIn('Build the owned feature.',rendered)
+        self.assertNotIn('review-approved',rendered)
+        self.assertNotIn('Separate frontend review gate',rendered)
+        self.assertNotIn('seven prepared',rendered)
+
     def test_separate_initial_queue_is_idempotent_and_preserves_core(self):
         fake = FakeGitHub()
         original = copy.deepcopy(fake.issues[0])
@@ -143,8 +151,9 @@ class FrontendQueueRules(unittest.TestCase):
             rows = [p for (t, g, n), p in plans.items() if g == person['github']]
             self.assertEqual(rows[0]['lesson'], 'J01')
             for row in rows:
-                self.assertIn('Python', row['body'])
-                self.assertIn('review', row['body'])
+                self.assertIn('Python/FastAPI', config['backend'])
+                self.assertIn('inline_teaching', row)
+                self.assertIn('review', row['body'].lower())
                 for filename in row['files']:
                     if filename in files:
                         self.assertEqual(files[filename], person['github'])
@@ -165,7 +174,7 @@ class FrontendQueueRules(unittest.TestCase):
             rows = [p for (t, g, n), p in plans.items() if g == login]
             self.assertEqual(len(rows), 28)
             self.assertEqual({row['lesson']: row['concept_ids'] for row in rows}, expected)
-            self.assertTrue(all(row['peer'] == peer and 'Reciprocal review' in row['body'] for row in rows))
+            self.assertTrue(all(row['peer'] == peer and f'Review with @{peer}' in row['body'] for row in rows))
             self.assertEqual({r['concept_id'] for r in evidence if r['github'] == login}, {c for ids in expected.values() for c in ids})
             self.assertTrue(all(r['reviewer'] == peer for r in evidence if r['github'] == login))
         for number in range(15, 29):
