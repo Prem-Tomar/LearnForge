@@ -2,7 +2,7 @@
 
 Every topic follows [day 1/3/7/10/15 mixed revision](../REVISION.md): teach first, then progressively harder questions alongside other topics and current project work.
 
-`mastery.csv` has **1,092 not-started rows: 182 days × six learners**. These are learning records to fill, not completed assessments. Each learner records their own proof, implementation, explanation, shared-architecture understanding, review evidence, hints, personal gap, repair, and chosen AI/ML track.
+`mastery.csv` has **1,092 learning records: 182 days × six learners**. They start unassessed and change only with actual evidence. An accepted implementation does not imply a passed full learning gate. Each learner records their own proof, implementation, explanation, shared-architecture understanding, review evidence, hints, personal gap, repair, and chosen AI/ML track.
 
 The rotating integrator updates the shared CSV after collecting all six results. Only one person edits this shared file at a time. A group demo or someone else's pass never replaces personal evidence. Use [ASSESSMENT.md](../ASSESSMENT.md).
 

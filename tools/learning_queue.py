@@ -9,6 +9,7 @@ from pathlib import Path
 import re
 import subprocess
 import tempfile
+import time
 
 ROOT = Path(__file__).resolve().parents[1]
 TITLE = re.compile(r"^Learner (\d{2}) \| Day (\d{3}):")
@@ -108,6 +109,41 @@ def compose_body(plan, prior, repository):
     return marker + prefix + plan["body"]
 
 
+def verify_queues(repository, summaries, plans):
+    """Allow a bounded issue-list delay after writes; never retry a mutation."""
+    failures = []
+    for attempt in range(4):
+        pages = gh("api", f"repos/{repository}/issues?state=open&per_page=100", "--paginate", "--slurp")
+        actual = {}
+        for item in (i for page in pages for i in page if "pull_request" not in i):
+            key = issue_key(item)
+            if key not in plans:
+                continue
+            if key in actual:
+                raise RuntimeError("Duplicate Python task identity; inspect without creating more")
+            actual[key] = item
+        failures = []
+        for row in summaries:
+            own = {day: item for (learner, day), item in actual.items() if learner == row["learner"]}
+            if set(own) != set(row["window"]):
+                failures.append(f"Learner {row['learner']}: expected {row['window']}, observed {sorted(own)}")
+            assignments = {day: sorted(a["login"] for a in item.get("assignees", []))
+                           for day, item in own.items() if item.get("assignees")}
+            wanted = {day: [row["github"]] for day in row["assigned_days"]}
+            if assignments != wanted:
+                failures.append(f"Learner {row['learner']}: assignments differ from the prepared window")
+            current = {day for day, item in own.items()
+                       if any(label["name"] == "queue-current" for label in item.get("labels", []))}
+            expected_current = {row["current_eligible_day"]} if row["current_eligible_day"] is not None else set()
+            if current != expected_current:
+                failures.append(f"Learner {row['learner']}: current step differs from review-approved sequence")
+        if not failures:
+            return
+        if attempt < 3:
+            time.sleep(2)
+    raise RuntimeError("Python queue verification still differs after read retries: " + "; ".join(failures))
+
+
 def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_one=False):
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repository):
         raise ValueError("Expected owner/repository")
@@ -204,19 +240,7 @@ def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_on
                           "github": person.get("github"), "current_eligible_day": current_day, "assigned_days": assigned_window,
                           "remaining_concepts": len([day for day in days if day not in issues or not is_completed(issues[day])])})
     if not dry_run:
-        pages = gh("api", f"repos/{repository}/issues?state=open&per_page=100", "--paginate", "--slurp")
-        open_keys = [issue_key(issue) for page in pages for issue in page if "pull_request" not in issue and issue_key(issue) in plans]
-        for summary in summaries:
-            actual = {day for learner, day in open_keys if learner == summary["learner"]}
-            if actual != set(summary["window"]):
-                raise RuntimeError(f"Window changed during reconciliation: {summary['learner']}, {actual}")
-            assigned = [issue for page in pages for issue in page if "pull_request" not in issue and issue_key(issue) in plans and issue_key(issue)[0] == summary["learner"] and issue.get("assignees")]
-            expected = len(summary["assigned_days"])
-            if len(assigned) != expected:
-                raise RuntimeError(f"Expected {expected} assigned Python tasks for learner {summary['learner']}")
-            for item in assigned:
-                if {a["login"] for a in item["assignees"]} != {summary["github"]}:
-                    raise RuntimeError("Unexpected Python task assignee")
+        verify_queues(repository, summaries, plans)
     report = {"dry_run": dry_run, "open_limit": config["open_limit"], "learners": summaries}
     print(json.dumps(report, indent=2))
     summary_file = os.environ.get("GITHUB_STEP_SUMMARY")

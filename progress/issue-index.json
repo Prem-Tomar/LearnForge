@@ -141,16 +141,6 @@
   },
   {
     "learner": 3,
-    "day": 1,
-    "issue_number": 184,
-    "url": "https://github.com/Prem-Tomar/LearnForge/issues/184",
-    "assignees": [
-      "Rohan5607"
-    ],
-    "snapshot": "verified-seven-assigned"
-  },
-  {
-    "learner": 3,
     "day": 2,
     "issue_number": 189,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/189",
@@ -204,6 +194,16 @@
     "day": 7,
     "issue_number": 214,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/214",
+    "assignees": [
+      "Rohan5607"
+    ],
+    "snapshot": "verified-seven-assigned"
+  },
+  {
+    "learner": 3,
+    "day": 8,
+    "issue_number": 219,
+    "url": "https://github.com/Prem-Tomar/LearnForge/issues/219",
     "assignees": [
       "Rohan5607"
     ],

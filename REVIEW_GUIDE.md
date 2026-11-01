@@ -53,4 +53,6 @@ Testing remains light and attached to features. Maintainers/coaches may own rout
 
 ## Release the next current task
 
-After the original implementation is accepted, the reviewer or maintainer adds review-approved and closes the issue as completed. The workflow requires both signals before assigning the next task. A pending conceptual answer alone does not withhold implementation approval; an actual original-contract defect does. Seven tasks remain prepared, with only one assigned current task.
+After the original implementation is accepted, approve and merge the PR, add `review-approved` to its task issue, and close that issue as completed. A merge with a closing issue link may perform the closure automatically; verify the result. A pending conceptual answer alone does not withhold implementation approval; an actual original-contract defect does.
+
+Then verify that the queue advances the next eligible step and refills the learner's seven prepared issues. Reuse an existing deferred issue before creating a new one, so no task is duplicated. All seven Python issues stay assigned to their learner, with one marked `queue-current`. Each selected frontend queue keeps seven prepared issues but only one assigned issue. Current-step advancement requires both review approval and completion closure. Check actual GitHub state before reporting the next task.

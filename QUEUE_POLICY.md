@@ -32,6 +32,8 @@ GitHub milestone percentages describe only attached published issues; the full c
 
 If a request fails with an uncertain create outcome, do not blindly repeat a create. A fresh run reloads remote issues before deciding whether to reuse or create. The queue preserves worked or in-progress issues rather than silently discarding them if an unexpected manual reopen creates a conflict.
 
+After changes, verification retries only issue-list reads, at most four times with two seconds between reads. This allows GitHub's list to catch up with a reopened or created issue. A lasting mismatch still fails for inspection; no write is retried by verification.
+
 ## Separate selected frontend queues
 
 The user requested separate frontend tasks without moving any fixed issue or track. Pratik and Pradeep have React web queues; Shubham (`bitsnbyt3s`) has React Native. Each selected person has seven additional prepared frontend issues and one current frontend assignment alongside the Python task. Both queue types require review approval plus closure for their next current step. Python keeps the full prepared window assigned; frontend keeps only one issue assigned. Frontend issues use distinct markers/labels and never enter the Python queue. Existing Python issues are not moved, replaced, closed, unassigned or rewritten by this addition. See [CLIENT_TRACKS.md](CLIENT_TRACKS.md), [the frontend calendar](tracks/FRONTEND_CALENDAR.md), and [frontend queues](FRONTEND_ISSUES.md).

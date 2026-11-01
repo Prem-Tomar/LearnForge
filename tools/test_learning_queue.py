@@ -1,6 +1,7 @@
 """Small maintainer checks for queue correctness, not learner assignments."""
 import unittest
-from learning_queue import desired_window, is_completed, eligible_current_day, compose_body, assigned_days
+from unittest.mock import patch
+from learning_queue import desired_window, is_completed, eligible_current_day, compose_body, assigned_days, verify_queues
 
 
 def issue(state="open", reason=None, deferred=False):
@@ -57,6 +58,49 @@ class QueueRules(unittest.TestCase):
         current[1]["state"] = "open"
         self.assertEqual(eligible_current_day(range(1, 183), current, "learner"), 1)
         self.assertIsNone(eligible_current_day(range(1, 183), current, None))
+
+
+class QueueReadVerification(unittest.TestCase):
+    def setUp(self):
+        self.plans = {(3, day): {} for day in range(2, 9)}
+        self.summary = [{"learner": 3, "window": list(range(2, 9)), "assigned_days": list(range(2, 9)),
+                         "github": "Rohan5607", "current_eligible_day": 2}]
+        self.rows = [{"number": day, "title": f"Learner 03 | Day {day:03d}: Lesson", "assignees": [{"login": "Rohan5607"}],
+                      "labels": [{"name": "queue-current"}] if day == 2 else []} for day in range(2, 9)]
+
+    @patch("learning_queue.time.sleep")
+    @patch("learning_queue.gh")
+    def test_stale_list_then_fresh_list_uses_only_reads(self, gh, sleep):
+        gh.side_effect = [[self.rows[:-1]], [self.rows]]
+        verify_queues("owner/repo", self.summary, self.plans)
+        self.assertEqual(gh.call_count, 2)
+        sleep.assert_called_once_with(2)
+        for call in gh.call_args_list:
+            self.assertEqual(call.args, ("api", "repos/owner/repo/issues?state=open&per_page=100", "--paginate", "--slurp"))
+            self.assertFalse(call.kwargs)
+
+    @patch("learning_queue.time.sleep")
+    @patch("learning_queue.gh")
+    def test_persistent_missing_task_stops_after_four_reads(self, gh, sleep):
+        gh.return_value = [self.rows[:-1]]
+        with self.assertRaisesRegex(RuntimeError, "after read retries"):
+            verify_queues("owner/repo", self.summary, self.plans)
+        self.assertEqual(gh.call_count, 4)
+        self.assertEqual(sleep.call_count, 3)
+
+    @patch("learning_queue.time.sleep")
+    @patch("learning_queue.gh")
+    def test_wrong_assignee_or_current_step_cannot_pass(self, gh, sleep):
+        for defect in ("assignee", "current"):
+            with self.subTest(defect=defect):
+                self.setUp()
+                if defect == "assignee":
+                    self.rows[-1]["assignees"] = [{"login": "other"}]
+                else:
+                    self.rows[-1]["labels"] = [{"name": "queue-current"}]
+                gh.return_value = [self.rows]
+                with self.assertRaises(RuntimeError):
+                    verify_queues("owner/repo", self.summary, self.plans)
 
 
 if __name__ == "__main__":

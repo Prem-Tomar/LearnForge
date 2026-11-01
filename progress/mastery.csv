@@ -1,7 +1,7 @@
 day,week,learner_slot,concept,implementation_0_2,explanation_0_2,shared_architecture_0_2,peer_review_0_2,independent_proof_path,pr_or_commit,hints_used,personal_gap,next_action,chosen_track,status,implementation_status,understanding_status
 1,1,learner-01,"Learner 01 | Day 001: Files, folders, and the interpreter",,,,,practice/learner-01/day-001/,,,,,not-selected,not-started,not-started,not-started
 1,1,learner-02,"Learner 02 | Day 001: Files, folders, and the interpreter",,,,,practice/learner-02/day-001/,,,,,not-selected,not-started,not-started,not-started
-1,1,learner-03,"Learner 03 | Day 001: Files, folders, and the interpreter",,,,,practice/learner-03/day-001/,,,,,not-selected,not-started,not-started,not-started
+1,1,learner-03,"Learner 03 | Day 001: Files, folders, and the interpreter",,,,,src/learnforge/experience/onboarding/current_topic.py,https://github.com/Prem-Tomar/LearnForge/pull/444#pullrequestreview-5727272042,,Peer review and shared-architecture evidence not yet assessed; full daily learning gate not scored.,Continue current Day 002 issue #189; revisit function call and return on topic days 3/7/10/15.,not-selected,in-progress,accepted,initial-question-correct; later revisions pending
 1,1,learner-04,"Learner 04 | Day 001: Files, folders, and the interpreter",,,,,practice/learner-04/day-001/,,,,,not-selected,not-started,not-started,not-started
 1,1,learner-05,"Learner 05 | Day 001: Files, folders, and the interpreter",,,,,practice/learner-05/day-001/,,,,,not-selected,not-started,not-started,not-started
 1,1,learner-06,"Learner 06 | Day 001: Files, folders, and the interpreter",,,,,practice/learner-06/day-001/,,,,,not-selected,not-started,not-started,not-started

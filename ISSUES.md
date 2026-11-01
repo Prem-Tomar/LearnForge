@@ -6,7 +6,7 @@ Every learner has seven prepared Python issues, all assigned. One is marked as t
 |---|---|---|---|
 | Learner 01 | [PratikTalware26](https://github.com/PratikTalware26) | [#1](https://github.com/Prem-Tomar/LearnForge/issues/1) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-01+assignee%3APratikTalware26) |
 | Learner 02 | [YogeshPatil991](https://github.com/YogeshPatil991) | [#183](https://github.com/Prem-Tomar/LearnForge/issues/183) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-02+assignee%3AYogeshPatil991) |
-| Learner 03 | [Rohan5607](https://github.com/Rohan5607) | [#184](https://github.com/Prem-Tomar/LearnForge/issues/184) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-03+assignee%3ARohan5607) |
+| Learner 03 | [Rohan5607](https://github.com/Rohan5607) | [#189](https://github.com/Prem-Tomar/LearnForge/issues/189) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-03+assignee%3ARohan5607) |
 | Learner 04 | [praadeep28101995](https://github.com/praadeep28101995) | [#185](https://github.com/Prem-Tomar/LearnForge/issues/185) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-04+assignee%3Apraadeep28101995) |
 | Learner 05 | [bitsnbyt3s](https://github.com/bitsnbyt3s) | [#186](https://github.com/Prem-Tomar/LearnForge/issues/186) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-05+assignee%3Abitsnbyt3s) |
 | Learner 06 | [GlidingScorpion](https://github.com/GlidingScorpion) | [#187](https://github.com/Prem-Tomar/LearnForge/issues/187) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-06+assignee%3AGlidingScorpion) |
@@ -45,13 +45,13 @@ Verified snapshot; use the live queue link above after progress changes.
 
 | Day | Issue | Assignee |
 |---|---|---|
-| 001 | [#184](https://github.com/Prem-Tomar/LearnForge/issues/184) | Rohan5607 |
 | 002 | [#189](https://github.com/Prem-Tomar/LearnForge/issues/189) | Rohan5607 |
 | 003 | [#194](https://github.com/Prem-Tomar/LearnForge/issues/194) | Rohan5607 |
 | 004 | [#199](https://github.com/Prem-Tomar/LearnForge/issues/199) | Rohan5607 |
 | 005 | [#204](https://github.com/Prem-Tomar/LearnForge/issues/204) | Rohan5607 |
 | 006 | [#209](https://github.com/Prem-Tomar/LearnForge/issues/209) | Rohan5607 |
 | 007 | [#214](https://github.com/Prem-Tomar/LearnForge/issues/214) | Rohan5607 |
+| 008 | [#219](https://github.com/Prem-Tomar/LearnForge/issues/219) | Rohan5607 |
 
 ## Learner 04
 
