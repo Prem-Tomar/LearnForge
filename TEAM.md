@@ -1,5 +1,7 @@
 # Six learners: dedicated implementation and personal sequences
 
+Day 001 starts with six tiny welcome-screen functions, one per learner, after variables/indentation/return/call are taught. The provided runner connects them; deeper layers and rotating responsibilities are introduced as their concepts are taught.
+
 Each learner has 182 planned steps and a rolling queue of seven open issues, following their own Day 1 → Day 2 → Day 3 chain. An issue contains only that person's assigned implementation, learning checks, review target, and completion gate. Everyone works toward the same project goal and common concept; they do not receive a shared issue as a substitute for personal work.
 
 ## Weeks 1–20: six rotating roles

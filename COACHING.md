@@ -1,5 +1,9 @@
 # Coaching in clear English
 
+Every topic follows [day 1/3/7/10/15 mixed revision](REVISION.md): teach first, then progressively harder questions alongside other topics and current project work.
+
+Teach the needed syntax first with a tiny runnable example, then ask for a bounded change to the learner's own project function. Use [Day 001's gentle first function](days/day-001.md) as the starting standard. Every topic has [research-led hints and a compact task contract](TASK_FORMAT.md), with detailed explanations in the linked teaching guide. For Question of the Day, execute the code and trace each line's before/after values, purpose and project contribution using [the review guide](REVIEW_GUIDE.md). A small [execution picture](EXECUTION_VISUALS.md) can help; it does not replace a real run.
+
 ## Explain one idea at a time
 
 Start with the outcome and real problem. Say what the code receives, what it returns, and what failure looks like. Define a technical word beside its first use: “idempotent means repeating the request does not repeat its intended effect.” Use familiar words, short sentences, small values, and diagrams with named arrows. Avoid idioms, slang, trick wording, and long chains of unexplained abbreviations.
@@ -12,7 +16,7 @@ Use a goal, context, bounded task, scope, completion criteria, and progressive r
 
 All six learners give an initial answer independently. Then each gives one example, handles a changed assumption, and links the answer to their implementation. Ask “what would happen if...?” rather than relying on a memorized definition. The coach key is opened afterward. It provides expected reasoning, not a completed feature solution.
 
-In the recall block, revisit ideas from **yesterday, 7 days ago, 21 days ago, and 42 days ago**, when available. Choose one old question and one current connection; do not try to repeat four full lessons daily. Repeat missed concepts sooner. A good question can expose an assumption without using confusing English.
+Use each learner/topic’s day **1, 3, 7, 10 and 15** cycle, starting with teaching on topic day 1 and hardening toward interview variations on day 15. Mix due-topic questions with other learned topics and current project work; no checkpoint reserves the whole day. Use [the revision schedule](REVISION.md), actual execution and targeted repair.
 
 ## Keep system design connected
 

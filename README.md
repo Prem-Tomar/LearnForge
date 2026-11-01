@@ -1,5 +1,9 @@
 # LearnForge — personal Python and AI/ML coaching for six learners
 
+Every topic follows [day 1/3/7/10/15 mixed revision](REVISION.md): teach first, then progressively harder questions alongside other topics and current project work.
+
+Day 001 now teaches variables, indentation and a tiny function before an owned change to the welcome screen. Run `python run_first_steps.py` to see the six learner placeholders. [Short task cards](TASK_FORMAT.md) link to detailed teaching; [execution pictures](EXECUTION_VISUALS.md) and line-by-line reviews support understanding.
+
 ## Goal
 
 Build independent, interview-ready developers who can implement, debug, deploy, and explain Python applications and a chosen AI/ML capability. Start with Python in depth, then gradually apply FastAPI, data and mathematics, GenAI, agents, and shared architecture through one growing project.

@@ -1,5 +1,7 @@
 # Question of the Day — retention sequence
 
+Every topic follows [day 1/3/7/10/15 mixed revision](../REVISION.md): teach first, then progressively harder questions alongside other topics and current project work.
+
 Day 001 is a baseline diagnostic. From Day 002, questions revisit earlier completed work; no future topic is assumed. All six answer independently and retain their original answer. Understanding is tracked separately from accepted implementation.
 
 - [Day 001](../days/day-001.md#question-of-the-day): baseline diagnostic

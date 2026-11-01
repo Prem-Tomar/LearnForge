@@ -1,6 +1,6 @@
 """Small maintainer checks for queue correctness, not learner assignments."""
 import unittest
-from learning_queue import desired_window, is_completed, eligible_current_day
+from learning_queue import desired_window, is_completed, eligible_current_day, compose_body
 
 
 def issue(state="open", reason=None, deferred=False):
@@ -8,6 +8,13 @@ def issue(state="open", reason=None, deferred=False):
 
 
 class QueueRules(unittest.TestCase):
+    def test_task_body_does_not_reintroduce_project_policy(self):
+        rendered = compose_body({'learner':1, 'day':1, 'body':'## Goal\n\nImplement the small unit.'}, None, 'owner/repo')
+        self.assertIn('Implement the small unit.', rendered)
+        self.assertNotIn('review-approved', rendered)
+        self.assertNotIn('Rolling queue', rendered)
+        self.assertNotIn('Review, closure', rendered)
+
     def test_initial_window_is_seven(self):
         self.assertEqual(desired_window(range(1, 183), {}), list(range(1, 8)))
 

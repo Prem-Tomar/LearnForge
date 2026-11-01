@@ -1,5 +1,13 @@
 # Step-by-step implementation explanations and reviews
 
+## Execute, then trace each relevant line
+
+For implementation feedback and Question of the Day responses, show the command, input and **actual output/error** from the learner's revision. Then explain each relevant line's purpose, behavior and contribution to LearnForge. Follow execution order: a function body runs when called, not just because its definition appears earlier in a file.
+
+Use a short table: **line/event | variable/object/attribute before | after (or no change) | why | project contribution**. Distinguish changing a name's binding from mutating an existing object. After classes are taught, identify the receiving instance/class, trace `self`/`cls`, instance attributes and class attributes separately, and say which other objects remain unchanged. Explain return values, external effects and control flow too, rather than pretending every line changes a variable.
+
+Run one changed case and explain the observed difference. Preserve the original prediction and correct partial/incorrect/missing reasoning. If execution is unavailable, state **not executed**, give the reason and label output as predicted. Never present a hypothetical run as actual evidence. [Small execution visuals](EXECUTION_VISUALS.md) support the trace; use only concepts already introduced. Keep this guidance in the linked guide rather than repeating project rules inside issues.
+
 Every explanation shows **what happens and why**. “This is wrong” or “use async” is insufficient. Use the current learner's actual code, concrete values, and exact revision. Use clear English and define unfamiliar terms beside examples.
 
 ## Implementation explanation

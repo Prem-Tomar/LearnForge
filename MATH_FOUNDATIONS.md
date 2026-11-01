@@ -1,5 +1,7 @@
 # Mathematics bridge for data science and AI/ML
 
+[Topic-specific research hints](research/ADVANCED_HINTS.md) guide a tiny calculation/code experiment, with units, before/after values and an explanation of the project result.
+
 Mathematics explains what code calculates and when its result is meaningful. Start with small numbers and the product's problem. Every developer calculates, implements, and explains each idea independently.
 
 ## Learning order

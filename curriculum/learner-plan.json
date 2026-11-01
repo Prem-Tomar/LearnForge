@@ -13,14 +13,14 @@
       "week-01",
       "learner-01"
     ],
-    "owned_path": "src/learnforge/core/values/",
-    "role": "Values and validation",
+    "owned_path": "src/learnforge/experience/onboarding/learner_01.py",
+    "role": "First welcome-screen function",
     "review_target": 2,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/core/values/project.py",
-    "unit": "module values `PROJECT_NAME` and `WELCOME_MESSAGE`",
-    "placement_reason": "This is a value boundary: it defines accepted values and rejects invalid local data. It must not import HTTP, storage, or model SDK code.",
+    "file": "src/learnforge/experience/onboarding/learner_01.py",
+    "unit": "`project_title()`",
+    "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
   },
   {
@@ -37,14 +37,14 @@
       "week-01",
       "learner-02"
     ],
-    "owned_path": "src/learnforge/core/operations/",
-    "role": "Rules and application operations",
+    "owned_path": "src/learnforge/experience/onboarding/learner_02.py",
+    "role": "First welcome-screen function",
     "review_target": 3,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/core/operations/status.py",
-    "unit": "existing `build_status(name, stage, implemented, next_step)`",
-    "placement_reason": "This is a domain/application decision: it expresses the calculation or use-case behavior while depending on values and small collaborator contracts.",
+    "file": "src/learnforge/experience/onboarding/learner_02.py",
+    "unit": "`welcome_message()`",
+    "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
   },
   {
@@ -61,14 +61,14 @@
       "week-01",
       "learner-03"
     ],
-    "owned_path": "src/learnforge/adapters/storage/",
-    "role": "State and storage",
+    "owned_path": "src/learnforge/experience/onboarding/learner_03.py",
+    "role": "First welcome-screen function",
     "review_target": 4,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/adapters/storage/memory.py",
-    "unit": "existing `starter_state()`",
-    "placement_reason": "This changes or reads stored state: file/SQL/index/cache details and atomicity belong behind the storage boundary, separate from business rules.",
+    "file": "src/learnforge/experience/onboarding/learner_03.py",
+    "unit": "`today_topic()`",
+    "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
   },
   {
@@ -85,14 +85,14 @@
       "week-01",
       "learner-04"
     ],
-    "owned_path": "src/learnforge/adapters/connections/",
-    "role": "Input and external connections",
+    "owned_path": "src/learnforge/experience/onboarding/learner_04.py",
+    "role": "First welcome-screen function",
     "review_target": 5,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/adapters/connections/console.py",
-    "unit": "existing `format_status(status)`",
-    "placement_reason": "This translates an external representation or service: raw input, HTTP/provider/protocol behavior, and error translation belong outside the core.",
+    "file": "src/learnforge/experience/onboarding/learner_04.py",
+    "unit": "`planned_minutes()`",
+    "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
   },
   {
@@ -109,14 +109,14 @@
       "week-01",
       "learner-05"
     ],
-    "owned_path": "src/learnforge/experience/commands/",
-    "role": "Commands and visible results",
+    "owned_path": "src/learnforge/experience/onboarding/learner_05.py",
+    "role": "First welcome-screen function",
     "review_target": 6,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/experience/commands/welcome.py",
-    "unit": "existing `show_status(status)`",
-    "placement_reason": "This communicates a result to the user: presentation must not own database commits, model decisions, or the workflow algorithm.",
+    "file": "src/learnforge/experience/onboarding/learner_05.py",
+    "unit": "`next_step()`",
+    "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
   },
   {
@@ -133,14 +133,14 @@
       "week-01",
       "learner-06"
     ],
-    "owned_path": "src/learnforge/experience/workflows/",
-    "role": "Workflow and resource lifetime",
+    "owned_path": "src/learnforge/experience/onboarding/learner_06.py",
+    "role": "First welcome-screen function",
     "review_target": 1,
     "architecture_topic": "Separate stored instructions from a running process. A stopped process cannot remember yesterday's variables.",
     "depends_on": null,
-    "file": "src/learnforge/experience/workflows/welcome.py",
-    "unit": "existing `welcome_status()` plus new small `run_welcome()`",
-    "placement_reason": "This coordinates ordered steps and resource lifetime: orchestration calls the agreed operations/adapters and handles progress/cleanup without copying their rules.",
+    "file": "src/learnforge/experience/onboarding/learner_06.py",
+    "unit": "`ready_message()`",
+    "placement_reason": "A small welcome-screen value producer; the provided runner owns printing.",
     "retention_source_day": null
   },
   {

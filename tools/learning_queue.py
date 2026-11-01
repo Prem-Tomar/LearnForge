@@ -56,13 +56,6 @@ def eligible_current_day(days, issues, login):
     return None
 
 
-REVIEW_NOTE = """<!-- review-gate: v1 -->
-## Review, closure, and the next assignment
-
-Only one open task is assigned to you. The other six prepared tasks remain unassigned. Your reviewer or maintainer adds `review-approved` after accepting the original bounded implementation, then closes the issue as completed. The next task is assigned only when both conditions are recorded. If closure happens first, assignment waits for the review label. Conceptual coaching is tracked separately and does not create an extra test/report requirement.
-"""
-
-
 def gh(*args, payload=None):
     command = ["gh", *args]
     filename = None
@@ -94,22 +87,16 @@ def load_plan():
 
 def compose_body(plan, prior, repository):
     if plan["day"] == 1:
-        prefix = "**Your rolling sequence starts here: Day 001.** Complete shared setup and the architecture agreement, then implement your own slice.\n\n"
+        prefix = "**Prerequisite:** first Python lesson.\n\n"
     else:
         if prior is None:
             raise ValueError(f"Missing predecessor for learner {plan['learner']}, day {plan['day']}")
         prefix = (
-            f"**Your prerequisite:** [Learner {plan['learner']:02d} Day {plan['day']-1:03d}]"
-            f"(https://github.com/{repository}/issues/{prior['number']}) — issue #{prior['number']}. "
-            "Continue in order after that implementation is accepted, the previous cohort increment is integrated, and current architecture/ownership handoff is ready.\n\n"
+            f"**Prerequisite:** [Day {plan['day']-1:03d}]"
+            f"(https://github.com/{repository}/issues/{prior['number']}).\n\n"
         )
     marker = f"<!-- learning-task: learner-{plan['learner']:02d}/day-{plan['day']:03d} -->\n\n"
-    return marker + prefix + plan["body"] + (
-        "\n\n**Rolling queue:** seven open tasks per learner, including the current task. "
-        "Resolve accepted implementation as completed to activate the next planned day. "
-        "Existing deferred issues are refreshed and reopened before any new issue is created. "
-        "The window shrinks only when fewer concepts remain.\n"
-    ) + "\n\n" + REVIEW_NOTE
+    return marker + prefix + plan["body"]
 
 
 def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_one=False):
@@ -170,8 +157,6 @@ def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_on
                     changes["assignees"] = wanted_assignees
                 if wanted_names != names:
                     changes["labels"] = sorted(wanted_names)
-                if "<!-- review-gate: v1 -->" not in canonical_body:
-                    canonical_body += "\n\n" + REVIEW_NOTE
                 if canonical_body != (issue.get("body") or ""):
                     changes["body"] = canonical_body
                 if refresh_day_one and day == 1:

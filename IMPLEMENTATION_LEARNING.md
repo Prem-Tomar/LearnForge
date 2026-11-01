@@ -1,5 +1,7 @@
 # Concepts learned through a growing implementation
 
+Introduce the needed syntax with a small executed example before asking for the owned project change. Follow [the short task contract and research-hint standard](TASK_FORMAT.md); [Day 001](days/day-001.md) shows this from zero.
+
 Every personal issue must move **both the learner and LearnForge forward**. It extends accepted working behavior and produces a small observable implementation result. A theory answer, note, notebook screenshot, or passing check alone does not replace the requested product behavior.
 
 ## The daily learning loop

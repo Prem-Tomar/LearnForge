@@ -22,39 +22,39 @@
     "roles": [
       {
         "learner": 1,
-        "role": "Values and validation",
-        "path": "src/learnforge/core/values/",
-        "task": "Implement the accepted input/result values and local boundary checks for Files, folders, and the interpreter. Use the concrete cases below. Use plain values before classes are taught; do not duplicate the operation algorithm."
+        "role": "First welcome-screen function",
+        "path": "src/learnforge/experience/onboarding/learner_01.py",
+        "task": "Implement project_title() after the taught variable/indentation example."
       },
       {
         "learner": 2,
-        "role": "Rules and application operations",
-        "path": "src/learnforge/core/operations/",
-        "task": "Implement the decision/calculation/use-case part of this slice: Store a welcome message and planned study duration as values. Consume the value role's agreed definitions rather than declaring competing types."
+        "role": "First welcome-screen function",
+        "path": "src/learnforge/experience/onboarding/learner_02.py",
+        "task": "Implement welcome_message() after the taught variable/indentation example."
       },
       {
         "learner": 3,
-        "role": "State and storage",
-        "path": "src/learnforge/adapters/storage/",
-        "task": "Implement the smallest state access or update used by today's feature for the last valid input and its calculated study-time result in memory. The product must actually read this result; add no unused logging store. Use memory until persistence is taught."
+        "role": "First welcome-screen function",
+        "path": "src/learnforge/experience/onboarding/learner_03.py",
+        "task": "Implement today_topic() after the taught variable/indentation example."
       },
       {
         "learner": 4,
-        "role": "Input and external connections",
-        "path": "src/learnforge/adapters/connections/",
-        "task": "Implement the input/transport/external-service part of this slice: Render the project welcome screen using the provided entry point. Delegate state writes to the storage contract and domain decisions to core."
+        "role": "First welcome-screen function",
+        "path": "src/learnforge/experience/onboarding/learner_04.py",
+        "task": "Implement planned_minutes() after the taught variable/indentation example."
       },
       {
         "learner": 5,
-        "role": "Commands and visible results",
-        "path": "src/learnforge/experience/commands/",
-        "task": "Implement the command/presentation part of this slice: Show the runtime and one successful launch. Render the workflow result clearly; do not duplicate its orchestration, SQL, or business rules."
+        "role": "First welcome-screen function",
+        "path": "src/learnforge/experience/onboarding/learner_05.py",
+        "task": "Implement next_step() after the taught variable/indentation example."
       },
       {
         "learner": 6,
-        "role": "Workflow and resource lifetime",
-        "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Files, folders, and the interpreter: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "role": "First welcome-screen function",
+        "path": "src/learnforge/experience/onboarding/learner_06.py",
+        "task": "Implement ready_message() after the taught variable/indentation example."
       }
     ],
     "retention_source_day": null,
@@ -117,7 +117,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Values, names, and types: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Values, names, and types: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 1,
@@ -180,7 +180,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Input, conversion, and output: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Input, conversion, and output: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 2,
@@ -243,7 +243,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Boolean logic and comparisons: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Boolean logic and comparisons: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 3,
@@ -306,7 +306,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Branches and error reading: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Branches and error reading: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 4,
@@ -369,7 +369,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: First programs and clear decisions: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: First programs and clear decisions: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 5,
@@ -432,11 +432,11 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: First programs and clear decisions: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: First programs and clear decisions: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 6,
-    "question_of_day": "For this increment \u2014 Build a command-line study-time calculator that accepts daily minutes and days, then prints total hours. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Build a command-line study-time calculator that accepts daily minutes and days, then prints total hours. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 8,
@@ -495,7 +495,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Lists and safe iteration: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Lists and safe iteration: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 7,
@@ -558,7 +558,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Dictionaries, sets, and tuples: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Dictionaries, sets, and tuples: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 8,
@@ -621,7 +621,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Loops and termination: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Loops and termination: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 9,
@@ -684,7 +684,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Functions and contracts: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Functions and contracts: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 4,
@@ -747,7 +747,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Arguments, scope, and mutation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Arguments, scope, and mutation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 11,
@@ -810,7 +810,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Collections, loops, and functions: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Collections, loops, and functions: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 12,
@@ -873,11 +873,11 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Collections, loops, and functions: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Collections, loops, and functions: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 13,
-    "question_of_day": "For this increment \u2014 Build an in-memory study-session tracker with add, total, and list operations. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Build an in-memory study-session tracker with add, total, and list operations. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 15,
@@ -936,7 +936,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Exceptions and recovery: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Exceptions and recovery: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 8,
@@ -999,7 +999,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Text files, paths, and cleanup: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Text files, paths, and cleanup: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 15,
@@ -1062,7 +1062,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for JSON, CSV, and durable writes: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for JSON, CSV, and durable writes: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 16,
@@ -1125,7 +1125,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Modules, imports, and environments: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Modules, imports, and environments: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 17,
@@ -1188,7 +1188,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Git history and small changes: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Git history and small changes: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 12,
@@ -1251,7 +1251,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Files, errors, modules, and Git: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Files, errors, modules, and Git: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 19,
@@ -1314,11 +1314,11 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Files, errors, modules, and Git: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Files, errors, modules, and Git: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 20,
-    "question_of_day": "For this increment \u2014 Deliver a small study-tracker CLI that saves sessions in JSON and can recover after a bad file. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Deliver a small study-tracker CLI that saves sessions in JSON and can recover after a bad file. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 22,
@@ -1377,7 +1377,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Classes, objects, and dataclasses: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Classes, objects, and dataclasses: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 21,
@@ -1440,7 +1440,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Composition, inheritance, and protocols: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Composition, inheritance, and protocols: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 16,
@@ -1503,7 +1503,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Type hints, unions, and validation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Type hints, unions, and validation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 3,
@@ -1566,7 +1566,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Identity, equality, copying, and hashing: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Identity, equality, copying, and hashing: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 24,
@@ -1629,7 +1629,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Properties, special methods, and object lookup: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Properties, special methods, and object lookup: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 25,
@@ -1692,11 +1692,11 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Objects, types, and Python behavior: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Objects, types, and Python behavior: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 20,
-    "question_of_day": "For this increment \u2014 Deliver a small study-tracker CLI that saves sessions in JSON and can recover after a bad file. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Deliver a small study-tracker CLI that saves sessions in JSON and can recover after a bad file. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 28,
@@ -1755,7 +1755,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Objects, types, and Python behavior: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Objects, types, and Python behavior: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 7,
@@ -1818,7 +1818,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Assertions, pytest, and boundary cases: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Assertions, pytest, and boundary cases: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 28,
@@ -1881,7 +1881,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Fixtures, fakes, and test isolation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Fixtures, fakes, and test isolation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 29,
@@ -1944,7 +1944,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Comprehensions, iterators, and generators: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Comprehensions, iterators, and generators: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 24,
@@ -2007,7 +2007,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Closures, decorators, and context managers: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Closures, decorators, and context managers: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 11,
@@ -2070,7 +2070,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Packaging, Big O, and measurement: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Packaging, Big O, and measurement: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 32,
@@ -2133,7 +2133,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Testing, iteration, packaging, and performance: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Testing, iteration, packaging, and performance: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 33,
@@ -2196,7 +2196,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Testing, iteration, packaging, and performance: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Testing, iteration, packaging, and performance: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 28,
@@ -2259,7 +2259,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for HTTP, DNS, and network failures: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for HTTP, DNS, and network failures: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 15,
@@ -2322,7 +2322,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Async functions, tasks, and cancellation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Async functions, tasks, and cancellation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 36,
@@ -2385,7 +2385,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Threads, processes, and the GIL: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Threads, processes, and the GIL: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 37,
@@ -2448,7 +2448,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for SQL tables, keys, joins, and indexes: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for SQL tables, keys, joins, and indexes: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 32,
@@ -2511,7 +2511,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Transactions, isolation, and resource pools: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Transactions, isolation, and resource pools: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 19,
@@ -2574,7 +2574,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Concurrency, HTTP, and SQL foundations: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Concurrency, HTTP, and SQL foundations: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 40,
@@ -2637,11 +2637,11 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Concurrency, HTTP, and SQL foundations: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Concurrency, HTTP, and SQL foundations: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 41,
-    "question_of_day": "For this increment \u2014 Add a small HTTP-data importer and SQLite-backed session query without connecting them into a large system. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Add a small HTTP-data importer and SQLite-backed session query without connecting them into a large system. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 43,
@@ -2700,7 +2700,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for ASGI, routing, and the first endpoint: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for ASGI, routing, and the first endpoint: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 36,
@@ -2763,7 +2763,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Path, query, headers, and request bodies: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Path, query, headers, and request bodies: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 23,
@@ -2826,7 +2826,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Pydantic models and validation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Pydantic models and validation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 3,
@@ -2889,7 +2889,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Response schemas, status, and errors: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Response schemas, status, and errors: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 45,
@@ -2952,7 +2952,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Dependency injection and application boundaries: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Dependency injection and application boundaries: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 40,
@@ -3015,11 +3015,11 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: FastAPI requests, validation, and contracts: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: FastAPI requests, validation, and contracts: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 27,
-    "question_of_day": "For this increment \u2014 Refactor the tracker into Session values and a service while preserving its CLI behavior. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Refactor the tracker into Session values and a service while preserving its CLI behavior. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 49,
@@ -3078,7 +3078,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: FastAPI requests, validation, and contracts: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: FastAPI requests, validation, and contracts: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 7,
@@ -3141,7 +3141,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Relational modeling and constraints: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Relational modeling and constraints: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 49,
@@ -3204,7 +3204,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for SQLAlchemy sessions and mappings: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for SQLAlchemy sessions and mappings: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 44,
@@ -3267,7 +3267,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Repository interfaces and unit of work: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Repository interfaces and unit of work: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 31,
@@ -3330,7 +3330,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Migrations and backward compatibility: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Migrations and backward compatibility: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 11,
@@ -3393,7 +3393,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Pagination, query plans, and N+1 reads: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Pagination, query plans, and N+1 reads: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 53,
@@ -3456,11 +3456,11 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Persistent APIs and database evolution: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Persistent APIs and database evolution: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 48,
-    "question_of_day": "For this increment \u2014 Expose create, read, and list study-session operations using an in-memory service. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Expose create, read, and list study-session operations using an in-memory service. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 56,
@@ -3519,7 +3519,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Persistent APIs and database evolution: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Persistent APIs and database evolution: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 35,
@@ -3582,7 +3582,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Password storage and identity: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Password storage and identity: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 15,
@@ -3645,7 +3645,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Tokens, cookies, OAuth, and JWT validation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Tokens, cookies, OAuth, and JWT validation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 57,
@@ -3708,7 +3708,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Authorization and tenant isolation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Authorization and tenant isolation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 52,
@@ -3771,7 +3771,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for CORS, CSRF, injection, and input limits: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for CORS, CSRF, injection, and input limits: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 39,
@@ -3834,7 +3834,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Configuration, secret handling, and audit events: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Configuration, secret handling, and audit events: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 19,
@@ -3897,7 +3897,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Authentication, authorization, and API safety: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Authentication, authorization, and API safety: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 61,
@@ -3960,7 +3960,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Authentication, authorization, and API safety: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Authentication, authorization, and API safety: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 56,
@@ -4023,7 +4023,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Async database and HTTP clients: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Async database and HTTP clients: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 43,
@@ -4086,7 +4086,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Retries, backoff, and circuit breakers: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Retries, backoff, and circuit breakers: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 23,
@@ -4149,7 +4149,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Idempotency, race conditions, and conflicts: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Idempotency, race conditions, and conflicts: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 65,
@@ -4212,7 +4212,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Queues, workers, and durable jobs: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Queues, workers, and durable jobs: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 60,
@@ -4275,7 +4275,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Streaming, backpressure, and cancellation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Streaming, backpressure, and cancellation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 47,
@@ -4338,11 +4338,11 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Async services, resilience, and background work: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Async services, resilience, and background work: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 27,
-    "question_of_day": "For this increment \u2014 Refactor the tracker into Session values and a service while preserving its CLI behavior. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Refactor the tracker into Session values and a service while preserving its CLI behavior. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 70,
@@ -4401,11 +4401,11 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Async services, resilience, and background work: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Async services, resilience, and background work: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 69,
-    "question_of_day": "For this increment \u2014 Add one bounded external lookup and a restart-safe import job interface. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Add one bounded external lookup and a restart-safe import job interface. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 71,
@@ -4464,7 +4464,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Route checks and database integration: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Route checks and database integration: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 64,
@@ -4527,7 +4527,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Docker images and process startup: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Docker images and process startup: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 51,
@@ -4590,7 +4590,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for CI, dependency locks, and release checks: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for CI, dependency locks, and release checks: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 31,
@@ -4653,7 +4653,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Logs, metrics, traces, and SLOs: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Logs, metrics, traces, and SLOs: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 73,
@@ -4716,7 +4716,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Deployment, load tests, and recovery: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Deployment, load tests, and recovery: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 68,
@@ -4779,11 +4779,11 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: API testing, containers, and operations: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: API testing, containers, and operations: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 55,
-    "question_of_day": "For this increment \u2014 Replace the in-memory store with a database adapter and add a reversible schema migration. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Replace the in-memory store with a database adapter and add a reversible schema migration. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 77,
@@ -4842,7 +4842,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: API testing, containers, and operations: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: API testing, containers, and operations: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 35,
@@ -4905,7 +4905,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Arrays, shapes, and vector operations: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Arrays, shapes, and vector operations: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 77,
@@ -4968,7 +4968,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Probability, similarity, and numeric stability: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Probability, similarity, and numeric stability: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 72,
@@ -5031,7 +5031,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for ML splits, leakage, and baselines: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for ML splits, leakage, and baselines: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 59,
@@ -5094,7 +5094,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Tokenization, context, and transformers: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Tokenization, context, and transformers: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 39,
@@ -5157,7 +5157,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Sampling, hallucination, and model limits: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Sampling, hallucination, and model limits: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 81,
@@ -5220,11 +5220,11 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Data, basic mathematics, and how LLMs work: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Data, basic mathematics, and how LLMs work: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 76,
-    "question_of_day": "For this increment \u2014 Deliver the study-service API project with reproducible startup, CI checks, and a recovery demonstration. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Deliver the study-service API project with reproducible startup, CI checks, and a recovery demonstration. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 84,
@@ -5283,7 +5283,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Data, basic mathematics, and how LLMs work: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Data, basic mathematics, and how LLMs work: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 63,
@@ -5346,7 +5346,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Prompt instructions, examples, and delimiters: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Prompt instructions, examples, and delimiters: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 43,
@@ -5409,7 +5409,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Provider adapters and explicit outcomes: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Provider adapters and explicit outcomes: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 85,
@@ -5472,7 +5472,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Structured outputs and business validation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Structured outputs and business validation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 80,
@@ -5535,7 +5535,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Streaming generation and request budgets: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Streaming generation and request budgets: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 67,
@@ -5598,7 +5598,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Prompt experiments, evaluation, and cost: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Prompt experiments, evaluation, and cost: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 47,
@@ -5661,7 +5661,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Prompts, provider boundaries, and structured output: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Prompts, provider boundaries, and structured output: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 89,
@@ -5724,7 +5724,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Prompts, provider boundaries, and structured output: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Prompts, provider boundaries, and structured output: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 84,
@@ -5787,7 +5787,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Document loading and ingestion states: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Document loading and ingestion states: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 71,
@@ -5850,7 +5850,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Chunking, overlap, and provenance: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Chunking, overlap, and provenance: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 51,
@@ -5913,7 +5913,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Embeddings and vector indexes: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Embeddings and vector indexes: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 93,
@@ -5976,7 +5976,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Keyword, vector, hybrid, and reranking: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Keyword, vector, hybrid, and reranking: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 88,
@@ -6039,7 +6039,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Filters, updates, and index consistency: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Filters, updates, and index consistency: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 75,
@@ -6102,11 +6102,11 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Document ingestion, embeddings, and retrieval: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Document ingestion, embeddings, and retrieval: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 55,
-    "question_of_day": "For this increment \u2014 Replace the in-memory store with a database adapter and add a reversible schema migration. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Replace the in-memory store with a database adapter and add a reversible schema migration. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 98,
@@ -6165,11 +6165,11 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Document ingestion, embeddings, and retrieval: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Document ingestion, embeddings, and retrieval: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 97,
-    "question_of_day": "For this increment \u2014 Add workspace-scoped document ingestion and a searchable versioned chunk index. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Add workspace-scoped document ingestion and a searchable versioned chunk index. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 99,
@@ -6228,7 +6228,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Context assembly and grounded generation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Context assembly and grounded generation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 92,
@@ -6291,7 +6291,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Citations, abstention, and conflicting sources: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Citations, abstention, and conflicting sources: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 79,
@@ -6354,7 +6354,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Retrieval metrics and small evaluation sets: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Retrieval metrics and small evaluation sets: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 59,
@@ -6417,7 +6417,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Prompt injection and untrusted evidence: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Prompt injection and untrusted evidence: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 101,
@@ -6480,7 +6480,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Caching, freshness, and RAG observability: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Caching, freshness, and RAG observability: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 96,
@@ -6543,11 +6543,11 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Grounded answers, RAG evaluation, and safe retrieval: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Grounded answers, RAG evaluation, and safe retrieval: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 83,
-    "question_of_day": "For this increment \u2014 Add a deterministic document-analysis command and a tiny explainable similarity baseline. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Add a deterministic document-analysis command and a tiny explainable similarity baseline. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 105,
@@ -6606,7 +6606,7 @@
         "learner": 4,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Grounded answers, RAG evaluation, and safe retrieval: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Grounded answers, RAG evaluation, and safe retrieval: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 63,
@@ -6669,7 +6669,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Open weights, tokenizers, and inference: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Open weights, tokenizers, and inference: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 105,
@@ -6732,7 +6732,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Quantization, batching, and KV cache: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Quantization, batching, and KV cache: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 100,
@@ -6795,7 +6795,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Fine-tuning, RAG, and adaptation choices: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught. Wire dataset \u2192 baseline fit \u2192 held-out prediction \u2192 result report with a bounded local execution."
+        "task": "Implement the ordered workflow for Fine-tuning, RAG, and adaptation choices: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught. Wire dataset → baseline fit → held-out prediction → result report with a bounded local execution."
       }
     ],
     "retention_source_day": 87,
@@ -6858,7 +6858,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Images, audio, and untrusted media: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Images, audio, and untrusted media: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 67,
@@ -6921,7 +6921,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Model changes and reproducible comparisons: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Model changes and reproducible comparisons: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 109,
@@ -6984,11 +6984,11 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Local models, adaptation, and multimodal input: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Local models, adaptation, and multimodal input: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 104,
-    "question_of_day": "For this increment \u2014 Deliver cited question answering with abstention and a small, useful retrieval/answer evaluation set. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Deliver cited question answering with abstention and a small, useful retrieval/answer evaluation set. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 112,
@@ -7047,7 +7047,7 @@
         "learner": 3,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Local models, adaptation, and multimodal input: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Local models, adaptation, and multimodal input: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 91,
@@ -7110,7 +7110,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Workflows versus agents: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Workflows versus agents: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 71,
@@ -7173,7 +7173,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Tool schemas and trusted dispatch: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Tool schemas and trusted dispatch: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 113,
@@ -7236,7 +7236,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Tool-result loops and execution budgets: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Tool-result loops and execution budgets: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 108,
@@ -7299,7 +7299,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Tool errors, replay, and duplicate calls: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Tool errors, replay, and duplicate calls: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 95,
@@ -7362,7 +7362,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Planning, self-critique, and observable reasoning: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Planning, self-critique, and observable reasoning: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 75,
@@ -7425,7 +7425,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Agents, tools, and bounded execution: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Agents, tools, and bounded execution: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 117,
@@ -7488,7 +7488,7 @@
         "learner": 2,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Agents, tools, and bounded execution: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Agents, tools, and bounded execution: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 112,
@@ -7551,7 +7551,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Run state and checkpointing: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Run state and checkpointing: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 99,
@@ -7614,7 +7614,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Conversation memory and retrieval memory: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Conversation memory and retrieval memory: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 79,
@@ -7677,7 +7677,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Graph nodes, edges, and reducers: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Graph nodes, edges, and reducers: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 121,
@@ -7740,7 +7740,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Human approval and action previews: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Human approval and action previews: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 116,
@@ -7803,7 +7803,7 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Durable execution and compensating actions: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Durable execution and compensating actions: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 103,
@@ -7866,11 +7866,11 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Agent state, memory, and durable workflows: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Agent state, memory, and durable workflows: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 83,
-    "question_of_day": "For this increment \u2014 Add a deterministic document-analysis command and a tiny explainable similarity baseline. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Add a deterministic document-analysis command and a tiny explainable similarity baseline. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 126,
@@ -7929,11 +7929,11 @@
         "learner": 1,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Agent state, memory, and durable workflows: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Agent state, memory, and durable workflows: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 125,
-    "question_of_day": "For this increment \u2014 Make agent runs resumable and add a human approval pause before saving a proposed study plan. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Make agent runs resumable and add a human approval pause before saving a proposed study plan. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 127,
@@ -7992,7 +7992,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for MCP roles and protocol boundaries: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for MCP roles and protocol boundaries: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 120,
@@ -8055,7 +8055,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Resources, tools, prompts, and schema changes: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Resources, tools, prompts, and schema changes: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 107,
@@ -8118,7 +8118,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Transport, authentication, and credential scope: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Transport, authentication, and credential scope: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 87,
@@ -8181,7 +8181,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Injection, exfiltration, and safe destinations: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Injection, exfiltration, and safe destinations: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 129,
@@ -8244,7 +8244,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Audit trails, retention, and deletion: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Audit trails, retention, and deletion: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 124,
@@ -8307,11 +8307,11 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: MCP, integration boundaries, and agent security: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: MCP, integration boundaries, and agent security: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 111,
-    "question_of_day": "For this increment \u2014 Add a pluggable local-model option and an image-description draft flow while keeping text-only operation available. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Add a pluggable local-model option and an image-description draft flow while keeping text-only operation available. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 133,
@@ -8370,7 +8370,7 @@
         "learner": 6,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: MCP, integration boundaries, and agent security: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: MCP, integration boundaries, and agent security: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 91,
@@ -8433,7 +8433,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Routing and specialist roles: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Routing and specialist roles: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 133,
@@ -8496,7 +8496,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Parallel branches and shared budgets: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Parallel branches and shared budgets: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 128,
@@ -8559,7 +8559,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Agent evaluation and failure categories: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Agent evaluation and failure categories: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 115,
@@ -8622,7 +8622,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Framework adapters and lock-in: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Framework adapters and lock-in: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 95,
@@ -8685,7 +8685,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Agent APIs, workers, and cancellation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Agent APIs, workers, and cancellation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 137,
@@ -8748,11 +8748,11 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Working increment: Agent orchestration, evaluation, and service operation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Working increment: Agent orchestration, evaluation, and service operation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 132,
-    "question_of_day": "For this increment \u2014 Expose a small read-only knowledge tool through MCP and integrate it through the existing policy layer. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Expose a small read-only knowledge tool through MCP and integrate it through the existing policy layer. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 140,
@@ -8811,7 +8811,7 @@
         "learner": 5,
         "role": "Workflow and resource lifetime",
         "path": "src/learnforge/experience/workflows/",
-        "task": "Implement the ordered workflow for Individual mastery and repair: Agent orchestration, evaluation, and service operation: input \u2192 trusted operation \u2192 adapter \u2192 result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
+        "task": "Implement the ordered workflow for Individual mastery and repair: Agent orchestration, evaluation, and service operation: input → trusted operation → adapter → result. Connect the agreed collaborators and handle the relevant stop/cleanup/failure path. Delegate display to commands and decisions to core; use the starter scaffold before functions are taught."
       }
     ],
     "retention_source_day": 119,
@@ -9153,7 +9153,7 @@
     "learners": 6,
     "roles": [],
     "retention_source_day": 111,
-    "question_of_day": "For this increment \u2014 Add a pluggable local-model option and an image-description draft flow while keeping text-only operation available. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Add a pluggable local-model option and an image-description draft flow while keeping text-only operation available. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 154,
@@ -9179,7 +9179,7 @@
     "learners": 6,
     "roles": [],
     "retention_source_day": 153,
-    "question_of_day": "For this increment \u2014 Make ingestion and approved plan saving reliable under retries, concurrent updates, and source changes. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Make ingestion and approved plan saving reliable under retries, concurrent updates, and source changes. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 155,
@@ -9335,7 +9335,7 @@
     "learners": 6,
     "roles": [],
     "retention_source_day": 139,
-    "question_of_day": "For this increment \u2014 Deliver a resumable, approved study-plan agent with a deterministic fallback and an operator-visible run history. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Deliver a resumable, approved study-plan agent with a deterministic fallback and an operator-visible run history. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 161,
@@ -9517,7 +9517,7 @@
     "learners": 6,
     "roles": [],
     "retention_source_day": 160,
-    "question_of_day": "For this increment \u2014 Add admission control, useful operational views, and rehearsed recovery for the integrated platform. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Add admission control, useful operational views, and rehearsed recovery for the integrated platform. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 168,
@@ -9881,7 +9881,7 @@
     "learners": 6,
     "roles": [],
     "retention_source_day": 139,
-    "question_of_day": "For this increment \u2014 Deliver a resumable, approved study-plan agent with a deterministic fallback and an operator-visible run history. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Deliver a resumable, approved study-plan agent with a deterministic fallback and an operator-visible run history. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   },
   {
     "day": 182,
@@ -9907,6 +9907,6 @@
     "learners": 6,
     "roles": [],
     "retention_source_day": 181,
-    "question_of_day": "For this increment \u2014 Complete a final coding round, an AI-system design round, and a project discussion per developer; publish individual readiness evidence. \u2014 where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
+    "question_of_day": "For this increment — Complete a final coding round, an AI-system design round, and a project discussion per developer; publish individual readiness evidence. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?"
   }
 ]

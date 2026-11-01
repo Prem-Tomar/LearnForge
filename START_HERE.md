@@ -1,5 +1,7 @@
 # Start here — six learners
 
+Start with [Day 001’s taught examples](days/day-001.md), run `python run_first_steps.py`, then change your own small welcome-screen function. Short issues link to detailed teaching guides; [the task format](TASK_FORMAT.md) keeps project rules outside issue bodies.
+
 ## Day 001 setup
 
 Choose Learner 01–06 slots and a shared review time. The course has 182 personal days each: five 3-hour and two 4-hour sessions per week, including learning, coding, group architecture, review, integration, and breaks. Start dates are relative.

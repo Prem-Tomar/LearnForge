@@ -1,5 +1,7 @@
 # Personal AI/ML destination inside one shared project
 
+Use [topic-specific specialization research hints](research/ADVANCED_HINTS.md) before an independent small experiment; retain your own baseline, inputs, output and explanation.
+
 LearnForge is an **AI/ML learning and implementation workbench**. Python, APIs, data, mathematics, jobs, GenAI, agents, deployment, debugging, and architecture are foundations for real model-backed capabilities. The aim is strong hands-on competence, demonstrated individually, rather than a large backend with AI added only as a label.
 
 ## Common foundation, then a chosen advanced focus

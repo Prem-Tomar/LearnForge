@@ -1,5 +1,7 @@
 # One shared architecture lesson for all six learners
 
+Use the current day’s [research hints](curriculum/research-hints.json) to investigate a failure or changed assumption in your owned function. Bring observed results to the same shared project discussion; [small execution pictures](EXECUTION_VISUALS.md) can explain state and lifetime.
+
 Architecture belongs to LearnForge as a whole. Each learning day has **one common architecture topic**, given in its shared daily guide and all six personal issues. It is not split into six unrelated architecture courses or six independent project designs.
 
 ## Daily architecture huddle
