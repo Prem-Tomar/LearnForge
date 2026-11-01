@@ -1,98 +1,98 @@
-# Personal task queues
-**Seven prepared Python issues per learner, all assigned.** The next current step waits for implementation review approval and closure. Existing future issues are deferred for reuse, not completed learning. Selected client collaborators also have [separate frontend queues](FRONTEND_ISSUES.md). This page and its snapshots describe Python tasks only.
-## Live task links
-These links stay current as the workflow advances. A prepared issue is not permission to skip its prerequisite or the shared architecture/ownership handoff.
-| Learner | GitHub account | Current Python step | All seven prepared tasks |
+# Python learning queues
+
+Every learner has seven prepared Python issues, all assigned. One is marked as the current eligible step. Use the prerequisite chain in order. Frontend assignments remain separate and limited to one per selected collaborator.
+
+| Learner | Account | Current Python step | All seven assigned Python tasks |
 |---|---|---|---|
-| Learner 01 | [PratikTalware26](https://github.com/PratikTalware26) | [Current assignment](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+assignee%3APratikTalware26+label%3Aqueue-current) | [Prepared queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+label%3Alearner-01) |
-| Learner 02 | [YogeshPatil991](https://github.com/YogeshPatil991) | [Current assignment](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+assignee%3AYogeshPatil991+label%3Aqueue-current) | [Prepared queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+label%3Alearner-02) |
-| Learner 03 | [Rohan5607](https://github.com/Rohan5607) | [Current assignment](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+assignee%3ARohan5607+label%3Aqueue-current) | [Prepared queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+label%3Alearner-03) |
-| Learner 04 | [praadeep28101995](https://github.com/praadeep28101995) | [Current assignment](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+assignee%3Apraadeep28101995+label%3Aqueue-current) | [Prepared queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+label%3Alearner-04) |
-| Learner 05 | [bitsnbyt3s](https://github.com/bitsnbyt3s) | [Current assignment](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+assignee%3Abitsnbyt3s+label%3Aqueue-current) | [Prepared queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+label%3Alearner-05) |
-| Learner 06 | [GlidingScorpion](https://github.com/GlidingScorpion) | [Current assignment](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+assignee%3AGlidingScorpion+label%3Aqueue-current) | [Prepared queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+label%3Alearner-06) |
+| Learner 01 | [PratikTalware26](https://github.com/PratikTalware26) | [#1](https://github.com/Prem-Tomar/LearnForge/issues/1) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-01+assignee%3APratikTalware26) |
+| Learner 02 | [YogeshPatil991](https://github.com/YogeshPatil991) | [#183](https://github.com/Prem-Tomar/LearnForge/issues/183) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-02+assignee%3AYogeshPatil991) |
+| Learner 03 | [Rohan5607](https://github.com/Rohan5607) | [#184](https://github.com/Prem-Tomar/LearnForge/issues/184) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-03+assignee%3ARohan5607) |
+| Learner 04 | [praadeep28101995](https://github.com/praadeep28101995) | [#185](https://github.com/Prem-Tomar/LearnForge/issues/185) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-04+assignee%3Apraadeep28101995) |
+| Learner 05 | [bitsnbyt3s](https://github.com/bitsnbyt3s) | [#186](https://github.com/Prem-Tomar/LearnForge/issues/186) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-05+assignee%3Abitsnbyt3s) |
+| Learner 06 | [GlidingScorpion](https://github.com/GlidingScorpion) | [#187](https://github.com/Prem-Tomar/LearnForge/issues/187) | [Assigned queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aopen+label%3Alearner-06+assignee%3AGlidingScorpion) |
 
 ## Learner 01
 
-This is a setup snapshot; use the live links above after progress changes.
+Verified snapshot; use the live queue link above after progress changes.
 
-| Day | Dedicated issue | State at verification |
+| Day | Issue | Assignee |
 |---|---|---|
-| 001 | [#1: Learner 01 &#124; Day 001: Files, folders, and the interpreter](https://github.com/Prem-Tomar/LearnForge/issues/1) | Assigned to PratikTalware26 |
-| 002 | [#2: Learner 01 &#124; Day 002: Values, names, and types](https://github.com/Prem-Tomar/LearnForge/issues/2) | Prepared; unassigned |
-| 003 | [#3: Learner 01 &#124; Day 003: Input, conversion, and output](https://github.com/Prem-Tomar/LearnForge/issues/3) | Prepared; unassigned |
-| 004 | [#4: Learner 01 &#124; Day 004: Boolean logic and comparisons](https://github.com/Prem-Tomar/LearnForge/issues/4) | Prepared; unassigned |
-| 005 | [#5: Learner 01 &#124; Day 005: Branches and error reading](https://github.com/Prem-Tomar/LearnForge/issues/5) | Prepared; unassigned |
-| 006 | [#6: Learner 01 &#124; Day 006: Working increment: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/6) | Prepared; unassigned |
-| 007 | [#7: Learner 01 &#124; Day 007: Individual mastery and repair: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/7) | Prepared; unassigned |
+| 001 | [#1](https://github.com/Prem-Tomar/LearnForge/issues/1) | PratikTalware26 |
+| 002 | [#2](https://github.com/Prem-Tomar/LearnForge/issues/2) | PratikTalware26 |
+| 003 | [#3](https://github.com/Prem-Tomar/LearnForge/issues/3) | PratikTalware26 |
+| 004 | [#4](https://github.com/Prem-Tomar/LearnForge/issues/4) | PratikTalware26 |
+| 005 | [#5](https://github.com/Prem-Tomar/LearnForge/issues/5) | PratikTalware26 |
+| 006 | [#6](https://github.com/Prem-Tomar/LearnForge/issues/6) | PratikTalware26 |
+| 007 | [#7](https://github.com/Prem-Tomar/LearnForge/issues/7) | PratikTalware26 |
 
 ## Learner 02
 
-This is a setup snapshot; use the live links above after progress changes.
+Verified snapshot; use the live queue link above after progress changes.
 
-| Day | Dedicated issue | State at verification |
+| Day | Issue | Assignee |
 |---|---|---|
-| 001 | [#183: Learner 02 &#124; Day 001: Files, folders, and the interpreter](https://github.com/Prem-Tomar/LearnForge/issues/183) | Assigned to YogeshPatil991 |
-| 002 | [#188: Learner 02 &#124; Day 002: Values, names, and types](https://github.com/Prem-Tomar/LearnForge/issues/188) | Prepared; unassigned |
-| 003 | [#193: Learner 02 &#124; Day 003: Input, conversion, and output](https://github.com/Prem-Tomar/LearnForge/issues/193) | Prepared; unassigned |
-| 004 | [#198: Learner 02 &#124; Day 004: Boolean logic and comparisons](https://github.com/Prem-Tomar/LearnForge/issues/198) | Prepared; unassigned |
-| 005 | [#203: Learner 02 &#124; Day 005: Branches and error reading](https://github.com/Prem-Tomar/LearnForge/issues/203) | Prepared; unassigned |
-| 006 | [#208: Learner 02 &#124; Day 006: Working increment: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/208) | Prepared; unassigned |
-| 007 | [#213: Learner 02 &#124; Day 007: Individual mastery and repair: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/213) | Prepared; unassigned |
+| 001 | [#183](https://github.com/Prem-Tomar/LearnForge/issues/183) | YogeshPatil991 |
+| 002 | [#188](https://github.com/Prem-Tomar/LearnForge/issues/188) | YogeshPatil991 |
+| 003 | [#193](https://github.com/Prem-Tomar/LearnForge/issues/193) | YogeshPatil991 |
+| 004 | [#198](https://github.com/Prem-Tomar/LearnForge/issues/198) | YogeshPatil991 |
+| 005 | [#203](https://github.com/Prem-Tomar/LearnForge/issues/203) | YogeshPatil991 |
+| 006 | [#208](https://github.com/Prem-Tomar/LearnForge/issues/208) | YogeshPatil991 |
+| 007 | [#213](https://github.com/Prem-Tomar/LearnForge/issues/213) | YogeshPatil991 |
 
 ## Learner 03
 
-This is a setup snapshot; use the live links above after progress changes.
+Verified snapshot; use the live queue link above after progress changes.
 
-| Day | Dedicated issue | State at verification |
+| Day | Issue | Assignee |
 |---|---|---|
-| 001 | [#184: Learner 03 &#124; Day 001: Files, folders, and the interpreter](https://github.com/Prem-Tomar/LearnForge/issues/184) | Assigned to Rohan5607 |
-| 002 | [#189: Learner 03 &#124; Day 002: Values, names, and types](https://github.com/Prem-Tomar/LearnForge/issues/189) | Prepared; unassigned |
-| 003 | [#194: Learner 03 &#124; Day 003: Input, conversion, and output](https://github.com/Prem-Tomar/LearnForge/issues/194) | Prepared; unassigned |
-| 004 | [#199: Learner 03 &#124; Day 004: Boolean logic and comparisons](https://github.com/Prem-Tomar/LearnForge/issues/199) | Prepared; unassigned |
-| 005 | [#204: Learner 03 &#124; Day 005: Branches and error reading](https://github.com/Prem-Tomar/LearnForge/issues/204) | Prepared; unassigned |
-| 006 | [#209: Learner 03 &#124; Day 006: Working increment: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/209) | Prepared; unassigned |
-| 007 | [#214: Learner 03 &#124; Day 007: Individual mastery and repair: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/214) | Prepared; unassigned |
+| 001 | [#184](https://github.com/Prem-Tomar/LearnForge/issues/184) | Rohan5607 |
+| 002 | [#189](https://github.com/Prem-Tomar/LearnForge/issues/189) | Rohan5607 |
+| 003 | [#194](https://github.com/Prem-Tomar/LearnForge/issues/194) | Rohan5607 |
+| 004 | [#199](https://github.com/Prem-Tomar/LearnForge/issues/199) | Rohan5607 |
+| 005 | [#204](https://github.com/Prem-Tomar/LearnForge/issues/204) | Rohan5607 |
+| 006 | [#209](https://github.com/Prem-Tomar/LearnForge/issues/209) | Rohan5607 |
+| 007 | [#214](https://github.com/Prem-Tomar/LearnForge/issues/214) | Rohan5607 |
 
 ## Learner 04
 
-This is a setup snapshot; use the live links above after progress changes.
+Verified snapshot; use the live queue link above after progress changes.
 
-| Day | Dedicated issue | State at verification |
+| Day | Issue | Assignee |
 |---|---|---|
-| 001 | [#185: Learner 04 &#124; Day 001: Files, folders, and the interpreter](https://github.com/Prem-Tomar/LearnForge/issues/185) | Assigned to praadeep28101995 |
-| 002 | [#190: Learner 04 &#124; Day 002: Values, names, and types](https://github.com/Prem-Tomar/LearnForge/issues/190) | Prepared; unassigned |
-| 003 | [#195: Learner 04 &#124; Day 003: Input, conversion, and output](https://github.com/Prem-Tomar/LearnForge/issues/195) | Prepared; unassigned |
-| 004 | [#200: Learner 04 &#124; Day 004: Boolean logic and comparisons](https://github.com/Prem-Tomar/LearnForge/issues/200) | Prepared; unassigned |
-| 005 | [#205: Learner 04 &#124; Day 005: Branches and error reading](https://github.com/Prem-Tomar/LearnForge/issues/205) | Prepared; unassigned |
-| 006 | [#210: Learner 04 &#124; Day 006: Working increment: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/210) | Prepared; unassigned |
-| 007 | [#215: Learner 04 &#124; Day 007: Individual mastery and repair: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/215) | Prepared; unassigned |
+| 001 | [#185](https://github.com/Prem-Tomar/LearnForge/issues/185) | praadeep28101995 |
+| 002 | [#190](https://github.com/Prem-Tomar/LearnForge/issues/190) | praadeep28101995 |
+| 003 | [#195](https://github.com/Prem-Tomar/LearnForge/issues/195) | praadeep28101995 |
+| 004 | [#200](https://github.com/Prem-Tomar/LearnForge/issues/200) | praadeep28101995 |
+| 005 | [#205](https://github.com/Prem-Tomar/LearnForge/issues/205) | praadeep28101995 |
+| 006 | [#210](https://github.com/Prem-Tomar/LearnForge/issues/210) | praadeep28101995 |
+| 007 | [#215](https://github.com/Prem-Tomar/LearnForge/issues/215) | praadeep28101995 |
 
 ## Learner 05
 
-This is a setup snapshot; use the live links above after progress changes.
+Verified snapshot; use the live queue link above after progress changes.
 
-| Day | Dedicated issue | State at verification |
+| Day | Issue | Assignee |
 |---|---|---|
-| 001 | [#186: Learner 05 &#124; Day 001: Files, folders, and the interpreter](https://github.com/Prem-Tomar/LearnForge/issues/186) | Assigned to bitsnbyt3s |
-| 002 | [#191: Learner 05 &#124; Day 002: Values, names, and types](https://github.com/Prem-Tomar/LearnForge/issues/191) | Prepared; unassigned |
-| 003 | [#196: Learner 05 &#124; Day 003: Input, conversion, and output](https://github.com/Prem-Tomar/LearnForge/issues/196) | Prepared; unassigned |
-| 004 | [#201: Learner 05 &#124; Day 004: Boolean logic and comparisons](https://github.com/Prem-Tomar/LearnForge/issues/201) | Prepared; unassigned |
-| 005 | [#206: Learner 05 &#124; Day 005: Branches and error reading](https://github.com/Prem-Tomar/LearnForge/issues/206) | Prepared; unassigned |
-| 006 | [#211: Learner 05 &#124; Day 006: Working increment: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/211) | Prepared; unassigned |
-| 007 | [#216: Learner 05 &#124; Day 007: Individual mastery and repair: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/216) | Prepared; unassigned |
+| 001 | [#186](https://github.com/Prem-Tomar/LearnForge/issues/186) | bitsnbyt3s |
+| 002 | [#191](https://github.com/Prem-Tomar/LearnForge/issues/191) | bitsnbyt3s |
+| 003 | [#196](https://github.com/Prem-Tomar/LearnForge/issues/196) | bitsnbyt3s |
+| 004 | [#201](https://github.com/Prem-Tomar/LearnForge/issues/201) | bitsnbyt3s |
+| 005 | [#206](https://github.com/Prem-Tomar/LearnForge/issues/206) | bitsnbyt3s |
+| 006 | [#211](https://github.com/Prem-Tomar/LearnForge/issues/211) | bitsnbyt3s |
+| 007 | [#216](https://github.com/Prem-Tomar/LearnForge/issues/216) | bitsnbyt3s |
 
 ## Learner 06
 
-This is a setup snapshot; use the live links above after progress changes.
+Verified snapshot; use the live queue link above after progress changes.
 
-| Day | Dedicated issue | State at verification |
+| Day | Issue | Assignee |
 |---|---|---|
-| 001 | [#187: Learner 06 &#124; Day 001: Files, folders, and the interpreter](https://github.com/Prem-Tomar/LearnForge/issues/187) | Assigned to GlidingScorpion |
-| 002 | [#192: Learner 06 &#124; Day 002: Values, names, and types](https://github.com/Prem-Tomar/LearnForge/issues/192) | Prepared; unassigned |
-| 003 | [#197: Learner 06 &#124; Day 003: Input, conversion, and output](https://github.com/Prem-Tomar/LearnForge/issues/197) | Prepared; unassigned |
-| 004 | [#202: Learner 06 &#124; Day 004: Boolean logic and comparisons](https://github.com/Prem-Tomar/LearnForge/issues/202) | Prepared; unassigned |
-| 005 | [#207: Learner 06 &#124; Day 005: Branches and error reading](https://github.com/Prem-Tomar/LearnForge/issues/207) | Prepared; unassigned |
-| 006 | [#212: Learner 06 &#124; Day 006: Working increment: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/212) | Prepared; unassigned |
-| 007 | [#217: Learner 06 &#124; Day 007: Individual mastery and repair: First programs and clear decisions](https://github.com/Prem-Tomar/LearnForge/issues/217) | Prepared; unassigned |
+| 001 | [#187](https://github.com/Prem-Tomar/LearnForge/issues/187) | GlidingScorpion |
+| 002 | [#192](https://github.com/Prem-Tomar/LearnForge/issues/192) | GlidingScorpion |
+| 003 | [#197](https://github.com/Prem-Tomar/LearnForge/issues/197) | GlidingScorpion |
+| 004 | [#202](https://github.com/Prem-Tomar/LearnForge/issues/202) | GlidingScorpion |
+| 005 | [#207](https://github.com/Prem-Tomar/LearnForge/issues/207) | GlidingScorpion |
+| 006 | [#212](https://github.com/Prem-Tomar/LearnForge/issues/212) | GlidingScorpion |
+| 007 | [#217](https://github.com/Prem-Tomar/LearnForge/issues/217) | GlidingScorpion |
 
-See [LEARNERS.md](LEARNERS.md), [QUEUE_POLICY.md](QUEUE_POLICY.md), and [the full curriculum](CURRICULUM.md).
+See [the project rules](AGENTS.md), [queue policy](QUEUE_POLICY.md), and [separate frontend queues](FRONTEND_ISSUES.md).
