@@ -38,7 +38,7 @@ Do not generate API documentation unless the user asks. FastAPI applications int
 
 ## Public contribution identity
 
-Use the contributors' ordinary GitHub identities and descriptive branch/commit names. Keep generated-by signatures, automated co-author trailers, and platform names used as attribution out of the published files, issue text, commits, and branch names. Technical product/library names remain appropriate when they are the subject being taught.
+Use ordinary contributor identities for code commits and descriptive branch/commit names. Do not add generator signatures or automated co-author trailers to published content. The queue workflow may use its native repository-workflow identity; technical product/library names are appropriate when they are taught or used.
 
 ## Quality and the six-month target
 
@@ -55,3 +55,18 @@ Each learner has dedicated daily issues and exclusive code ownership. All six at
 Every task names its file and function/class/value target and explains the layer. Walk actual inputs, ordered checks, intermediate values, state changes, results, and failure variations; explain the Python or system mechanism at each important step. Reviews use precise file/line and actual revision. Follow REVIEW_GUIDE.md.
 
 Day 001 is a baseline diagnostic. From Day 002 the Question of the Day revisits an earlier completed concept. Keep answers out of initial questions and research hints; preserve original answers and assess correct, partial, incorrect, and missing parts before targeted follow-up. Code acceptance and conceptual understanding have separate status. An unanswered question alone does not block a correct PR; an actual original-contract defect remains a normal finding. No extra tests or written reports are required merely to answer.
+
+
+## Implementation is the teaching medium
+
+Every issue extends accepted behavior and contributes a useful owned part to the working project. Use predict → implement → run → explain why → improve → integrate. Teach the primary concept through actual values and failures. A theory answer or notebook alone does not complete the implementation task. See IMPLEMENTATION_LEARNING.md. Keep personal learning status separate from acceptance of correct original behavior.
+
+
+## Rolling queue
+
+Keep seven open implementation issues per learner, including the current one. Resolution activates the next planned day, reusing a deferred issue before creating another. Stop when no concepts remain. The complete curriculum and personal learning ledger remain available as plans and evidence, not precreated active tasks. See QUEUE_POLICY.md at the repository root.
+
+
+## Micro-details and behavioral reasoning
+
+Explain default behavior, purpose, necessity, exceptions, and alternatives for each construct. For global, explicitly separate reading, name rebinding, and object mutation. Ask for output/error and state predictions, then trace the mechanism. Use PYTHON_DETAILS.md and SCENARIO_LAB.md at their stated prerequisite points, not as future-topic retention questions.

@@ -1,6 +1,6 @@
 # AI/ML, data science, and mathematics extension path
 
-LearnForge has room for deeper AI/ML and data-science work. The core stays **26 weeks / 1,092 personal issues / 598 scheduled hours per person**. This is a defined next path, not hidden extra work inside that budget. A suggested follow-on is **12 weeks at 23 hours per week: 276 additional scheduled hours**. Adjust from individual mastery rather than promising a fixed completion date.
+LearnForge has room for deeper AI/ML and data-science work. The core stays **26 weeks / 1,092 planned learner-days / 598 scheduled hours per person**. This is a defined next path, not hidden extra work inside that budget. A suggested follow-on is **12 weeks at 23 hours per week: 276 additional scheduled hours**. Adjust from individual mastery rather than promising a fixed completion date.
 
 The core already introduces arrays, vector similarity, probability, train/development/held-out splits, leakage, token budgets, model evaluation, local inference, and adaptation. The extension develops deliberate data analysis, mathematical reasoning, classical ML, neural-network training, and model operation.
 

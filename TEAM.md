@@ -1,6 +1,6 @@
 # Six learners: dedicated implementation and personal sequences
 
-Each learner has 182 separate issues with their own Day 1 → Day 2 → Day 3 chain. An issue contains only that person's assigned implementation, learning checks, review target, and completion gate. Everyone works toward the same project goal and common concept; they do not receive a shared issue as a substitute for personal work.
+Each learner has 182 planned steps and a rolling queue of seven open issues, following their own Day 1 → Day 2 → Day 3 chain. An issue contains only that person's assigned implementation, learning checks, review target, and completion gate. Everyone works toward the same project goal and common concept; they do not receive a shared issue as a substitute for personal work.
 
 ## Weeks 1–20: six rotating roles
 
@@ -24,6 +24,8 @@ All six discuss the same [architecture topic](ARCHITECTURE.md) before parallel w
 That person alone owns needed edits to shared contracts, startup, package/migration registry, shared configuration, and progress/decision notes. Merge the smallest prerequisite contract/example/fake first. Freeze it while the six implementations proceed. A fake lets an adapter, operation, or command work before its collaborator is merged. This is an internal development agreement, not a request for API documentation.
 
 Each learner edits only their owned paths. Reading and suggesting changes elsewhere is welcome. Record a whole-file handoff before changing the writer. Reviewers let the current owner make the correction. The starter's thin root wrappers remain integrator-owned; future feature code goes into the six owned areas.
+
+The seven-task window contains prepared upcoming work. Production work on the next cohort day starts only after the previous cohort increment is integrated and ownership is handed off. A learner who finishes their slice early can do retention, review, or an isolated proof; they cannot take over a file still owned by someone finishing the earlier increment. This keeps weekly role rotation from causing overlapping edits.
 
 ## Review every other learner
 
@@ -50,3 +52,8 @@ Shared architecture, capability contracts, identity policy, model/data versions,
 ## Identities and assignment
 
 Learner 01–06 are dedicated planning slots. Their GitHub accounts and AI/ML choices are not invented. Issues have learner labels and personal chains; GitHub assignees remain empty until real accounts are known and assignment is requested. The earlier invitation request was left aside. No private emails are published.
+
+
+## Rolling queue
+
+Keep seven open implementation issues per learner, including the current one. Resolution activates the next planned day, reusing a deferred issue before creating another. Stop when no concepts remain. The complete curriculum and personal learning ledger remain available as plans and evidence, not precreated active tasks. See QUEUE_POLICY.md at the repository root.

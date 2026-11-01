@@ -121,9 +121,9 @@ Use the step-by-step walkthrough in the guide: input/state → ordered checks �
 
 **Retention source:** Day 012
 
-**Question of the Day:** Why does def f(items=[]) keep old items across calls?
+**Question of the Day:** With module-level total = 10, a function only returns total. Is global required, and what does it return? Now add total += 1 inside that function: predict the result or error and explain the binding rule.
 
-**Expected reasoning after an independent attempt:** The same default list is reused. Use None and create a fresh list inside the function.
+**Expected reasoning after an independent attempt:** The read returns 10 without global. Adding += makes total local throughout the function and causes UnboundLocalError when the old local value is read before binding. Explain reading versus rebinding, then compare append on a referenced list. See the scenario key after the attempt.
 
 **Today's new-concept check:** For this increment — Build an in-memory study-session tracker with add, total, and list operations. — where are the input, state, failure, and output boundaries? Which trade-off did you choose?
 

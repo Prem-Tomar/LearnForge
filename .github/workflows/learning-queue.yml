@@ -1,0 +1,35 @@
+name: Keep seven personal learning tasks ready
+
+on:
+  issues:
+    types: [closed, reopened]
+  workflow_dispatch:
+    inputs:
+      refresh_day_one:
+        description: Refresh unstarted Day 001 tasks from the precise starter-file contracts
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: personal-learning-queues
+  cancel-in-progress: false
+
+jobs:
+  replenish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Read the curriculum and queue code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Reconcile the next seven tasks per learner
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          REFRESH_DAY_ONE: ${{ inputs.refresh_day_one || false }}
+        run: python3 tools/learning_queue.py

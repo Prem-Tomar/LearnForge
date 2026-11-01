@@ -1,0 +1,44 @@
+{
+  "open_limit": 7,
+  "planned_days_each": 182,
+  "milestones": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6
+  },
+  "learners": [
+    {
+      "slot": 1,
+      "github": null,
+      "chosen_track": null
+    },
+    {
+      "slot": 2,
+      "github": null,
+      "chosen_track": null
+    },
+    {
+      "slot": 3,
+      "github": null,
+      "chosen_track": null
+    },
+    {
+      "slot": 4,
+      "github": null,
+      "chosen_track": null
+    },
+    {
+      "slot": 5,
+      "github": null,
+      "chosen_track": null
+    },
+    {
+      "slot": 6,
+      "github": null,
+      "chosen_track": null
+    }
+  ]
+}

@@ -10,3 +10,8 @@ Revisit one short question from roughly 1, 7, 21, and 42 days ago. Record recurr
 
 
 Record implementation_status separately from understanding_status. A correct implementation can be accepted while a Question-of-the-Day correction remains pending. Keep original answers and targeted follow-up in the review discussion; do not turn them into new feature/test/documentation requirements. Learning readiness still needs individual evidence.
+
+
+## Rolling queue
+
+Keep seven open implementation issues per learner, including the current one. Resolution activates the next planned day, reusing a deferred issue before creating another. Stop when no concepts remain. The complete curriculum and personal ledger remain plans and evidence, not precreated active tasks. See QUEUE_POLICY.md at the repository root.

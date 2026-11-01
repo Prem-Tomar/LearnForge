@@ -814,7 +814,7 @@
       }
     ],
     "retention_source_day": 12,
-    "question_of_day": "Why does def f(items=[]) keep old items across calls?"
+    "question_of_day": "With module-level total = 10, a function only returns total. Is global required, and what does it return? Now add total += 1 inside that function: predict the result or error and explain the binding rule."
   },
   {
     "day": 14,

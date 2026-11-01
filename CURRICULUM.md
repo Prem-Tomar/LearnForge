@@ -77,4 +77,4 @@ Weeks 25–26. Exit product: **Independent mock evidence and specific remediatio
 
 ## Personal sequences and AI/ML destination
 
-There are 182 shared daily guides and **1,092 personal issues: 182 for each of six learners**. Everyone completes the common Python, backend, mathematics/data, GenAI/agent, deployment/debugging, and architecture foundation. Weeks 21–26 apply shared engineering topics to each learner's chosen AI/ML capability, including real data preparation, baseline, fitting/retrieval, evaluation, serving, and failure analysis. Use [SPECIALIZATIONS.md](SPECIALIZATIONS.md) and [the architecture policy](ARCHITECTURE.md).
+There are 182 shared daily guides and **1,092 planned learner-days: 182 for each of six learners**. Everyone completes the common Python, backend, mathematics/data, GenAI/agent, deployment/debugging, and architecture foundation. Weeks 21–26 apply shared engineering topics to each learner's chosen AI/ML capability, including real data preparation, baseline, fitting/retrieval, evaluation, serving, and failure analysis. Use [SPECIALIZATIONS.md](SPECIALIZATIONS.md) and [the architecture policy](ARCHITECTURE.md).

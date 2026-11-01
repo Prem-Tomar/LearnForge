@@ -5,6 +5,7 @@ Use the daily example first. This page is a quick reminder, not a vocabulary exa
 | Term | Plain-English meaning |
 |---|---|
 | Interpreter | Program that runs Python instructions |
+| Bytecode | Lower-level instructions produced from Python source for the interpreter to execute; it is not the same as a standalone native executable |
 | Terminal | Text window where you ask programs to run |
 | Value / variable | Data / a name referring to data |
 | Type | Kind of value, such as integer or text |

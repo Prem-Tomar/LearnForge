@@ -1,21 +1,25 @@
-## Daily goal
+## Personal implementation goal
 
-Link the day issue. Explain the visible behavior and your owned slice.
+Link your own learner/day issue. Name the previous accepted behavior and the bounded improvement.
 
-## Input, output, and failure example
+## Exact unit and placement
 
-Give one normal example and one relevant boundary/failure. State the result observed.
+File/function/class/value target and why this layer owns it:
 
-## Design choice
+## Step-by-step behavior and why
 
-Name the boundary or invariant, chosen trade-off, and one simpler alternative.
+Show actual input/state, ordered checks, intermediate changes, final result, and a relevant failure. Explain the Python/system/mathematical mechanism with the actual revision and lines during review.
 
-## Learning and review
+## Shared architecture
 
-- My individual concept proof:
-- Partner reviewer:
-- Question of the Day explanation given:
-- Small demonstration / existing relevant check:
-- Current file ownership and any agreed handoff:
+Link the one cohort decision and the part implemented in your owned files. No overlapping edits.
 
-Keep checking light. No testing-only work or API documentation unless explicitly requested. Do not auto-close the team day from this PR before both people pass.
+## Review and implementation evidence
+
+Assigned peer, response to findings, integrated result, checks actually run, and their limits:
+
+## Separate learning follow-up
+
+Link existing concept/Question-of-the-Day discussion if needed. Pending conceptual coaching alone does not block correct original implementation or require extra tests/reports. Keep personal learning evidence separately.
+
+Close only your accepted personal implementation issue. The rolling queue activates the next day and keeps seven open tasks. Testing stays light; no testing-only assignment or API documentation unless requested.

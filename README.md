@@ -4,9 +4,11 @@
 
 Learn Python deeply from zero, then use FastAPI, data and mathematics, GenAI, agents, deployment, debugging, system design, and architecture to build real AI/ML capabilities. LearnForge grows from a small working CLI into an AI/ML learning workbench with study data, knowledge retrieval, controlled model-backed workflows, and each learner's chosen advanced feature.
 
-## Six personal sequences
+## Six personal rolling queues
 
-The issue plan has **1,092 personal issues: 182 for each of six learners**. Each learner gets Day 001 → Day 002 → Day 003 through Day 182, with their own task, owned files, review target, prerequisite link, concept proof, and completion gate. [ISSUES.md](ISSUES.md) records verified published links and counts. It distinguishes the issue plan from completed learning.
+Each learner has 182 planned days, with **only seven open issues at a time**: 42 open issues for the six-person cohort. When an implementation is resolved as completed, the next sequential day is activated. Existing deferred issues are reused; new ones are created only when needed. The queue shrinks when fewer concepts remain. See [QUEUE_POLICY.md](QUEUE_POLICY.md) and the live links in [ISSUES.md](ISSUES.md).
+
+Every active issue has its learner's dedicated task, exact file/unit, ownership, predecessor, review target, implementation examples, and separate learning record. The full curriculum is a blueprint, not a wall of active issues.
 
 Weeks 1–20 divide each shared feature into six exclusive implementation roles. Roles rotate weekly. Reviews rotate across all five peers. Everyone learns every common concept; a teammate's implementation never replaces an individual's proof.
 
@@ -19,7 +21,7 @@ All six attend **one shared architecture topic each day**, discuss the same prob
 ## Start
 
 1. Read [START_HERE.md](START_HERE.md), [TEAM.md](TEAM.md), and [the shared architecture process](ARCHITECTURE.md).
-2. Open [the curriculum](CURRICULUM.md), [Day 001](days/day-001.md), and your own [issue sequence](ISSUES.md).
+2. Open [the curriculum](CURRICULUM.md), [Day 001](days/day-001.md), and your own [current queue](ISSUES.md).
 3. Run `python run_demo.py` from the repository folder.
 4. Keep individual evidence in [progress/mastery.csv](progress/mastery.csv): **1,092 learner-day rows**.
 
@@ -47,7 +49,10 @@ GitHub assignees remain empty until real accounts are identified. Invitations we
 ## Guides
 
 - [Personal tasks and peer review](TEAM.md)
+- [Rolling seven-task queue](QUEUE_POLICY.md)
+- [Learning concepts by implementation](IMPLEMENTATION_LEARNING.md)
 - [Step-by-step explanations and reviews](REVIEW_GUIDE.md)
+- [Micro-detail teaching standard](PYTHON_DETAILS.md) and [predict-the-program scenarios](SCENARIO_LAB.md)
 - [Shared architecture](ARCHITECTURE.md)
 - [AI/ML specialization choices and finish lines](SPECIALIZATIONS.md)
 - [Day-by-day personal AI/ML build outcomes](specializations/DAILY_OUTCOMES.md)
