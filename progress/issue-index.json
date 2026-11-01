@@ -294,7 +294,9 @@
     "day": 1,
     "issue_number": 187,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/187",
-    "assignees": [],
+    "assignees": [
+      "GlidingScorpion"
+    ],
     "snapshot": "verified-setup"
   },
   {
