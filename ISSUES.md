@@ -1,5 +1,5 @@
 # Personal task queues
-**Seven prepared open issues per learner; one current assigned task for each of six confirmed collaborators.** The next assignment waits for implementation review approval and closure. Existing future issues are deferred for reuse, not completed learning. Optional client-track enrollment remains pending.
+**Seven prepared open issues per learner; one current assigned task for each of six confirmed collaborators.** The next assignment waits for implementation review approval and closure. Existing future issues are deferred for reuse, not completed learning. Selected client collaborators also have [separate frontend queues](FRONTEND_ISSUES.md). This page and its snapshots describe Python tasks only.
 ## Live task links
 These links stay current as the workflow advances. A prepared issue is not permission to skip its prerequisite or the shared architecture/ownership handoff.
 | Learner | GitHub account | One current assigned task | All seven prepared tasks |

@@ -4,7 +4,7 @@ LearnForge has room for deeper AI/ML and data-science work. The core stays **26 
 
 The core already introduces arrays, vector similarity, probability, train/development/held-out splits, leakage, token budgets, model evaluation, local inference, and adaptation. The extension develops deliberate data analysis, mathematical reasoning, classical ML, neural-network training, and model operation.
 
-The separate [React/React Native extension](CLIENT_TRACKS.md) adds optional client skills and JavaScript interviews for collaborators selected later. Its 84/102/126-hour first-pass budgets are additional to the core and to any AI/ML extension chosen here; the same time must not be counted twice. Neither extension is automatically assigned.
+The separate [React/React Native extension](CLIENT_TRACKS.md) adds optional client skills and JavaScript interviews for Pratik/Pradeep (web) and Shubham (mobile). Its 84/102/126-hour first-pass budgets are additional to the core and to any AI/ML extension chosen here; the same time must not be counted twice. Selected client work has its own parallel calendar and queues; the deeper AI/ML extension remains an optional follow-on.
 
 ## Product features that make the learning useful
 

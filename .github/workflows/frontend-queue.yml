@@ -1,0 +1,30 @@
+name: Keep separate frontend tasks ready
+
+on:
+  issues:
+    types: [closed, reopened, labeled, unlabeled]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: frontend-learning-queues
+  cancel-in-progress: false
+
+jobs:
+  replenish:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name, 'frontend-learning')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Read the frontend plan
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Reconcile frontend tasks only
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: python3 tools/frontend_queue.py

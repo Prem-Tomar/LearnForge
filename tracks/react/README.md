@@ -1,6 +1,8 @@
 # React web: LearnForge's browser interface
 
-**Optional, unassigned, not yet implemented.** Follow [CLIENT_TRACKS.md](../../CLIENT_TRACKS.md) for timing, ownership, coaching, integration gates, and the unchanged queue limits. Complete J01–J14 in [JavaScript](../javascript/README.md) first. Keep the [42 JavaScript interview questions](../javascript/INTERVIEW_QUESTIONS.md) warm throughout this track; React interviews still depend on JavaScript.
+**Selected for Pratik and Pradeep; applications are not yet implemented.** Follow [CLIENT_TRACKS.md](../../CLIENT_TRACKS.md) for timing, ownership, coaching and integration gates. Each has a separate frontend queue alongside unchanged Python tasks. Complete J01–J14 in [JavaScript](../javascript/README.md) first. Keep the [42 JavaScript interview questions](../javascript/INTERVIEW_QUESTIONS.md) warm throughout this track; React interviews still depend on JavaScript.
+
+The default lesson paths below are templates. [The personal calendar](../FRONTEND_CALENDAR.md) and each issue give the exact exclusive paths: Pratik owns the study feature, Pradeep the knowledge feature. Both consume the reviewed Python/FastAPI backend implementations; neither creates a second backend. Pradeep applies session examples to document-reading progress and knowledge interactions, independently proving the same React concepts.
 
 R01–R14 are ordered implementation sessions. R01–R06 are also the React prerequisite for mobile learners. They may use a small fixture browser app before native setup. Do not require them to finish the whole web track. Each session follows predict → implement → run → trace → peer review → fresh variation. Small checks stay attached to features; no testing-only assignment or API documentation task is introduced.
 

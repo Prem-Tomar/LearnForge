@@ -8,7 +8,7 @@ A user signs in, selects a workspace, records study sessions, uploads a note, se
 
 The initial repository contains only a welcome/status starter. The curriculum describes the features learners will build. Real providers, a local model, a graph framework, and MCP are introduced through adapters; ordinary development retains synthetic data and fakes. API documentation is not a deliverable unless requested.
 
-Optional [React web and React Native mobile tracks](CLIENT_TRACKS.md) will expose these same study, search, cited-answer, agent-approval and model-result flows through browser and device interfaces. They share the existing server authority and project architecture, with separate client feature ownership. They include a JavaScript/TypeScript bridge and JavaScript interview questions. Collaborator enrollment is pending; no client application is implemented by adding the curriculum.
+Optional [React web and React Native mobile tracks](CLIENT_TRACKS.md) will expose these same study, search, cited-answer, agent-approval and model-result flows through browser and device interfaces. They share the existing server authority and project architecture, with separate client feature ownership. They include a JavaScript/TypeScript bridge and JavaScript interview questions. Pratik/Pradeep are selected for React and Shubham for React Native. All live features use existing reviewed Python/FastAPI implementations. Frontend queues are separate; no client application is implemented by adding the curriculum.
 
 ## Growth and visible demonstrations
 

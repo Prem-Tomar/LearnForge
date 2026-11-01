@@ -33,4 +33,4 @@ Use the review/repair block. Cut optional polish, repeated reading, extra abstra
 
 Six collaborator accounts are verified and mapped in LEARNERS.md, including GlidingScorpion on Learner 06. Each has one current assigned issue and six prepared unassigned issues. Review approval and predecessor closure release the next assignment. Never publish private email addresses.
 
-Optional [React and React Native tracks](CLIENT_TRACKS.md) include a shared JavaScript bridge and interview questions. Their collaborator selection and personal schedule are pending; continue the assigned core task until selection is recorded.
+Optional [React and React Native tracks](CLIENT_TRACKS.md) include a shared JavaScript bridge and interview questions. Pratik/Pradeep have React queues and Shubham has React Native, alongside their unchanged Python issues. Follow [the frontend calendar](tracks/FRONTEND_CALENDAR.md) and [frontend issue links](FRONTEND_ISSUES.md); both clients use the existing Python backend.

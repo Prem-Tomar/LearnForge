@@ -51,7 +51,7 @@ Shared architecture, capability contracts, identity policy, model/data versions,
 
 ## Identities and assignment
 
-Six verified collaborator accounts are mapped in [LEARNERS.md](LEARNERS.md); GlidingScorpion owns Learner 06. Each confirmed person has one current assigned issue and six prepared unassigned issues. The next assignment requires the peer/maintainer's implementation review approval label and closure as completed. AI/ML choices are still made by the individual at the planned selection gate. Optional [client tracks](CLIENT_TRACKS.md) await collaborator selection, exclusive feature ownership and an explicit schedule. No private emails or guessed identities are published.
+Six verified collaborator accounts are mapped in [LEARNERS.md](LEARNERS.md); GlidingScorpion owns Learner 06. Each confirmed person has one current assigned issue and six prepared unassigned issues. The next assignment requires the peer/maintainer's implementation review approval label and closure as completed. AI/ML choices are still made by the individual at the planned selection gate. Separate [client tracks](CLIENT_TRACKS.md) are selected for Pratik/Pradeep (React) and Shubham (React Native), with exclusive feature ownership and an explicit additional-hours calendar. Their frontend assignment is additional to the current Python assignment, with independent review/closure gates. No private emails or guessed identities are published.
 
 If a planned peer is not yet available, the facilitator records an available peer/maintainer for that review. One implementation assignment per collaborator remains the rule; reviewing another learner is part of the existing daily task, not a second assigned implementation issue.
 

@@ -10,7 +10,7 @@ Every learner completes this common foundation and their own concept proofs. At 
 
 Choice does not require everyone to master every advanced specialization. Everyone must retain the common Python/backend/AI foundation and explain the shared project architecture. Topic-specific depth and interview questions follow the individual's chosen track.
 
-[React and React Native client tracks](CLIENT_TRACKS.md) are optional interface skills, separate from the chosen AI/ML destination. Both include JavaScript interview preparation. No enrollment is selected yet, and they do not remove common foundations or AI/ML implementation. Their additional hours and personal scheduling are explicit in the client-track guide.
+[React and React Native client tracks](CLIENT_TRACKS.md) are optional interface skills, separate from the chosen AI/ML destination. Both include JavaScript interview preparation. Pratik/Pradeep are selected for React and Shubham for React Native; the separate frontend queues do not remove common foundations or AI/ML implementation. Their additional hours and personal scheduling are explicit in the client-track guide.
 
 ## Choices and concrete finish lines
 

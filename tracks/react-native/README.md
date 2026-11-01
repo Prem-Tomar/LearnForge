@@ -1,6 +1,8 @@
 # React Native: LearnForge on a mobile device
 
-**Optional, unassigned, not yet implemented.** Start with [CLIENT_TRACKS.md](../../CLIENT_TRACKS.md), J01–J14 in [JavaScript](../javascript/README.md), and R01–R06 in [React](../react/README.md). React Native uses React concepts but not a browser DOM. Keep using [the shared JavaScript interview bank](../javascript/INTERVIEW_QUESTIONS.md); mobile interviews also ask language behavior.
+**Selected for Shubham (`bitsnbyt3s`); application is not yet implemented.** Start with [CLIENT_TRACKS.md](../../CLIENT_TRACKS.md), J01–J14 in [JavaScript](../javascript/README.md), and R01–R06 in [React](../react/README.md). His frontend queue runs alongside unchanged Python tasks. React Native uses React concepts but not a browser DOM. Keep using [the shared JavaScript interview bank](../javascript/INTERVIEW_QUESTIONS.md); mobile interviews also ask language behavior.
+
+The default paths below are templates; [the calendar](../FRONTEND_CALENDAR.md) and personal issues name exact owned paths. Mobile consumes LearnForge's reviewed Python/FastAPI implementations. It does not create a separate backend. Early fixtures do not count as live integration.
 
 Choose an initial device target and framework together at activation. The [official setup guide](https://reactnative.dev/docs/environment-setup) recommends a framework for a new app; consider Expo and record why it meets the product's needs. Record compatible React Native, React, framework, native toolchain, runtime and library versions. Teach the difference between JavaScript source, bundler, native runtime, development build and release artifact. A Windows workstation does not provide a local iOS simulator/build toolchain; record any required macOS/hosted build and actual device access before claiming iOS evidence. An Android-first path is valid, with unverified iOS behavior explicitly recorded.
 

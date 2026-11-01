@@ -1,6 +1,6 @@
 # JavaScript bridge for both client tracks
 
-Read [the optional-track agreement](../../CLIENT_TRACKS.md) first. These fourteen sessions are unassigned. Complete them in order. Python experience helps with problem solving but does not prove JavaScript scope, equality, objects, or scheduling.
+Read [the client-track agreement](../../CLIENT_TRACKS.md) first. Pratik, Pradeep and Shubham each complete these fourteen sessions in their separate frontend queue. Complete them in order. Python experience helps with problem solving but does not prove JavaScript scope, equality, objects, or scheduling.
 
 Use `clients/learning/learner_NN/javascript/` as the root for every file below. Keep individual exercises separate. Start with `.mjs` ES modules, run with an available supported Node.js runtime, and record its version. A browser module playground is also useful when explicitly studying the browser. Introduce TypeScript only in J13; JS still determines runtime behavior. Do not add a Node backend beside FastAPI.
 

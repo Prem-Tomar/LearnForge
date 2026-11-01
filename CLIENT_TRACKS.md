@@ -1,12 +1,12 @@
 # Optional React web and React Native mobile tracks
 
-**Status: prepared, awaiting collaborator selection. Nobody is enrolled.** These tracks add user interfaces to the same LearnForge Python/FastAPI/AI project. They do not replace any learner's common Python, FastAPI, GenAI, agents, deployment, architecture, mathematics, or AI/ML proof. The starter does not yet contain these applications.
+**Selected: Pratik and Pradeep for React web; Shubham for React Native.** These are separate frontend queues alongside the existing Python course. They add user interfaces to the same LearnForge Python/FastAPI/AI project. They do not replace any learner's common Python, FastAPI, GenAI, agents, deployment, architecture, mathematics, or AI/ML proof. The starter does not yet contain these applications.
 
 ## Choose later, schedule honestly
 
-The [selection registry](curriculum/optional-tracks.json) has empty enrollment lists. The maintainer will name the collaborators and choose web, mobile, or both. A person's AI/ML specialization remains a separate choice. Existing assignments, six learner paths, and review gates remain active.
+The [selection registry](curriculum/optional-tracks.json) records `PratikTalware26` and `praadeep28101995` on React web, and `bitsnbyt3s` (Shubham) on React Native. Each has a dedicated [frontend plan](curriculum/frontend-cohort.json) and [queue](FRONTEND_ISSUES.md). A person's AI/ML specialization remains a separate choice. Existing assignments, six learner paths, fixed issues and review gates stay unchanged.
 
-The default is a separately scheduled extension after the 26-week core. A session is a **three-hour planning unit**, including review and breaks. The plans below are minimum first-pass budgets, not guarantees of mastery. Repeat a session when its individual check is weak.
+The selected paths follow [a parallel 26-week calendar](tracks/FRONTEND_CALENDAR.md). A session is a **three-hour planning unit**, including review and breaks, separate from the core task. Most weeks add three hours; extra-session weeks add six hours. The plans below are minimum first-pass budgets, not guarantees of mastery. Repeat a session when its individual check is weak.
 
 | Path | Ordered sessions | Minimum added scheduled hours |
 |---|---|---|
@@ -16,7 +16,7 @@ The default is a separately scheduled extension after the 26-week core. A sessio
 
 Mobile learners need the first six React lessons, not a second copy of JavaScript. Their React proof can use the small web fixture app before native setup. No previous JavaScript, HTML, CSS, or TypeScript knowledge is assumed. Framework lessons introduce required markup and styling. Advanced gaps can require more sessions.
 
-If selected collaborators must finish these paths inside six months, first publish a personal calendar and explicit additional hours. Keep the 598-hour common core intact. Do not quietly remove its lessons, add overnight work, or promise the same scope in the same time. Prior experience can shorten a prerequisite only through an individual fresh implementation and explanation.
+The common core stays 598 hours. Pratik and Pradeep each add 84 frontend hours (682 total); Shubham adds 102 (700 total). Combined planned load is 26 hours in a one-frontend-session week and 29 in a two-session week. The calendar names every session and extra week. If the load is not sustainable, extend the frontend calendar instead of removing core lessons. Prior experience can shorten a prerequisite only through an individual fresh implementation and explanation.
 
 ## Project progress and prerequisites
 
@@ -62,9 +62,13 @@ Use [the JS question bank](tracks/javascript/INTERVIEW_QUESTIONS.md) with [the s
 
 ## Activation and queue policy
 
-No client issues are created or assigned by adding this provision. The existing queue tool reads core blueprints; it does **not** schedule these optional sessions. This registry is not an enrollment automation.
+The user selected **separate queues**, each with seven prepared frontend issues and one current assigned frontend issue alongside the existing Python task. This is an explicit exception to the original cross-track limit; the Python queue and all its existing issues remain in place. Selected people have two current implementation assignments: one Python and one frontend. Other people retain just their existing Python assignment.
 
-When the user names collaborators for these tracks, prepare a personal session-to-day mapping, exact ownership, peer reviewer, prerequisites, and workload. Convert each scheduled session into the existing detailed issue format before activating it. Keep **seven open prepared issues total per learner across all active tracks**, with **one current assigned issue**, never seven more per track. Approve implementation review and close the current issue as completed before assigning the next one. Extend the queue's plan/blueprint support and verify it before using it for optional sessions. Do not add a second scheduler that competes with the core queue. All six core paths have confirmed accounts; client-track enrollment remains empty.
+`tools/frontend_queue.py` and its dedicated workflow read only [frontend blueprints](curriculum/frontend-cohort.json). Frontend identity markers, titles and labels are separate from core keys. The tool never moves, closes or rewrites Python issues, and the core queue does not recognize frontend titles. Each queue independently requires implementation review approval plus closure as completed before its next assignment. Missing approval leaves the next frontend task unassigned even when seven future tasks are prepared. Reuse an existing unfinished frontend issue before creating another; shrink at the end. Frontend progress has [its own ledger](progress/frontend-mastery.csv).
+
+## Use the Python backend implementations
+
+Both React and React Native call the existing LearnForge Python/FastAPI implementations. They do not introduce a Node API, a duplicate service, a direct database client or browser/mobile model credentials. Each live-feature issue checks the actual reviewed backend predecessor and running behavior. Calendar dates alone do not prove availability. Until the matching Python implementation is ready, sample data is a labeled UI/language exercise and live integration stays incomplete. Internal handoff contracts are allowed; API documentation is still added only when asked.
 
 ## Individual finish line
 

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "prepared_limit": 7,
+  "assigned_limit_per_frontend_queue": 1,
+  "separate_from_core": true,
+  "review_label": "review-approved",
+  "schedule_weeks": 26,
+  "backend": "existing LearnForge Python/FastAPI implementations only",
+  "learners": [
+    {
+      "slot": 1,
+      "github": "PratikTalware26",
+      "name": "Pratik",
+      "track": "react-web",
+      "feature": "study",
+      "scope": "Study sessions, dashboard, study planning and the study-facing ML result",
+      "blueprints": "curriculum/frontend-blueprints/PratikTalware26.json",
+      "extra_session_weeks": [
+        12,
+        24
+      ],
+      "planned_sessions": 28,
+      "minimum_frontend_hours": 84,
+      "combined_core_frontend_hours": 682
+    },
+    {
+      "slot": 4,
+      "github": "praadeep28101995",
+      "name": "Pradeep",
+      "track": "react-web",
+      "feature": "knowledge",
+      "scope": "Knowledge library, document reading progress, retrieval, citations and knowledge-facing model results",
+      "blueprints": "curriculum/frontend-blueprints/praadeep28101995.json",
+      "extra_session_weeks": [
+        12,
+        24
+      ],
+      "planned_sessions": 28,
+      "minimum_frontend_hours": 84,
+      "combined_core_frontend_hours": 682
+    },
+    {
+      "slot": 5,
+      "github": "bitsnbyt3s",
+      "name": "Shubham",
+      "track": "react-native",
+      "feature": "study",
+      "scope": "Mobile study, document capture, offline drafts, approved planning and model result flows",
+      "blueprints": "curriculum/frontend-blueprints/bitsnbyt3s.json",
+      "extra_session_weeks": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24
+      ],
+      "planned_sessions": 34,
+      "minimum_frontend_hours": 102,
+      "combined_core_frontend_hours": 700
+    }
+  ]
+}

@@ -18,17 +18,17 @@ LearnForge is the learning product and workbench. Its study records, documents, 
 | Deployment and debugging | Containers, CI, logs/metrics/traces, failure diagnosis, load/capacity reasoning, graceful fallback, rollback, backup/restore, and recovery |
 | System design and architecture | One shared project-level topic at a time: requirements, units, contracts, state ownership, boundaries, consistency, security, reliability, scale, cost, and trade-offs |
 | Personal coaching and teamwork | Dedicated implementation slices, exact files/functions and why, step-by-step mechanisms, retention questions, prediction scenarios, rotating peer reviews, personal evidence, and targeted repair |
-| Optional React and React Native | Browser/mobile interfaces for the same project, shared JavaScript/TypeScript foundations and 42 JavaScript interview questions; collaborator selection and extra scheduling are pending |
+| Optional React and React Native | Browser/mobile interfaces for the same project, shared JavaScript/TypeScript foundations and 42 JavaScript interview questions; Pratik/Pradeep on web and Shubham on mobile, with separate queues using the Python backend |
 
-Each confirmed collaborator has one current assigned task and six prepared unassigned tasks. The next assignment requires implementation review approval and closure. Architecture is shared; production code ownership is separate. Testing stays light and attached to implementation, with no testing-only assignment. API documentation is added only when requested.
+Each confirmed collaborator has one current Python task and six prepared Python tasks. Pratik, Pradeep and Shubham also have separate frontend queues, each with seven prepared issues and one assigned frontend task. The next assignment requires implementation review approval and closure. Architecture is shared; production code ownership is separate. Testing stays light and attached to implementation, with no testing-only assignment. API documentation is added only when requested.
 
 **26 weeks · 182 learning days per learner · 598 scheduled hours each, including breaks.** Five 3-hour sessions and two 4-hour sessions per week.
 
 Learn Python deeply from zero, then use FastAPI, data and mathematics, GenAI, agents, deployment, debugging, system design, and architecture to build real AI/ML capabilities. LearnForge grows from a small working CLI into an AI/ML learning workbench with study data, knowledge retrieval, controlled model-backed workflows, and each learner's chosen advanced feature.
 
-## Six personal rolling queues
+## Six personal Python rolling queues
 
-Each learner has 182 planned days, with **only seven open issues at a time**: 42 open issues for the six-person cohort. When an implementation is resolved as completed, the next sequential day is activated. Existing deferred issues are reused; new ones are created only when needed. The queue shrinks when fewer concepts remain. See [QUEUE_POLICY.md](QUEUE_POLICY.md) and the live links in [ISSUES.md](ISSUES.md).
+Each learner has 182 planned Python days, with **seven open Python issues at a time**: 42 open Python issues for the six-person cohort. The three selected client learners have additional separate frontend queues. When an implementation is resolved as completed, the next sequential day is activated; the next assignment also requires review approval. Existing deferred issues are reused; new ones are created only when needed. The queue shrinks when fewer concepts remain. See [QUEUE_POLICY.md](QUEUE_POLICY.md) and the live links in [ISSUES.md](ISSUES.md).
 
 Every active issue has its learner's dedicated task, exact file/unit, ownership, predecessor, review target, implementation examples, and separate learning record. The full curriculum is a blueprint, not a wall of active issues.
 
@@ -36,7 +36,7 @@ Weeks 1–20 divide each shared feature into six exclusive implementation roles.
 
 Weeks 21–26 give each learner a complete chosen AI/ML capability in a separate owned module. Options include supervised prediction, recommendations, forecasting, NLP, vision, GenAI/agents, and data science. No track is selected on an unidentified learner's behalf.
 
-[Optional React web and React Native mobile tracks](CLIENT_TRACKS.md) add visible interfaces to this project. Both include JavaScript interview preparation, implementation scenarios, retention questions, and separate coach keys. No collaborator is enrolled yet. They preserve the core learning and require an explicit personal schedule; the default is an extension after the core, not hidden extra work inside 598 hours.
+[Optional React web and React Native mobile tracks](CLIENT_TRACKS.md) add visible interfaces to this project. Both include JavaScript interview preparation, implementation scenarios, retention questions, and separate coach keys. Pratik and Pradeep are enrolled in React web; Shubham (`bitsnbyt3s`) in React Native. [Their calendar](tracks/FRONTEND_CALENDAR.md) adds 84/84/102 hours respectively alongside the unchanged 598-hour core. Both clients use the existing Python/FastAPI implementations. [Separate frontend issues](FRONTEND_ISSUES.md) do not move or replace any fixed Python issue.
 
 ## One project architecture
 
@@ -68,7 +68,7 @@ Use simple English and define unfamiliar terms beside examples. Every day includ
 
 Testing is light and attached to implementation. There is no testing-only assignment, tester-only role, coverage quota, or large test-suite project. **API documentation is added only when requested**; future FastAPI setup disables Swagger, ReDoc, and public OpenAPI endpoints by default. Internal working contracts still support parallel implementation.
 
-Six confirmed collaborators are mapped in [LEARNERS.md](LEARNERS.md), including GlidingScorpion on Learner 06. Each gets **one current assigned task**, while six more remain prepared and unassigned. The next task is assigned only after implementation review approval and closure. Optional client-track selections remain pending. No email addresses or guessed identities are published. Public work uses ordinary contributor identities and descriptive names without generator attribution.
+Six confirmed collaborators are mapped in [LEARNERS.md](LEARNERS.md), including GlidingScorpion on Learner 06. Each gets **one current Python task**, while six more Python tasks remain prepared and unassigned. The next task is assigned only after implementation review approval and closure. Selected client collaborators additionally receive one current frontend task and six prepared frontend tasks in separate queues. No email addresses or guessed identities are published. Public work uses ordinary contributor identities and descriptive names without generator attribution.
 
 ## Guides
 
@@ -80,7 +80,7 @@ Six confirmed collaborators are mapped in [LEARNERS.md](LEARNERS.md), including 
 - [Micro-detail teaching standard](PYTHON_DETAILS.md) and [predict-the-program scenarios](SCENARIO_LAB.md)
 - [Shared architecture](ARCHITECTURE.md)
 - [AI/ML specialization choices and finish lines](SPECIALIZATIONS.md)
-- [Optional React and React Native tracks](CLIENT_TRACKS.md), [JavaScript interview questions](tracks/javascript/INTERVIEW_QUESTIONS.md), and [pending selections](curriculum/optional-tracks.json)
+- [Optional React and React Native tracks](CLIENT_TRACKS.md), [JavaScript interview questions](tracks/javascript/INTERVIEW_QUESTIONS.md), and [selected collaborators](curriculum/optional-tracks.json) and [frontend queues](FRONTEND_ISSUES.md)
 - [Day-by-day personal AI/ML build outcomes](specializations/DAILY_OUTCOMES.md)
 - [Personal assessment and interview readiness](ASSESSMENT.md)
 - [Question of the Day index](questions/README.md) and [coach keys](coach/README.md)

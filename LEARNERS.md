@@ -9,7 +9,7 @@
 | Learner 05 | [bitsnbyt3s](https://github.com/bitsnbyt3s) | One current task |
 | Learner 06 | [GlidingScorpion](https://github.com/GlidingScorpion) | One current task |
 
-Each path keeps seven open prepared issues. Only its earliest eligible task is assigned; the other six remain unassigned. All six accounts were verified from the repository's collaborator list; no emails or guessed identities are published. Optional [React and React Native](CLIENT_TRACKS.md) enrollment is separate and awaits the user's selection.
+Each path keeps seven open prepared issues. Only its earliest eligible task is assigned; the other six remain unassigned. All six accounts were verified from the repository's collaborator list; no emails or guessed identities are published. Separate [React and React Native](CLIENT_TRACKS.md) queues are selected: PratikTalware26 and praadeep28101995 for React; bitsnbyt3s (Shubham) for React Native. They have one additional current frontend issue and six prepared frontend issues, alongside their unchanged Python issues. See [frontend queues](FRONTEND_ISSUES.md).
 
 ## Review before the next assignment
 
