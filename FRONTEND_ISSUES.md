@@ -1,6 +1,6 @@
 # Separate frontend queues
 
-Pratik and Pradeep learn React web; Shubham (`bitsnbyt3s`) learns React Native. Each frontend queue keeps seven prepared issues and one current assignment **alongside the unchanged Python task**. Review approval plus closure releases the next frontend assignment. All live client features use reviewed Python/FastAPI implementations.
+Pratik and Pradeep learn React web; Shubham (`bitsnbyt3s`) learns React Native. Each frontend queue keeps seven prepared issues and only one current assignment, alongside the learner's seven assigned Python issues. Review approval plus closure releases the next frontend assignment. All live client features use reviewed Python/FastAPI implementations.
 
 | Collaborator | Frontend track | Current frontend task | Seven prepared frontend tasks |
 |---|---|---|---|

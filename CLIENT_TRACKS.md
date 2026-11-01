@@ -34,7 +34,7 @@ These are **future locations**, created by learners when the matching lesson sta
 
 | Location | Responsibility and reason |
 |---|---|
-| `clients/learning/learner_NN/javascript/` | Individual JS exercises; each person must write and explain their own version |
+| `clients/<web-or-mobile>/src/features/<feature>/domain/` | Project values, reading/session/draft records and transformations; everyone writes and explains their own owned feature |
 | `clients/web/src/features/<feature>/` | React components, feature state, and browser interaction for one owned feature |
 | `clients/mobile/src/features/<feature>/` | Native screens, feature state, and device interaction for one owned feature |
 | `clients/web/src/api/` and `clients/mobile/src/api/` | Platform-specific network/auth adapters; keep HTTP and token details out of rendering |

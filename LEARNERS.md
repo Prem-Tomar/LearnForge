@@ -13,7 +13,7 @@ Each Python path keeps seven open prepared issues, all assigned to its learner. 
 
 ## Review before the next assignment
 
-The peer reviewer or maintainer accepts the original bounded implementation and adds `review-approved`. Close the accepted issue as completed. Only when review and closure are recorded does the next step become current. The prepared Python window remains fully assigned; the separate frontend queue still assigns only one issue. If it is closed before review is recorded, seven upcoming tasks stay prepared but no next task is assigned yet. Adding the review label to the closed predecessor releases the next assignment.
+The peer reviewer or maintainer accepts the original bounded implementation and adds `review-approved`. Close the accepted issue as completed. Only when review and closure are recorded does the next step become current. The prepared Python window remains fully assigned; the separate frontend queue still assigns only one issue. If closure happens before review, no next step becomes current yet. Adding the review label releases that next current step and, for frontend, its assignment.
 
 This is implementation review, not a requirement to finish every conceptual follow-up first. Preserve individual Question-of-the-Day understanding and repair separately. A real implementation defect remains a normal review finding.
 
