@@ -11,6 +11,8 @@ Revisit one short question from roughly 1, 7, 21, and 42 days ago. Record recurr
 
 Record implementation_status separately from understanding_status. A correct implementation can be accepted while a Question-of-the-Day correction remains pending. Keep original answers and targeted follow-up in the review discussion; do not turn them into new feature/test/documentation requirements. Learning readiness still needs individual evidence.
 
+Pratik and Pradeep additionally use [the per-concept React pair ledger](react-pair-concepts.csv) with [the shared inventory](../curriculum/react-pair-concepts.json). Both have a separate row for every JavaScript/React concept, including their own code revision, normal/changed cases, causal explanation and the other's review revision. All rows begin not-started. Use concise links/evidence within existing sessions, not extra report-only tasks.
+
 
 ## Rolling queue
 

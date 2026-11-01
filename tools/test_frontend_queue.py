@@ -1,5 +1,7 @@
 """Maintainer checks: frontend automation must never mutate core issues."""
 import copy
+import csv
+import json
 import unittest
 from unittest.mock import patch
 
@@ -150,6 +152,29 @@ class FrontendQueueRules(unittest.TestCase):
             if track == 'react-native':
                 self.assertEqual([p['lesson'] for p in rows][14:20], [f'R{i:02d}' for i in range(1, 7)])
                 self.assertTrue(all(p.startswith('clients/learning/') for row in rows[14:20] for p in row['files']))
+
+    def test_react_pair_covers_every_concept_with_reciprocal_review_and_distinct_features(self):
+        config, plans = queue.read_plan()
+        pair = {'PratikTalware26': 'praadeep28101995', 'praadeep28101995': 'PratikTalware26'}
+        inventory = json.loads((queue.ROOT / 'curriculum/react-pair-concepts.json').read_text(encoding='utf-8'))
+        expected = {row['lesson']: [c['id'] for c in row['concepts']] for row in inventory}
+        self.assertEqual(set(expected), {f'{p}{n:02d}' for p in ['J', 'R'] for n in range(1, 15)})
+        with (queue.ROOT / 'progress/react-pair-concepts.csv').open(encoding='utf-8', newline='') as source:
+            evidence = list(csv.DictReader(source))
+        for login, peer in pair.items():
+            rows = [p for (t, g, n), p in plans.items() if g == login]
+            self.assertEqual(len(rows), 28)
+            self.assertEqual({row['lesson']: row['concept_ids'] for row in rows}, expected)
+            self.assertTrue(all(row['peer'] == peer and 'Reciprocal review' in row['body'] for row in rows))
+            self.assertEqual({r['concept_id'] for r in evidence if r['github'] == login}, {c for ids in expected.values() for c in ids})
+            self.assertTrue(all(r['reviewer'] == peer for r in evidence if r['github'] == login))
+        for number in range(15, 29):
+            first = plans['react-web', 'PratikTalware26', number]
+            second = plans['react-web', 'praadeep28101995', number]
+            self.assertNotEqual(first['feature_outcome'], second['feature_outcome'])
+            self.assertFalse(set(first['files']) & set(second['files']))
+            self.assertIn('study', first['files'][0])
+            self.assertIn('knowledge', second['files'][0])
 
 
 if __name__ == '__main__':

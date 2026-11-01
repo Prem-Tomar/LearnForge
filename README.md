@@ -38,6 +38,8 @@ Weeks 21–26 give each learner a complete chosen AI/ML capability in a separate
 
 [Optional React web and React Native mobile tracks](CLIENT_TRACKS.md) add visible interfaces to this project. Both include JavaScript interview preparation, implementation scenarios, retention questions, and separate coach keys. Pratik and Pradeep are enrolled in React web; Shubham (`bitsnbyt3s`) in React Native. [Their calendar](tracks/FRONTEND_CALENDAR.md) adds 84/84/102 hours respectively alongside the unchanged 598-hour core. Both clients use the existing Python/FastAPI implementations. [Separate frontend issues](FRONTEND_ISSUES.md) do not move or replace any fixed Python issue.
 
+[Pratik and Pradeep's React plan](tracks/react/PAIR_PLAN.md) assigns different production features while both learn every concept independently. They review each other's implementation with predictions, actual-value traces, failure cases, causal explanations and owner-written fixes.
+
 ## One project architecture
 
 All six attend **one shared architecture topic each day**, discuss the same problem, agree one project-level design, and implement separate parts. The facilitator rotates and still codes. Personal models plug into the shared architecture; there are no six competing platform designs.

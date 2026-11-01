@@ -14,7 +14,7 @@ Web adds 84 hours per selected learner (682 total with the 598-hour core); mobil
 
 Pratik integrates web startup/navigation/package files; Shubham integrates mobile startup/navigation/package files. Pradeep supplies knowledge entry components without editing those shared files. Initial shared scaffolding is owned in the first React/native integration session; peers can develop their owned components in an isolated fixture harness while waiting. No one edits the Python backend through a frontend issue. Shared extraction needs one explicitly named owner first. The future paths are teaching targets, not claims of implemented apps.
 
-All six still discuss one project-level architecture topic. Frontend review applies that same decision to client state/trust/lifetime; it does not start a competing architecture. Frontend peers rotate among the three selected people. Keep ordinary Python reviews unchanged.
+All six still discuss one project-level architecture topic. Frontend review applies that same decision to client state/trust/lifetime; it does not start a competing architecture. Pratik and Pradeep are reciprocal reviewers on every JavaScript/React increment; mobile reviews can remain additional. Keep ordinary Python reviews unchanged. [The pair plan](react/PAIR_PLAN.md) gives 14 different React feature pairs and independent evidence for every shared concept; feature ownership never divides the curriculum.
 
 ## Calendar
 

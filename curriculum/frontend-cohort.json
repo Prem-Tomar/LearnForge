@@ -21,7 +21,10 @@
       ],
       "planned_sessions": 28,
       "minimum_frontend_hours": 84,
-      "combined_core_frontend_hours": 682
+      "combined_core_frontend_hours": 682,
+      "primary_frontend_reviewer": "praadeep28101995",
+      "concept_coverage": "every J01-J14 and R01-R14 concept individually; no split by feature",
+      "feature_plan": "tracks/react/PAIR_PLAN.md"
     },
     {
       "slot": 4,
@@ -37,7 +40,10 @@
       ],
       "planned_sessions": 28,
       "minimum_frontend_hours": 84,
-      "combined_core_frontend_hours": 682
+      "combined_core_frontend_hours": 682,
+      "primary_frontend_reviewer": "PratikTalware26",
+      "concept_coverage": "every J01-J14 and R01-R14 concept individually; no split by feature",
+      "feature_plan": "tracks/react/PAIR_PLAN.md"
     },
     {
       "slot": 5,

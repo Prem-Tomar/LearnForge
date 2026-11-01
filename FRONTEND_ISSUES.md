@@ -11,3 +11,5 @@ Pratik and Pradeep learn React web; Shubham (`bitsnbyt3s`) learns React Native. 
 The Python queues stay in [ISSUES.md](ISSUES.md). See [the exact ownership/calendar](tracks/FRONTEND_CALENDAR.md), [frontend plans](curriculum/frontend-cohort.json), [coaching rules](CLIENT_TRACKS.md), and [separate frontend mastery](progress/frontend-mastery.csv).
 
 Session 001 begins the JavaScript bridge; React/React Native implementation follows its prerequisites. Existing Python issues and tracks are not moved, relabeled, unassigned or replaced. The complete 90-session blueprint is a plan; only seven frontend issues per selected person are open at once. The live links remain useful after this verification snapshot.
+
+Pratik and Pradeep are each other's frontend reviewers. [Their pair plan](tracks/react/PAIR_PLAN.md) assigns distinct React features while both independently implement and explain all shared concepts. Existing prepared issues keep their original identity, sequence and assignment; an appended coaching note records the reciprocal review instruction.

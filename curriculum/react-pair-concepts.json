@@ -1,0 +1,1018 @@
+[
+  {
+    "lesson": "J01",
+    "concepts": [
+      {
+        "id": "J01-01",
+        "name": "runtime"
+      },
+      {
+        "id": "J01-02",
+        "name": "statements and expressions"
+      },
+      {
+        "id": "J01-03",
+        "name": "let and const"
+      },
+      {
+        "id": "J01-04",
+        "name": "primitive vs object"
+      },
+      {
+        "id": "J01-05",
+        "name": "typeof limits"
+      },
+      {
+        "id": "J01-06",
+        "name": "null vs undefined"
+      },
+      {
+        "id": "J01-07",
+        "name": "zero vs missing values"
+      }
+    ]
+  },
+  {
+    "lesson": "J02",
+    "concepts": [
+      {
+        "id": "J02-01",
+        "name": "block/function/module scope"
+      },
+      {
+        "id": "J02-02",
+        "name": "var hoisting"
+      },
+      {
+        "id": "J02-03",
+        "name": "temporal dead zone"
+      },
+      {
+        "id": "J02-04",
+        "name": "shadowing"
+      },
+      {
+        "id": "J02-05",
+        "name": "lexical lookup"
+      },
+      {
+        "id": "J02-06",
+        "name": "closures"
+      },
+      {
+        "id": "J02-07",
+        "name": "outer read vs reassignment vs mutation"
+      },
+      {
+        "id": "J02-08",
+        "name": "imported bindings"
+      }
+    ]
+  },
+  {
+    "lesson": "J03",
+    "concepts": [
+      {
+        "id": "J03-01",
+        "name": "coercion"
+      },
+      {
+        "id": "J03-02",
+        "name": "strict vs loose equality"
+      },
+      {
+        "id": "J03-03",
+        "name": "truthiness"
+      },
+      {
+        "id": "J03-04",
+        "name": "nullish defaults"
+      },
+      {
+        "id": "J03-05",
+        "name": "conversion order"
+      },
+      {
+        "id": "J03-06",
+        "name": "finite numbers"
+      },
+      {
+        "id": "J03-07",
+        "name": "safe integers"
+      },
+      {
+        "id": "J03-08",
+        "name": "floating-point limits"
+      },
+      {
+        "id": "J03-09",
+        "name": "input validation"
+      }
+    ]
+  },
+  {
+    "lesson": "J04",
+    "concepts": [
+      {
+        "id": "J04-01",
+        "name": "arrays and objects"
+      },
+      {
+        "id": "J04-02",
+        "name": "destructuring"
+      },
+      {
+        "id": "J04-03",
+        "name": "rest and spread"
+      },
+      {
+        "id": "J04-04",
+        "name": "map/filter/reduce"
+      },
+      {
+        "id": "J04-05",
+        "name": "initial accumulator"
+      },
+      {
+        "id": "J04-06",
+        "name": "stable IDs"
+      },
+      {
+        "id": "J04-07",
+        "name": "duplicate identity"
+      },
+      {
+        "id": "J04-08",
+        "name": "immutable updates"
+      },
+      {
+        "id": "J04-09",
+        "name": "shallow vs nested copies"
+      }
+    ]
+  },
+  {
+    "lesson": "J05",
+    "concepts": [
+      {
+        "id": "J05-01",
+        "name": "function declarations and expressions"
+      },
+      {
+        "id": "J05-02",
+        "name": "arrow functions"
+      },
+      {
+        "id": "J05-03",
+        "name": "parameters and defaults"
+      },
+      {
+        "id": "J05-04",
+        "name": "return"
+      },
+      {
+        "id": "J05-05",
+        "name": "callbacks"
+      },
+      {
+        "id": "J05-06",
+        "name": "this receiver"
+      },
+      {
+        "id": "J05-07",
+        "name": "bind"
+      },
+      {
+        "id": "J05-08",
+        "name": "safe text formatting"
+      }
+    ]
+  },
+  {
+    "lesson": "J06",
+    "concepts": [
+      {
+        "id": "J06-01",
+        "name": "JSON serialization"
+      },
+      {
+        "id": "J06-02",
+        "name": "JSON parsing"
+      },
+      {
+        "id": "J06-03",
+        "name": "syntax vs schema vs domain errors"
+      },
+      {
+        "id": "J06-04",
+        "name": "try/catch/finally"
+      },
+      {
+        "id": "J06-05",
+        "name": "thrown errors"
+      },
+      {
+        "id": "J06-06",
+        "name": "stack and cause"
+      },
+      {
+        "id": "J06-07",
+        "name": "safe error logging"
+      }
+    ]
+  },
+  {
+    "lesson": "J07",
+    "concepts": [
+      {
+        "id": "J07-01",
+        "name": "callbacks vs promises"
+      },
+      {
+        "id": "J07-02",
+        "name": "promise states"
+      },
+      {
+        "id": "J07-03",
+        "name": "then"
+      },
+      {
+        "id": "J07-04",
+        "name": "async/await"
+      },
+      {
+        "id": "J07-05",
+        "name": "returned vs detached work"
+      },
+      {
+        "id": "J07-06",
+        "name": "rejection propagation"
+      },
+      {
+        "id": "J07-07",
+        "name": "synchronous CPU work in async code"
+      }
+    ]
+  },
+  {
+    "lesson": "J08",
+    "concepts": [
+      {
+        "id": "J08-01",
+        "name": "call stack"
+      },
+      {
+        "id": "J08-02",
+        "name": "run-to-completion"
+      },
+      {
+        "id": "J08-03",
+        "name": "promise microtasks"
+      },
+      {
+        "id": "J08-04",
+        "name": "host timers"
+      },
+      {
+        "id": "J08-05",
+        "name": "await continuation"
+      },
+      {
+        "id": "J08-06",
+        "name": "dependent vs independent work"
+      },
+      {
+        "id": "J08-07",
+        "name": "Promise.all/allSettled"
+      },
+      {
+        "id": "J08-08",
+        "name": "bounded concurrency"
+      }
+    ]
+  },
+  {
+    "lesson": "J09",
+    "concepts": [
+      {
+        "id": "J09-01",
+        "name": "HTTP status vs network failure"
+      },
+      {
+        "id": "J09-02",
+        "name": "response headers"
+      },
+      {
+        "id": "J09-03",
+        "name": "decoding vs validation"
+      },
+      {
+        "id": "J09-04",
+        "name": "abort signal"
+      },
+      {
+        "id": "J09-05",
+        "name": "deadlines"
+      },
+      {
+        "id": "J09-06",
+        "name": "cleanup"
+      },
+      {
+        "id": "J09-07",
+        "name": "safe retry"
+      },
+      {
+        "id": "J09-08",
+        "name": "idempotency and reconciliation"
+      }
+    ]
+  },
+  {
+    "lesson": "J10",
+    "concepts": [
+      {
+        "id": "J10-01",
+        "name": "closure capture"
+      },
+      {
+        "id": "J10-02",
+        "name": "stale computed values"
+      },
+      {
+        "id": "J10-03",
+        "name": "request identity"
+      },
+      {
+        "id": "J10-04",
+        "name": "debounce"
+      },
+      {
+        "id": "J10-05",
+        "name": "cancellation limits"
+      },
+      {
+        "id": "J10-06",
+        "name": "latest-result ownership"
+      },
+      {
+        "id": "J10-07",
+        "name": "workspace-scoped results"
+      },
+      {
+        "id": "J10-08",
+        "name": "disposal"
+      }
+    ]
+  },
+  {
+    "lesson": "J11",
+    "concepts": [
+      {
+        "id": "J11-01",
+        "name": "own vs inherited properties"
+      },
+      {
+        "id": "J11-02",
+        "name": "prototype lookup"
+      },
+      {
+        "id": "J11-03",
+        "name": "classes and new"
+      },
+      {
+        "id": "J11-04",
+        "name": "prototype methods vs instance fields"
+      },
+      {
+        "id": "J11-05",
+        "name": "receiver loss"
+      },
+      {
+        "id": "J11-06",
+        "name": "composition"
+      },
+      {
+        "id": "J11-07",
+        "name": "safe untrusted keys and Map"
+      }
+    ]
+  },
+  {
+    "lesson": "J12",
+    "concepts": [
+      {
+        "id": "J12-01",
+        "name": "ES imports and exports"
+      },
+      {
+        "id": "J12-02",
+        "name": "live bindings"
+      },
+      {
+        "id": "J12-03",
+        "name": "loader-scoped module cache"
+      },
+      {
+        "id": "J12-04",
+        "name": "singleton state scope"
+      },
+      {
+        "id": "J12-05",
+        "name": "listeners and timers"
+      },
+      {
+        "id": "J12-06",
+        "name": "retained references"
+      },
+      {
+        "id": "J12-07",
+        "name": "unsubscribe and cleanup"
+      }
+    ]
+  },
+  {
+    "lesson": "J13",
+    "concepts": [
+      {
+        "id": "J13-01",
+        "name": "TypeScript annotations and inference"
+      },
+      {
+        "id": "J13-02",
+        "name": "unions and narrowing"
+      },
+      {
+        "id": "J13-03",
+        "name": "unknown vs any"
+      },
+      {
+        "id": "J13-04",
+        "name": "optional fields"
+      },
+      {
+        "id": "J13-05",
+        "name": "compile-time vs runtime"
+      },
+      {
+        "id": "J13-06",
+        "name": "assertion vs validation"
+      },
+      {
+        "id": "J13-07",
+        "name": "compiler configuration"
+      }
+    ]
+  },
+  {
+    "lesson": "J14",
+    "concepts": [
+      {
+        "id": "J14-01",
+        "name": "validated numeric aggregation"
+      },
+      {
+        "id": "J14-02",
+        "name": "duplicate rejection"
+      },
+      {
+        "id": "J14-03",
+        "name": "input nonmutation"
+      },
+      {
+        "id": "J14-04",
+        "name": "load failure and cancellation"
+      },
+      {
+        "id": "J14-05",
+        "name": "stale writes"
+      },
+      {
+        "id": "J14-06",
+        "name": "time/space cost"
+      },
+      {
+        "id": "J14-07",
+        "name": "secret and authorization boundaries"
+      },
+      {
+        "id": "J14-08",
+        "name": "integrated debugging"
+      }
+    ]
+  },
+  {
+    "lesson": "R01",
+    "concepts": [
+      {
+        "id": "R01-01",
+        "name": "semantic HTML"
+      },
+      {
+        "id": "R01-02",
+        "name": "labels and buttons"
+      },
+      {
+        "id": "R01-03",
+        "name": "CSS box/layout"
+      },
+      {
+        "id": "R01-04",
+        "name": "DOM vs React elements"
+      },
+      {
+        "id": "R01-05",
+        "name": "JSX expressions"
+      },
+      {
+        "id": "R01-06",
+        "name": "function components"
+      },
+      {
+        "id": "R01-07",
+        "name": "props"
+      },
+      {
+        "id": "R01-08",
+        "name": "safe escaped text"
+      },
+      {
+        "id": "R01-09",
+        "name": "startup and build wiring"
+      }
+    ]
+  },
+  {
+    "lesson": "R02",
+    "concepts": [
+      {
+        "id": "R02-01",
+        "name": "list mapping"
+      },
+      {
+        "id": "R02-02",
+        "name": "conditional/empty UI"
+      },
+      {
+        "id": "R02-03",
+        "name": "stable keys"
+      },
+      {
+        "id": "R02-04",
+        "name": "component identity"
+      },
+      {
+        "id": "R02-05",
+        "name": "composition"
+      },
+      {
+        "id": "R02-06",
+        "name": "responsive Flexbox"
+      },
+      {
+        "id": "R02-07",
+        "name": "accessible names and reading order"
+      }
+    ]
+  },
+  {
+    "lesson": "R03",
+    "concepts": [
+      {
+        "id": "R03-01",
+        "name": "useState"
+      },
+      {
+        "id": "R03-02",
+        "name": "event handlers"
+      },
+      {
+        "id": "R03-03",
+        "name": "controlled input"
+      },
+      {
+        "id": "R03-04",
+        "name": "immutable state"
+      },
+      {
+        "id": "R03-05",
+        "name": "render snapshots"
+      },
+      {
+        "id": "R03-06",
+        "name": "functional updater queue"
+      },
+      {
+        "id": "R03-07",
+        "name": "batching"
+      },
+      {
+        "id": "R03-08",
+        "name": "pure rendering"
+      },
+      {
+        "id": "R03-09",
+        "name": "input validation"
+      }
+    ]
+  },
+  {
+    "lesson": "R04",
+    "concepts": [
+      {
+        "id": "R04-01",
+        "name": "lifting state"
+      },
+      {
+        "id": "R04-02",
+        "name": "props and callbacks"
+      },
+      {
+        "id": "R04-03",
+        "name": "nearest common owner"
+      },
+      {
+        "id": "R04-04",
+        "name": "derived values"
+      },
+      {
+        "id": "R04-05",
+        "name": "reducers and transitions"
+      },
+      {
+        "id": "R04-06",
+        "name": "controlled vs uncontrolled ownership"
+      }
+    ]
+  },
+  {
+    "lesson": "R05",
+    "concepts": [
+      {
+        "id": "R05-01",
+        "name": "hook call rules"
+      },
+      {
+        "id": "R05-02",
+        "name": "effect setup and cleanup"
+      },
+      {
+        "id": "R05-03",
+        "name": "dependency identity"
+      },
+      {
+        "id": "R05-04",
+        "name": "refs vs state"
+      },
+      {
+        "id": "R05-05",
+        "name": "stale closures"
+      },
+      {
+        "id": "R05-06",
+        "name": "development Strict Mode"
+      },
+      {
+        "id": "R05-07",
+        "name": "workspace-switch races"
+      }
+    ]
+  },
+  {
+    "lesson": "R06",
+    "concepts": [
+      {
+        "id": "R06-01",
+        "name": "fetch status handling"
+      },
+      {
+        "id": "R06-02",
+        "name": "runtime response decoding"
+      },
+      {
+        "id": "R06-03",
+        "name": "typed validation"
+      },
+      {
+        "id": "R06-04",
+        "name": "loading/error/empty/success states"
+      },
+      {
+        "id": "R06-05",
+        "name": "retry"
+      },
+      {
+        "id": "R06-06",
+        "name": "request ownership"
+      },
+      {
+        "id": "R06-07",
+        "name": "custom-hook state independence"
+      }
+    ]
+  },
+  {
+    "lesson": "R07",
+    "concepts": [
+      {
+        "id": "R07-01",
+        "name": "URLs and routing"
+      },
+      {
+        "id": "R07-02",
+        "name": "route parameters"
+      },
+      {
+        "id": "R07-03",
+        "name": "nested layouts"
+      },
+      {
+        "id": "R07-04",
+        "name": "direct entry/back/refresh"
+      },
+      {
+        "id": "R07-05",
+        "name": "authentication vs authorization"
+      },
+      {
+        "id": "R07-06",
+        "name": "cookies/tokens and CSRF"
+      },
+      {
+        "id": "R07-07",
+        "name": "tenant isolation"
+      },
+      {
+        "id": "R07-08",
+        "name": "client secret exposure"
+      }
+    ]
+  },
+  {
+    "lesson": "R08",
+    "concepts": [
+      {
+        "id": "R08-01",
+        "name": "field and server errors"
+      },
+      {
+        "id": "R08-02",
+        "name": "pending mutations"
+      },
+      {
+        "id": "R08-03",
+        "name": "duplicate actions"
+      },
+      {
+        "id": "R08-04",
+        "name": "optimistic vs confirmed UI"
+      },
+      {
+        "id": "R08-05",
+        "name": "effect idempotency"
+      },
+      {
+        "id": "R08-06",
+        "name": "version conflict"
+      },
+      {
+        "id": "R08-07",
+        "name": "rollback and reconciliation"
+      }
+    ]
+  },
+  {
+    "lesson": "R09",
+    "concepts": [
+      {
+        "id": "R09-01",
+        "name": "file inputs"
+      },
+      {
+        "id": "R09-02",
+        "name": "size/type checks"
+      },
+      {
+        "id": "R09-03",
+        "name": "server validation"
+      },
+      {
+        "id": "R09-04",
+        "name": "upload/job lifecycle"
+      },
+      {
+        "id": "R09-05",
+        "name": "debounced query"
+      },
+      {
+        "id": "R09-06",
+        "name": "bounded pagination/cursors"
+      },
+      {
+        "id": "R09-07",
+        "name": "cache identity/expiry"
+      },
+      {
+        "id": "R09-08",
+        "name": "accessible progress"
+      }
+    ]
+  },
+  {
+    "lesson": "R10",
+    "concepts": [
+      {
+        "id": "R10-01",
+        "name": "incremental text decoding"
+      },
+      {
+        "id": "R10-02",
+        "name": "message framing"
+      },
+      {
+        "id": "R10-03",
+        "name": "stream cleanup"
+      },
+      {
+        "id": "R10-04",
+        "name": "bounded buffers"
+      },
+      {
+        "id": "R10-05",
+        "name": "partial/disconnected output"
+      },
+      {
+        "id": "R10-06",
+        "name": "citation provenance"
+      },
+      {
+        "id": "R10-07",
+        "name": "abstention"
+      },
+      {
+        "id": "R10-08",
+        "name": "safe markup"
+      },
+      {
+        "id": "R10-09",
+        "name": "keyboard-accessible sources"
+      }
+    ]
+  },
+  {
+    "lesson": "R11",
+    "concepts": [
+      {
+        "id": "R11-01",
+        "name": "exact action identity"
+      },
+      {
+        "id": "R11-02",
+        "name": "version-bound approval"
+      },
+      {
+        "id": "R11-03",
+        "name": "permission display"
+      },
+      {
+        "id": "R11-04",
+        "name": "approval expiry"
+      },
+      {
+        "id": "R11-05",
+        "name": "cancellation"
+      },
+      {
+        "id": "R11-06",
+        "name": "pending/rejected/completed state"
+      },
+      {
+        "id": "R11-07",
+        "name": "reconnect"
+      },
+      {
+        "id": "R11-08",
+        "name": "server authority over durable effects"
+      }
+    ]
+  },
+  {
+    "lesson": "R12",
+    "concepts": [
+      {
+        "id": "R12-01",
+        "name": "model result units"
+      },
+      {
+        "id": "R12-02",
+        "name": "baseline and metric"
+      },
+      {
+        "id": "R12-03",
+        "name": "model/data version"
+      },
+      {
+        "id": "R12-04",
+        "name": "honest uncertainty"
+      },
+      {
+        "id": "R12-05",
+        "name": "accessible result summaries"
+      },
+      {
+        "id": "R12-06",
+        "name": "data minimization"
+      },
+      {
+        "id": "R12-07",
+        "name": "fallback"
+      },
+      {
+        "id": "R12-08",
+        "name": "profiling before memoization/virtualization"
+      }
+    ]
+  },
+  {
+    "lesson": "R13",
+    "concepts": [
+      {
+        "id": "R13-01",
+        "name": "render error boundaries"
+      },
+      {
+        "id": "R13-02",
+        "name": "event/async error handling"
+      },
+      {
+        "id": "R13-03",
+        "name": "source maps"
+      },
+      {
+        "id": "R13-04",
+        "name": "redacted logs"
+      },
+      {
+        "id": "R13-05",
+        "name": "build-time configuration"
+      },
+      {
+        "id": "R13-06",
+        "name": "build artifact and version"
+      },
+      {
+        "id": "R13-07",
+        "name": "route-host fallback"
+      },
+      {
+        "id": "R13-08",
+        "name": "compatibility"
+      },
+      {
+        "id": "R13-09",
+        "name": "release and rollback"
+      }
+    ]
+  },
+  {
+    "lesson": "R14",
+    "concepts": [
+      {
+        "id": "R14-01",
+        "name": "real Python integration"
+      },
+      {
+        "id": "R14-02",
+        "name": "keyboard-only flow"
+      },
+      {
+        "id": "R14-03",
+        "name": "narrow viewport"
+      },
+      {
+        "id": "R14-04",
+        "name": "offline recovery"
+      },
+      {
+        "id": "R14-05",
+        "name": "reload/back behavior"
+      },
+      {
+        "id": "R14-06",
+        "name": "fresh race repair"
+      },
+      {
+        "id": "R14-07",
+        "name": "real backend failure"
+      },
+      {
+        "id": "R14-08",
+        "name": "two-tab conflict design"
+      },
+      {
+        "id": "R14-09",
+        "name": "individual project explanation"
+      }
+    ]
+  }
+]
