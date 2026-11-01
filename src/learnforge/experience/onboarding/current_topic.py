@@ -1,3 +1,3 @@
 def today_topic():
-    topic = "Pending"
+    topic = "variables and indentation"
     return topic
