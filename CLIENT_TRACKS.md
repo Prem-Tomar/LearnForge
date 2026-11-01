@@ -66,7 +66,7 @@ Use [the JS question bank](tracks/javascript/INTERVIEW_QUESTIONS.md) with [the s
 
 ## Activation and queue policy
 
-The user selected **separate queues**, each with seven prepared frontend issues and one current assigned frontend issue alongside the existing Python task. This is an explicit exception to the original cross-track limit; the Python queue and all its existing issues remain in place. Selected people have two current implementation assignments: one Python and one frontend. Other people retain just their existing Python assignment.
+The user selected **separate queues**, each with seven prepared frontend issues and one current assigned frontend issue alongside the existing Python task. This is an explicit exception to the original cross-track limit; the Python queue and all its existing issues remain in place. Selected people have seven assigned Python issues and only one assigned frontend issue. Other people have the seven assigned Python issues. Only the eligible step in each track is current.
 
 `tools/frontend_queue.py` and its dedicated workflow read only [frontend blueprints](curriculum/frontend-cohort.json). Frontend identity markers, titles and labels are separate from core keys. The tool never moves, closes or rewrites Python issues, and the core queue does not recognize frontend titles. Each queue independently requires implementation review approval plus closure as completed before its next assignment. Missing approval leaves the next frontend task unassigned even when seven future tasks are prepared. Reuse an existing unfinished frontend issue before creating another; shrink at the end. Frontend progress has [its own ledger](progress/frontend-mastery.csv).
 

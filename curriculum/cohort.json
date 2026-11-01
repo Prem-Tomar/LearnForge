@@ -41,7 +41,7 @@
       "chosen_track": null
     }
   ],
-  "assigned_limit": 1,
+  "assigned_limit": 7,
   "review_label": "review-approved",
   "previous_repositories": [
     "Prem-Tomar/python-fastapi-genai-agents-coaching"

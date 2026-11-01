@@ -1,8 +1,8 @@
 # Personal task queues
-**Seven prepared open issues per learner; one current assigned task for each of six confirmed collaborators.** The next assignment waits for implementation review approval and closure. Existing future issues are deferred for reuse, not completed learning. Selected client collaborators also have [separate frontend queues](FRONTEND_ISSUES.md). This page and its snapshots describe Python tasks only.
+**Seven prepared Python issues per learner, all assigned.** The next current step waits for implementation review approval and closure. Existing future issues are deferred for reuse, not completed learning. Selected client collaborators also have [separate frontend queues](FRONTEND_ISSUES.md). This page and its snapshots describe Python tasks only.
 ## Live task links
 These links stay current as the workflow advances. A prepared issue is not permission to skip its prerequisite or the shared architecture/ownership handoff.
-| Learner | GitHub account | One current assigned task | All seven prepared tasks |
+| Learner | GitHub account | Current Python step | All seven prepared tasks |
 |---|---|---|---|
 | Learner 01 | [PratikTalware26](https://github.com/PratikTalware26) | [Current assignment](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+assignee%3APratikTalware26+label%3Aqueue-current) | [Prepared queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+label%3Alearner-01) |
 | Learner 02 | [YogeshPatil991](https://github.com/YogeshPatil991) | [Current assignment](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+assignee%3AYogeshPatil991+label%3Aqueue-current) | [Prepared queue](https://github.com/Prem-Tomar/LearnForge/issues?q=is%3Aissue+is%3Aopen+label%3Alearner-02) |

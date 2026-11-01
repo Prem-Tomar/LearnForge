@@ -7,7 +7,7 @@
   "core_scheduled_hours_preserved": 598,
   "limits_across_all_tracks": {
     "core_prepared_per_learner": 7,
-    "core_assigned_per_learner": 1,
+    "core_assigned_per_learner": 7,
     "frontend_prepared_per_selected_learner": 7,
     "frontend_assigned_per_selected_learner": 1
   },

@@ -9,7 +9,7 @@
   "max_main_issue_words": 450,
   "max_total_issue_words": 900,
   "api_documentation_requested": false,
-  "core_queue": {"prepared": 7, "assigned": 1},
+  "core_queue": {"prepared": 7, "assigned": 7},
   "frontend_queue": {"prepared": 7, "assigned": 1, "separate_from_core": true},
   "research_hints_per_topic": 3,
   "project_rules_in_issues": false,

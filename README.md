@@ -39,7 +39,7 @@ LearnForge is the learning product and workbench. Its study records, documents, 
 | Personal coaching and teamwork | Dedicated implementation slices, exact files/functions and why, step-by-step mechanisms, retention questions, prediction scenarios, rotating peer reviews, personal evidence, and targeted repair |
 | Optional React and React Native | Browser/mobile interfaces for the same project, shared JavaScript/TypeScript foundations and 42 JavaScript interview questions; Pratik/Pradeep on web and Shubham on mobile, with separate queues using the Python backend |
 
-Each confirmed collaborator has one current Python task and six prepared Python tasks. Pratik, Pradeep and Shubham also have separate frontend queues, each with seven prepared issues and one assigned frontend task. The next assignment requires implementation review approval and closure. Architecture is shared; production code ownership is separate. Testing stays light and attached to implementation, with no testing-only assignment. API documentation is added only when requested.
+All seven prepared Python issues are assigned to each confirmed collaborator; one is marked as the current eligible step. Pratik, Pradeep and Shubham also have separate frontend queues, each with seven prepared issues and one assigned frontend task. The next current step requires implementation review approval and closure. Architecture is shared; production code ownership is separate. Testing stays light and attached to implementation, with no testing-only assignment. API documentation is added only when requested.
 
 **26 weeks · 182 learning days per learner · 598 scheduled hours each, including breaks.** Five 3-hour sessions and two 4-hour sessions per week.
 
@@ -89,7 +89,7 @@ Use simple English and define unfamiliar terms beside examples. Every day includ
 
 Testing is light and attached to implementation. There is no testing-only assignment, tester-only role, coverage quota, or large test-suite project. **API documentation is added only when requested**; future FastAPI setup disables Swagger, ReDoc, and public OpenAPI endpoints by default. Internal working contracts still support parallel implementation.
 
-Six confirmed collaborators are mapped in [LEARNERS.md](LEARNERS.md), including GlidingScorpion on Learner 06. Each gets **one current Python task**, while six more Python tasks remain prepared and unassigned. The next task is assigned only after implementation review approval and closure. Selected client collaborators additionally receive one current frontend task and six prepared frontend tasks in separate queues. No email addresses or guessed identities are published. Public work uses ordinary contributor identities and descriptive names without generator attribution.
+Six confirmed collaborators are mapped in [LEARNERS.md](LEARNERS.md), including GlidingScorpion on Learner 06. Each gets **all seven prepared Python tasks assigned**. One is the current eligible step; prerequisites and review/completion determine its progression. Selected client collaborators additionally receive one current frontend task and six prepared frontend tasks in separate queues. No email addresses or guessed identities are published. Public work uses ordinary contributor identities and descriptive names without generator attribution.
 
 ## Guides
 

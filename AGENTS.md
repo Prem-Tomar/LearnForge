@@ -30,7 +30,7 @@ Apply these rules to existing issues, future issues, curriculum changes, code ex
 ## Workflow and scope
 
 - Preserve issue IDs, assignments, states, labels, track order and accepted work during description cleanup unless the user explicitly requests a workflow change.
-- Each core learner has seven prepared open issues and one current core assignment. Selected frontend learners additionally have a separate seven-prepared/one-current frontend queue. Each queue advances assignment only after implementation review approval and completion closure; do not print those rules inside issues.
+- Assign all seven prepared open Python issues to each core learner. Mark one eligible current step; its next current step still requires implementation review approval and completion closure. Selected frontend learners additionally have a separate seven-prepared queue with only one assigned frontend issue. Refill the windows as work completes. Do not print these project rules inside issues.
 - Keep testing light and attached to implementation; no testing-only task or permanent tester. Conceptual follow-up is separate from acceptance of correct bounded implementation. No surprise test/report/document requirement.
 - Do not add API documentation unless requested. Future FastAPI setup keeps Swagger, ReDoc and public OpenAPI disabled by default. Keep provider secrets and authorization/approval authority on the Python server.
 - Keep the six-month core and explicitly budgeted extra client hours honest. No feature/track replaces Python or AI/ML foundations. Use ordinary contributor identity without tool/model attribution or signatures in public material.

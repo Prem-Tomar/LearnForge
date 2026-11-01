@@ -55,6 +55,12 @@ def validate_blueprint(row, policy, core):
 def validate(root=ROOT):
     policy = json.loads((root/'curriculum/coaching-policy.json').read_text(encoding='utf-8'))
     errors = []
+    cohort=json.loads((root/'curriculum/cohort.json').read_text(encoding='utf-8'))
+    frontend=json.loads((root/'curriculum/frontend-cohort.json').read_text(encoding='utf-8'))
+    if (cohort['open_limit'],cohort['assigned_limit']) != (policy['core_queue']['prepared'],policy['core_queue']['assigned']):
+        errors.append('Python queue configuration does not match the recorded assignment rule')
+    if (frontend['prepared_limit'],frontend['assigned_limit_per_frontend_queue']) != (policy['frontend_queue']['prepared'],policy['frontend_queue']['assigned']):
+        errors.append('frontend queue configuration does not match the recorded assignment rule')
     if policy['revision_topic_days'] != [1,3,7,10,15] or policy['revision_date_offsets'] != [0,2,6,9,14]:
         errors.append('revision cycle must stay topic-relative: days 1/3/7/10/15')
     if not policy['revision_days_allow_other_topics']:

@@ -33,6 +33,6 @@ Add virtual environments, package installation, databases, containers, model SDK
 
 Use the review/repair block. Cut optional polish, repeated reading, extra abstractions, and excessive test work first. Preserve the concept, personal proof, shared architecture, review, working feature, and important permission/data/effect checks. If a prerequisite still fails, record extra time and move dependent work; do not silently remove concepts or award a calendar-based pass.
 
-Six collaborator accounts are verified and mapped in LEARNERS.md, including GlidingScorpion on Learner 06. Each has one current assigned issue and six prepared unassigned issues. Review approval and predecessor closure release the next assignment. Never publish private email addresses.
+Six collaborator accounts are verified and mapped in LEARNERS.md, including GlidingScorpion on Learner 06. All seven prepared Python issues are assigned to each learner. Review approval and predecessor closure release the next current step; selected frontend collaborators retain only one assigned frontend issue. Never publish private email addresses.
 
 Optional [React and React Native tracks](CLIENT_TRACKS.md) include a shared JavaScript bridge and interview questions. Pratik/Pradeep have React queues and Shubham has React Native, alongside their unchanged Python issues. Follow [the frontend calendar](tracks/FRONTEND_CALENDAR.md) and [frontend issue links](FRONTEND_ISSUES.md); both clients use the existing Python backend.
