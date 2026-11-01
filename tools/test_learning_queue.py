@@ -1,6 +1,6 @@
 """Small maintainer checks for queue correctness, not learner assignments."""
 import unittest
-from learning_queue import desired_window, is_completed
+from learning_queue import desired_window, is_completed, eligible_current_day
 
 
 def issue(state="open", reason=None, deferred=False):
@@ -33,6 +33,15 @@ class QueueRules(unittest.TestCase):
     def test_out_of_order_close_does_not_skip_earlier_work(self):
         current = {5: issue("closed", "completed")}
         self.assertEqual(desired_window(range(1, 183), current), [1, 2, 3, 4, 6, 7, 8])
+
+    def test_next_assignment_requires_review_and_closure(self):
+        current = {1: issue("closed", "completed")}
+        self.assertIsNone(eligible_current_day(range(1, 183), current, "learner"))
+        current[1]["labels"] = [{"name": "review-approved"}]
+        self.assertEqual(eligible_current_day(range(1, 183), current, "learner"), 2)
+        current[1]["state"] = "open"
+        self.assertEqual(eligible_current_day(range(1, 183), current, "learner"), 1)
+        self.assertIsNone(eligible_current_day(range(1, 183), current, None))
 
 
 if __name__ == "__main__":

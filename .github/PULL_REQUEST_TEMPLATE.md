@@ -22,4 +22,4 @@ Assigned peer, response to findings, integrated result, checks actually run, and
 
 Link existing concept/Question-of-the-Day discussion if needed. Pending conceptual coaching alone does not block correct original implementation or require extra tests/reports. Keep personal learning evidence separately.
 
-Close only your accepted personal implementation issue. The rolling queue activates the next day and keeps seven open tasks. Testing stays light; no testing-only assignment or API documentation unless requested.
+The reviewer/maintainer adds review-approved after accepting the original implementation, then closes that personal issue as completed. The next issue is assigned only after review and closure. The rolling queue activates the next day and keeps seven open tasks. Testing stays light; no testing-only assignment or API documentation unless requested.

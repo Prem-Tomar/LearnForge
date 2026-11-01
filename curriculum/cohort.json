@@ -12,27 +12,27 @@
   "learners": [
     {
       "slot": 1,
-      "github": null,
+      "github": "PratikTalware26",
       "chosen_track": null
     },
     {
       "slot": 2,
-      "github": null,
+      "github": "YogeshPatil991",
       "chosen_track": null
     },
     {
       "slot": 3,
-      "github": null,
+      "github": "Rohan5607",
       "chosen_track": null
     },
     {
       "slot": 4,
-      "github": null,
+      "github": "praadeep28101995",
       "chosen_track": null
     },
     {
       "slot": 5,
-      "github": null,
+      "github": "bitsnbyt3s",
       "chosen_track": null
     },
     {
@@ -40,5 +40,10 @@
       "github": null,
       "chosen_track": null
     }
+  ],
+  "assigned_limit": 1,
+  "review_label": "review-approved",
+  "previous_repositories": [
+    "Prem-Tomar/python-fastapi-genai-agents-coaching"
   ]
 }

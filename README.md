@@ -1,5 +1,26 @@
 # LearnForge — personal Python and AI/ML coaching for six learners
 
+## Goal
+
+Build independent, interview-ready developers who can implement, debug, deploy, and explain Python applications and a chosen AI/ML capability. Start with Python in depth, then gradually apply FastAPI, data and mathematics, GenAI, agents, and shared architecture through one growing project.
+
+LearnForge is the learning product and workbench. Its study records, documents, APIs, jobs, models, and controlled agent actions give each concept a real implementation purpose. In the final stage, each learner chooses an AI/ML topic and builds a working baseline/capability with measured results and clear limitations. Advanced competence is demonstrated through fresh coding, debugging, design, mathematical reasoning, and explanation; it is not awarded merely because time passed.
+
+## Scope
+
+| Area | What learners build and explain |
+|---|---|
+| Python in depth | Values/types, functions and scope, global/nonlocal, object binding/mutation, exceptions, imports, classes, typing, iterators/generators, decorators, resource lifetime, concurrency, and program-behavior scenarios |
+| FastAPI and data | Request/response boundaries, validation, identity and access control, SQL, transactions, migrations, pagination, background jobs, streaming, retries, and idempotency |
+| AI/ML, data science, and mathematics | Clean/versioned data, arrays, statistics, probability, linear algebra, basic calculus/optimization, baselines, splits/leakage, model fitting or retrieval, evaluation, inference, versioning, and chosen specialization |
+| GenAI and RAG | Model/provider boundaries, prompts, structured output, tokens/budgets, embeddings/search, source provenance, citations, abstention, safe context, and useful small evaluation flows |
+| Agents | Bounded tool loops, trusted policy, memory/state, approvals, checkpoints, durable effects, MCP, orchestration, and cancellation |
+| Deployment and debugging | Containers, CI, logs/metrics/traces, failure diagnosis, load/capacity reasoning, graceful fallback, rollback, backup/restore, and recovery |
+| System design and architecture | One shared project-level topic at a time: requirements, units, contracts, state ownership, boundaries, consistency, security, reliability, scale, cost, and trade-offs |
+| Personal coaching and teamwork | Dedicated implementation slices, exact files/functions and why, step-by-step mechanisms, retention questions, prediction scenarios, rotating peer reviews, personal evidence, and targeted repair |
+
+Each confirmed collaborator has one current assigned task and six prepared unassigned tasks. The next assignment requires implementation review approval and closure. Architecture is shared; production code ownership is separate. Testing stays light and attached to implementation, with no testing-only assignment. API documentation is added only when requested.
+
 **26 weeks · 182 learning days per learner · 598 scheduled hours each, including breaks.** Five 3-hour sessions and two 4-hour sessions per week.
 
 Learn Python deeply from zero, then use FastAPI, data and mathematics, GenAI, agents, deployment, debugging, system design, and architecture to build real AI/ML capabilities. LearnForge grows from a small working CLI into an AI/ML learning workbench with study data, knowledge retrieval, controlled model-backed workflows, and each learner's chosen advanced feature.
@@ -44,11 +65,12 @@ Use simple English and define unfamiliar terms beside examples. Every day includ
 
 Testing is light and attached to implementation. There is no testing-only assignment, tester-only role, coverage quota, or large test-suite project. **API documentation is added only when requested**; future FastAPI setup disables Swagger, ReDoc, and public OpenAPI endpoints by default. Internal working contracts still support parallel implementation.
 
-GitHub assignees remain empty until real accounts are identified. Invitations were left aside at the user's request. Learner slots are learning identities, not invented GitHub accounts. No email addresses are published. Public work uses ordinary contributor identities and descriptive names without generator attribution.
+Five confirmed collaborators are mapped in [LEARNERS.md](LEARNERS.md). Each gets **one current assigned task**, while six more remain prepared and unassigned. The next task is assigned only after implementation review approval and closure. Learner 06 remains unassigned by request. No email addresses or guessed identities are published. Public work uses ordinary contributor identities and descriptive names without generator attribution.
 
 ## Guides
 
 - [Personal tasks and peer review](TEAM.md)
+- [Confirmed accounts and one-current-task assignments](LEARNERS.md)
 - [Rolling seven-task queue](QUEUE_POLICY.md)
 - [Learning concepts by implementation](IMPLEMENTATION_LEARNING.md)
 - [Step-by-step explanations and reviews](REVIEW_GUIDE.md)

@@ -41,3 +41,8 @@ Accept implementation against its original bounded contract. A correct PR can be
 Preserve original answers. Mark correct, partial, incorrect, and missing parts; give a worked correction and a targeted follow-up, then revisit the idea with a fresh example. Do not require extra learner-written tests or documentation merely to answer a question.
 
 Testing remains light and attached to features. Maintainers/coaches may own routine checks, formatting, and supporting notes where appropriate. Everyone still implements their dedicated feature and learns the required checking/evaluation patterns. API documentation remains opt-in.
+
+
+## Release the next current task
+
+After the original implementation is accepted, the reviewer or maintainer adds review-approved and closes the issue as completed. The workflow requires both signals before assigning the next task. A pending conceptual answer alone does not withhold implementation approval; an actual original-contract defect does. Seven tasks remain prepared, with only one assigned current task.

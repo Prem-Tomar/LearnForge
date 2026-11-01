@@ -39,6 +39,30 @@ def desired_window(days, issues, limit=7):
     return [day for day in sorted(days) if day not in issues or not is_completed(issues[day])][:limit]
 
 
+def is_reviewed_completed(issue):
+    labels = {item["name"] if isinstance(item, dict) else item for item in issue.get("labels", [])}
+    return is_completed(issue) and "review-approved" in labels
+
+
+def eligible_current_day(days, issues, login):
+    if not login:
+        return None
+    window = desired_window(days, issues)
+    if not window:
+        return None
+    candidate = window[0]
+    if all(day in issues and is_reviewed_completed(issues[day]) for day in days if day < candidate):
+        return candidate
+    return None
+
+
+REVIEW_NOTE = """<!-- review-gate: v1 -->
+## Review, closure, and the next assignment
+
+Only one open task is assigned to you. The other six prepared tasks remain unassigned. Your reviewer or maintainer adds `review-approved` after accepting the original bounded implementation, then closes the issue as completed. The next task is assigned only when both conditions are recorded. If closure happens first, assignment waits for the review label. Conceptual coaching is tracked separately and does not create an extra test/report requirement.
+"""
+
+
 def gh(*args, payload=None):
     command = ["gh", *args]
     filename = None
@@ -85,7 +109,7 @@ def compose_body(plan, prior, repository):
         "Resolve accepted implementation as completed to activate the next planned day. "
         "Existing deferred issues are refreshed and reopened before any new issue is created. "
         "The window shrinks only when fewer concepts remain.\n"
-    )
+    ) + "\n\n" + REVIEW_NOTE
 
 
 def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_one=False):
@@ -115,6 +139,7 @@ def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_on
         days = [day for owner, day in plans if owner == learner]
         issues = {day: issue for (owner, day), issue in indexed.items() if owner == learner}
         window = desired_window(days, issues, config["open_limit"])
+        current_day = eligible_current_day(days, issues, person.get("github"))
         extra = [day for day, issue in issues.items() if issue["state"] == "open" and day not in window]
         for day in sorted(extra, reverse=True):
             issue = issues[day]
@@ -131,18 +156,32 @@ def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_on
         for day in window:
             issue = issues.get(day)
             if issue and issue["state"] == "open":
+                names = {item["name"] for item in issue.get("labels", [])}
+                wanted_names = (names - {"queue-current", "queue-deferred"}) | {"queue-ready"}
+                wanted_assignees = []
+                if day == current_day:
+                    wanted_names.add("queue-current")
+                    wanted_assignees = [person["github"]]
+                changes = {}
+                canonical_body = issue.get("body") or ""
+                for alias in config.get("previous_repositories", []):
+                    canonical_body = canonical_body.replace(f"https://github.com/{alias}", f"https://github.com/{repository}")
+                if {item["login"] for item in issue.get("assignees", [])} != set(wanted_assignees):
+                    changes["assignees"] = wanted_assignees
+                if wanted_names != names:
+                    changes["labels"] = sorted(wanted_names)
+                if "<!-- review-gate: v1 -->" not in canonical_body:
+                    canonical_body += "\n\n" + REVIEW_NOTE
+                if canonical_body != (issue.get("body") or ""):
+                    changes["body"] = canonical_body
                 if refresh_day_one and day == 1:
-                    names = {item["name"] for item in issue.get("labels", [])}
                     if issue.get("comments", 0) or "in-progress" in names:
                         raise RuntimeError(f"Do not replace worked Day 001 issue #{issue['number']}; review it manually")
-                    if not dry_run:
-                        plan = plans[learner, day]
-                        gh("api", f"repos/{repository}/issues/{issue['number']}", "--method", "PATCH", payload={
-                            "title": plan["title"], "body": compose_body(plan, None, repository),
-                            "labels": plan["labels"] + ["queue-ready"],
-                            "milestone": config["milestones"][str(plan["phase"])],
-                        })
+                    plan = plans[learner, day]
+                    changes.update(title=plan["title"], body=compose_body(plan, None, repository), milestone=config["milestones"][str(plan["phase"])])
                     print(f"Refreshed unstarted Learner {learner:02d} Day 001 from its precise starter-file contract")
+                if changes and not dry_run:
+                    gh("api", f"repos/{repository}/issues/{issue['number']}", "--method", "PATCH", payload=changes)
                 continue
             plan = plans[learner, day]
             prior = issues.get(day - 1)
@@ -154,13 +193,10 @@ def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_on
             body = compose_body(plan, prior, repository)
             payload = {
                 "title": plan["title"], "body": body,
-                "labels": plan["labels"] + ["queue-ready"],
+                "labels": plan["labels"] + ["queue-ready"] + (["queue-current"] if day == current_day else []),
                 "milestone": config["milestones"][str(plan["phase"])],
+                "assignees": [person["github"]] if day == current_day else [],
             }
-            if person.get("github"):
-                payload["assignees"] = [person["github"]]
-            elif issue is None:
-                payload["assignees"] = []
             if issue:
                 payload["state"] = "open"
                 result = gh("api", f"repos/{repository}/issues/{issue['number']}", "--method", "PATCH", payload=payload)
@@ -171,6 +207,7 @@ def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_on
             indexed[learner, day] = result
             activated.append(day)
         summaries.append({"learner": learner, "window": window, "open_target": len(window), "activated": activated,
+                          "github": person.get("github"), "current_assigned_day": current_day,
                           "remaining_concepts": len([day for day in days if day not in issues or not is_completed(issues[day])])})
     if not dry_run:
         pages = gh("api", f"repos/{repository}/issues?state=open&per_page=100", "--paginate", "--slurp")
@@ -179,6 +216,12 @@ def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_on
             actual = {day for learner, day in open_keys if learner == summary["learner"]}
             if actual != set(summary["window"]):
                 raise RuntimeError(f"Window changed during reconciliation: {summary['learner']}, {actual}")
+            assigned = [issue for page in pages for issue in page if "pull_request" not in issue and issue_key(issue) in plans and issue_key(issue)[0] == summary["learner"] and issue.get("assignees")]
+            expected = 1 if summary["current_assigned_day"] is not None else 0
+            if len(assigned) != expected:
+                raise RuntimeError(f"Expected {expected} current assigned task for learner {summary['learner']}")
+            if assigned and {a["login"] for a in assigned[0]["assignees"]} != {summary["github"]}:
+                raise RuntimeError("Unexpected current task assignee")
     report = {"dry_run": dry_run, "open_limit": config["open_limit"], "learners": summaries}
     print(json.dumps(report, indent=2))
     summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
@@ -186,7 +229,7 @@ def reconcile(repository, dry_run=False, simulate_completed=None, refresh_day_on
         with open(summary_file, "a", encoding="utf-8") as handle:
             handle.write("## Personal learning queues\n\n")
             for row in summaries:
-                handle.write(f"- Learner {row['learner']:02d}: {row['open_target']} open; days {row['window']}; remaining concepts {row['remaining_concepts']}\n")
+                handle.write(f"- Learner {row['learner']:02d}: {row['open_target']} prepared; current assigned day {row['current_assigned_day']}; account {row['github'] or 'unassigned'}; remaining concepts {row['remaining_concepts']}\n")
     return report
 
 

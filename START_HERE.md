@@ -31,4 +31,4 @@ Add virtual environments, package installation, databases, containers, model SDK
 
 Use the review/repair block. Cut optional polish, repeated reading, extra abstractions, and excessive test work first. Preserve the concept, personal proof, shared architecture, review, working feature, and important permission/data/effect checks. If a prerequisite still fails, record extra time and move dependent work; do not silently remove concepts or award a calendar-based pass.
 
-GitHub accounts are not invented for learner slots. Assignees remain empty and invitations were left aside. Add actual usernames only when known and requested. Never publish private email addresses.
+Five collaborator accounts are verified and mapped in LEARNERS.md. Each has one current assigned issue and six prepared unassigned issues. Learner 06 remains unassigned by request. Review approval and predecessor closure release the next assignment. Never publish private email addresses.

@@ -1,6 +1,6 @@
 # Predict the program, then explain why
 
-Use only scenarios whose prerequisites have already been taught. Before running, predict output/error and final state, explain the mechanism, then change one condition. Exact exception wording can vary; identify the error class and cause. Use your own practice folder. Production work stays in its owned path.
+Use only scenarios whose prerequisites have already been taught. Before running, predict output/error and final state, explain the mechanism, then change one condition. Exact exception wording can vary; identify the error class and cause. Use your own practice folder. Save each case as a .py file and run the whole file unless the scenario says otherwise; pasting separate inputs into the interactive prompt can change when earlier output appears, especially for syntax errors. Production work stays in its owned path.
 
 Scope cases 1–7 fit Day 012. Imports fit Day 019; object mutation case 13 fits Day 025; enclosing scope/defaults/closures fit Day 032. Spread cases through existing lesson, recall, and repair time. A correct implementation and a still-pending concept answer have separate status.
 
