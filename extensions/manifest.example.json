@@ -1,0 +1,16 @@
+{
+  "status": "planned-example-not-runtime-configuration",
+  "enabled": false,
+  "capability": "study-workload-prediction",
+  "task": "regression",
+  "dataset_version": "synthetic-example-v1",
+  "feature_schema_version": "planned-v1",
+  "split_policy": "time-aware-held-out-with-no-future-leakage",
+  "model_version": "not-trained",
+  "preprocessing_version": "not-implemented",
+  "baseline": "last-observed-workload",
+  "result_summary": null,
+  "artifact_reference": null,
+  "training_job_id": null,
+  "approval_required_for_impactful_actions": true
+}

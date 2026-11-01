@@ -1,0 +1,1822 @@
+[
+  {
+    "day": 1,
+    "week": 1,
+    "phase": 1,
+    "issue_number": 1,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/1",
+    "title": "Day 001: Files, folders, and the interpreter",
+    "depends_on_issue": null,
+    "assignees": []
+  },
+  {
+    "day": 2,
+    "week": 1,
+    "phase": 1,
+    "issue_number": 2,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/2",
+    "title": "Day 002: Values, names, and types",
+    "depends_on_issue": 1,
+    "assignees": []
+  },
+  {
+    "day": 3,
+    "week": 1,
+    "phase": 1,
+    "issue_number": 3,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/3",
+    "title": "Day 003: Input, conversion, and output",
+    "depends_on_issue": 2,
+    "assignees": []
+  },
+  {
+    "day": 4,
+    "week": 1,
+    "phase": 1,
+    "issue_number": 4,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/4",
+    "title": "Day 004: Boolean logic and comparisons",
+    "depends_on_issue": 3,
+    "assignees": []
+  },
+  {
+    "day": 5,
+    "week": 1,
+    "phase": 1,
+    "issue_number": 5,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/5",
+    "title": "Day 005: Branches and error reading",
+    "depends_on_issue": 4,
+    "assignees": []
+  },
+  {
+    "day": 6,
+    "week": 1,
+    "phase": 1,
+    "issue_number": 6,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/6",
+    "title": "Day 006: Working increment: First programs and clear decisions",
+    "depends_on_issue": 5,
+    "assignees": []
+  },
+  {
+    "day": 7,
+    "week": 1,
+    "phase": 1,
+    "issue_number": 7,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/7",
+    "title": "Day 007: Individual mastery and repair: First programs and clear decisions",
+    "depends_on_issue": 6,
+    "assignees": []
+  },
+  {
+    "day": 8,
+    "week": 2,
+    "phase": 1,
+    "issue_number": 8,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/8",
+    "title": "Day 008: Lists and safe iteration",
+    "depends_on_issue": 7,
+    "assignees": []
+  },
+  {
+    "day": 9,
+    "week": 2,
+    "phase": 1,
+    "issue_number": 9,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/9",
+    "title": "Day 009: Dictionaries, sets, and tuples",
+    "depends_on_issue": 8,
+    "assignees": []
+  },
+  {
+    "day": 10,
+    "week": 2,
+    "phase": 1,
+    "issue_number": 10,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/10",
+    "title": "Day 010: Loops and termination",
+    "depends_on_issue": 9,
+    "assignees": []
+  },
+  {
+    "day": 11,
+    "week": 2,
+    "phase": 1,
+    "issue_number": 11,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/11",
+    "title": "Day 011: Functions and contracts",
+    "depends_on_issue": 10,
+    "assignees": []
+  },
+  {
+    "day": 12,
+    "week": 2,
+    "phase": 1,
+    "issue_number": 12,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/12",
+    "title": "Day 012: Arguments, scope, and mutation",
+    "depends_on_issue": 11,
+    "assignees": []
+  },
+  {
+    "day": 13,
+    "week": 2,
+    "phase": 1,
+    "issue_number": 13,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/13",
+    "title": "Day 013: Working increment: Collections, loops, and functions",
+    "depends_on_issue": 12,
+    "assignees": []
+  },
+  {
+    "day": 14,
+    "week": 2,
+    "phase": 1,
+    "issue_number": 14,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/14",
+    "title": "Day 014: Individual mastery and repair: Collections, loops, and functions",
+    "depends_on_issue": 13,
+    "assignees": []
+  },
+  {
+    "day": 15,
+    "week": 3,
+    "phase": 1,
+    "issue_number": 15,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/15",
+    "title": "Day 015: Exceptions and recovery",
+    "depends_on_issue": 14,
+    "assignees": []
+  },
+  {
+    "day": 16,
+    "week": 3,
+    "phase": 1,
+    "issue_number": 16,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/16",
+    "title": "Day 016: Text files, paths, and cleanup",
+    "depends_on_issue": 15,
+    "assignees": []
+  },
+  {
+    "day": 17,
+    "week": 3,
+    "phase": 1,
+    "issue_number": 17,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/17",
+    "title": "Day 017: JSON, CSV, and durable writes",
+    "depends_on_issue": 16,
+    "assignees": []
+  },
+  {
+    "day": 18,
+    "week": 3,
+    "phase": 1,
+    "issue_number": 18,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/18",
+    "title": "Day 018: Modules, imports, and environments",
+    "depends_on_issue": 17,
+    "assignees": []
+  },
+  {
+    "day": 19,
+    "week": 3,
+    "phase": 1,
+    "issue_number": 19,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/19",
+    "title": "Day 019: Git history and small changes",
+    "depends_on_issue": 18,
+    "assignees": []
+  },
+  {
+    "day": 20,
+    "week": 3,
+    "phase": 1,
+    "issue_number": 20,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/20",
+    "title": "Day 020: Working increment: Files, errors, modules, and Git",
+    "depends_on_issue": 19,
+    "assignees": []
+  },
+  {
+    "day": 21,
+    "week": 3,
+    "phase": 1,
+    "issue_number": 21,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/21",
+    "title": "Day 021: Individual mastery and repair: Files, errors, modules, and Git",
+    "depends_on_issue": 20,
+    "assignees": []
+  },
+  {
+    "day": 22,
+    "week": 4,
+    "phase": 1,
+    "issue_number": 22,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/22",
+    "title": "Day 022: Classes, objects, and dataclasses",
+    "depends_on_issue": 21,
+    "assignees": []
+  },
+  {
+    "day": 23,
+    "week": 4,
+    "phase": 1,
+    "issue_number": 23,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/23",
+    "title": "Day 023: Composition, inheritance, and protocols",
+    "depends_on_issue": 22,
+    "assignees": []
+  },
+  {
+    "day": 24,
+    "week": 4,
+    "phase": 1,
+    "issue_number": 24,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/24",
+    "title": "Day 024: Type hints, unions, and validation",
+    "depends_on_issue": 23,
+    "assignees": []
+  },
+  {
+    "day": 25,
+    "week": 4,
+    "phase": 1,
+    "issue_number": 25,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/25",
+    "title": "Day 025: Identity, equality, copying, and hashing",
+    "depends_on_issue": 24,
+    "assignees": []
+  },
+  {
+    "day": 26,
+    "week": 4,
+    "phase": 1,
+    "issue_number": 26,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/26",
+    "title": "Day 026: Properties, special methods, and object lookup",
+    "depends_on_issue": 25,
+    "assignees": []
+  },
+  {
+    "day": 27,
+    "week": 4,
+    "phase": 1,
+    "issue_number": 27,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/27",
+    "title": "Day 027: Working increment: Objects, types, and Python behavior",
+    "depends_on_issue": 26,
+    "assignees": []
+  },
+  {
+    "day": 28,
+    "week": 4,
+    "phase": 1,
+    "issue_number": 28,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/28",
+    "title": "Day 028: Individual mastery and repair: Objects, types, and Python behavior",
+    "depends_on_issue": 27,
+    "assignees": []
+  },
+  {
+    "day": 29,
+    "week": 5,
+    "phase": 1,
+    "issue_number": 29,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/29",
+    "title": "Day 029: Assertions, pytest, and boundary cases",
+    "depends_on_issue": 28,
+    "assignees": []
+  },
+  {
+    "day": 30,
+    "week": 5,
+    "phase": 1,
+    "issue_number": 30,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/30",
+    "title": "Day 030: Fixtures, fakes, and test isolation",
+    "depends_on_issue": 29,
+    "assignees": []
+  },
+  {
+    "day": 31,
+    "week": 5,
+    "phase": 1,
+    "issue_number": 31,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/31",
+    "title": "Day 031: Comprehensions, iterators, and generators",
+    "depends_on_issue": 30,
+    "assignees": []
+  },
+  {
+    "day": 32,
+    "week": 5,
+    "phase": 1,
+    "issue_number": 32,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/32",
+    "title": "Day 032: Closures, decorators, and context managers",
+    "depends_on_issue": 31,
+    "assignees": []
+  },
+  {
+    "day": 33,
+    "week": 5,
+    "phase": 1,
+    "issue_number": 33,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/33",
+    "title": "Day 033: Packaging, Big O, and measurement",
+    "depends_on_issue": 32,
+    "assignees": []
+  },
+  {
+    "day": 34,
+    "week": 5,
+    "phase": 1,
+    "issue_number": 34,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/34",
+    "title": "Day 034: Working increment: Testing, iteration, packaging, and performance",
+    "depends_on_issue": 33,
+    "assignees": []
+  },
+  {
+    "day": 35,
+    "week": 5,
+    "phase": 1,
+    "issue_number": 35,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/35",
+    "title": "Day 035: Individual mastery and repair: Testing, iteration, packaging, and performance",
+    "depends_on_issue": 34,
+    "assignees": []
+  },
+  {
+    "day": 36,
+    "week": 6,
+    "phase": 1,
+    "issue_number": 36,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/36",
+    "title": "Day 036: HTTP, DNS, and network failures",
+    "depends_on_issue": 35,
+    "assignees": []
+  },
+  {
+    "day": 37,
+    "week": 6,
+    "phase": 1,
+    "issue_number": 37,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/37",
+    "title": "Day 037: Async functions, tasks, and cancellation",
+    "depends_on_issue": 36,
+    "assignees": []
+  },
+  {
+    "day": 38,
+    "week": 6,
+    "phase": 1,
+    "issue_number": 38,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/38",
+    "title": "Day 038: Threads, processes, and the GIL",
+    "depends_on_issue": 37,
+    "assignees": []
+  },
+  {
+    "day": 39,
+    "week": 6,
+    "phase": 1,
+    "issue_number": 39,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/39",
+    "title": "Day 039: SQL tables, keys, joins, and indexes",
+    "depends_on_issue": 38,
+    "assignees": []
+  },
+  {
+    "day": 40,
+    "week": 6,
+    "phase": 1,
+    "issue_number": 40,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/40",
+    "title": "Day 040: Transactions, isolation, and resource pools",
+    "depends_on_issue": 39,
+    "assignees": []
+  },
+  {
+    "day": 41,
+    "week": 6,
+    "phase": 1,
+    "issue_number": 41,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/41",
+    "title": "Day 041: Working increment: Concurrency, HTTP, and SQL foundations",
+    "depends_on_issue": 40,
+    "assignees": []
+  },
+  {
+    "day": 42,
+    "week": 6,
+    "phase": 1,
+    "issue_number": 42,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/42",
+    "title": "Day 042: Individual mastery and repair: Concurrency, HTTP, and SQL foundations",
+    "depends_on_issue": 41,
+    "assignees": []
+  },
+  {
+    "day": 43,
+    "week": 7,
+    "phase": 2,
+    "issue_number": 43,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/43",
+    "title": "Day 043: ASGI, routing, and the first endpoint",
+    "depends_on_issue": 42,
+    "assignees": []
+  },
+  {
+    "day": 44,
+    "week": 7,
+    "phase": 2,
+    "issue_number": 44,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/44",
+    "title": "Day 044: Path, query, headers, and request bodies",
+    "depends_on_issue": 43,
+    "assignees": []
+  },
+  {
+    "day": 45,
+    "week": 7,
+    "phase": 2,
+    "issue_number": 45,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/45",
+    "title": "Day 045: Pydantic models and validation",
+    "depends_on_issue": 44,
+    "assignees": []
+  },
+  {
+    "day": 46,
+    "week": 7,
+    "phase": 2,
+    "issue_number": 46,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/46",
+    "title": "Day 046: Response schemas, status, and errors",
+    "depends_on_issue": 45,
+    "assignees": []
+  },
+  {
+    "day": 47,
+    "week": 7,
+    "phase": 2,
+    "issue_number": 47,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/47",
+    "title": "Day 047: Dependency injection and application boundaries",
+    "depends_on_issue": 46,
+    "assignees": []
+  },
+  {
+    "day": 48,
+    "week": 7,
+    "phase": 2,
+    "issue_number": 48,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/48",
+    "title": "Day 048: Working increment: FastAPI requests, validation, and contracts",
+    "depends_on_issue": 47,
+    "assignees": []
+  },
+  {
+    "day": 49,
+    "week": 7,
+    "phase": 2,
+    "issue_number": 49,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/49",
+    "title": "Day 049: Individual mastery and repair: FastAPI requests, validation, and contracts",
+    "depends_on_issue": 48,
+    "assignees": []
+  },
+  {
+    "day": 50,
+    "week": 8,
+    "phase": 2,
+    "issue_number": 50,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/50",
+    "title": "Day 050: Relational modeling and constraints",
+    "depends_on_issue": 49,
+    "assignees": []
+  },
+  {
+    "day": 51,
+    "week": 8,
+    "phase": 2,
+    "issue_number": 51,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/51",
+    "title": "Day 051: SQLAlchemy sessions and mappings",
+    "depends_on_issue": 50,
+    "assignees": []
+  },
+  {
+    "day": 52,
+    "week": 8,
+    "phase": 2,
+    "issue_number": 52,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/52",
+    "title": "Day 052: Repository interfaces and unit of work",
+    "depends_on_issue": 51,
+    "assignees": []
+  },
+  {
+    "day": 53,
+    "week": 8,
+    "phase": 2,
+    "issue_number": 53,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/53",
+    "title": "Day 053: Migrations and backward compatibility",
+    "depends_on_issue": 52,
+    "assignees": []
+  },
+  {
+    "day": 54,
+    "week": 8,
+    "phase": 2,
+    "issue_number": 54,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/54",
+    "title": "Day 054: Pagination, query plans, and N+1 reads",
+    "depends_on_issue": 53,
+    "assignees": []
+  },
+  {
+    "day": 55,
+    "week": 8,
+    "phase": 2,
+    "issue_number": 55,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/55",
+    "title": "Day 055: Working increment: Persistent APIs and database evolution",
+    "depends_on_issue": 54,
+    "assignees": []
+  },
+  {
+    "day": 56,
+    "week": 8,
+    "phase": 2,
+    "issue_number": 56,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/56",
+    "title": "Day 056: Individual mastery and repair: Persistent APIs and database evolution",
+    "depends_on_issue": 55,
+    "assignees": []
+  },
+  {
+    "day": 57,
+    "week": 9,
+    "phase": 2,
+    "issue_number": 57,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/57",
+    "title": "Day 057: Password storage and identity",
+    "depends_on_issue": 56,
+    "assignees": []
+  },
+  {
+    "day": 58,
+    "week": 9,
+    "phase": 2,
+    "issue_number": 58,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/58",
+    "title": "Day 058: Tokens, cookies, OAuth, and JWT validation",
+    "depends_on_issue": 57,
+    "assignees": []
+  },
+  {
+    "day": 59,
+    "week": 9,
+    "phase": 2,
+    "issue_number": 59,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/59",
+    "title": "Day 059: Authorization and tenant isolation",
+    "depends_on_issue": 58,
+    "assignees": []
+  },
+  {
+    "day": 60,
+    "week": 9,
+    "phase": 2,
+    "issue_number": 60,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/60",
+    "title": "Day 060: CORS, CSRF, injection, and input limits",
+    "depends_on_issue": 59,
+    "assignees": []
+  },
+  {
+    "day": 61,
+    "week": 9,
+    "phase": 2,
+    "issue_number": 61,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/61",
+    "title": "Day 061: Configuration, secret handling, and audit events",
+    "depends_on_issue": 60,
+    "assignees": []
+  },
+  {
+    "day": 62,
+    "week": 9,
+    "phase": 2,
+    "issue_number": 62,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/62",
+    "title": "Day 062: Working increment: Authentication, authorization, and API safety",
+    "depends_on_issue": 61,
+    "assignees": []
+  },
+  {
+    "day": 63,
+    "week": 9,
+    "phase": 2,
+    "issue_number": 63,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/63",
+    "title": "Day 063: Individual mastery and repair: Authentication, authorization, and API safety",
+    "depends_on_issue": 62,
+    "assignees": []
+  },
+  {
+    "day": 64,
+    "week": 10,
+    "phase": 2,
+    "issue_number": 64,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/64",
+    "title": "Day 064: Async database and HTTP clients",
+    "depends_on_issue": 63,
+    "assignees": []
+  },
+  {
+    "day": 65,
+    "week": 10,
+    "phase": 2,
+    "issue_number": 65,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/65",
+    "title": "Day 065: Retries, backoff, and circuit breakers",
+    "depends_on_issue": 64,
+    "assignees": []
+  },
+  {
+    "day": 66,
+    "week": 10,
+    "phase": 2,
+    "issue_number": 66,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/66",
+    "title": "Day 066: Idempotency, race conditions, and conflicts",
+    "depends_on_issue": 65,
+    "assignees": []
+  },
+  {
+    "day": 67,
+    "week": 10,
+    "phase": 2,
+    "issue_number": 67,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/67",
+    "title": "Day 067: Queues, workers, and durable jobs",
+    "depends_on_issue": 66,
+    "assignees": []
+  },
+  {
+    "day": 68,
+    "week": 10,
+    "phase": 2,
+    "issue_number": 68,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/68",
+    "title": "Day 068: Streaming, backpressure, and cancellation",
+    "depends_on_issue": 67,
+    "assignees": []
+  },
+  {
+    "day": 69,
+    "week": 10,
+    "phase": 2,
+    "issue_number": 69,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/69",
+    "title": "Day 069: Working increment: Async services, resilience, and background work",
+    "depends_on_issue": 68,
+    "assignees": []
+  },
+  {
+    "day": 70,
+    "week": 10,
+    "phase": 2,
+    "issue_number": 70,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/70",
+    "title": "Day 070: Individual mastery and repair: Async services, resilience, and background work",
+    "depends_on_issue": 69,
+    "assignees": []
+  },
+  {
+    "day": 71,
+    "week": 11,
+    "phase": 2,
+    "issue_number": 71,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/71",
+    "title": "Day 071: Route checks and database integration",
+    "depends_on_issue": 70,
+    "assignees": []
+  },
+  {
+    "day": 72,
+    "week": 11,
+    "phase": 2,
+    "issue_number": 72,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/72",
+    "title": "Day 072: Docker images and process startup",
+    "depends_on_issue": 71,
+    "assignees": []
+  },
+  {
+    "day": 73,
+    "week": 11,
+    "phase": 2,
+    "issue_number": 73,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/73",
+    "title": "Day 073: CI, dependency locks, and release checks",
+    "depends_on_issue": 72,
+    "assignees": []
+  },
+  {
+    "day": 74,
+    "week": 11,
+    "phase": 2,
+    "issue_number": 74,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/74",
+    "title": "Day 074: Logs, metrics, traces, and SLOs",
+    "depends_on_issue": 73,
+    "assignees": []
+  },
+  {
+    "day": 75,
+    "week": 11,
+    "phase": 2,
+    "issue_number": 75,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/75",
+    "title": "Day 075: Deployment, load tests, and recovery",
+    "depends_on_issue": 74,
+    "assignees": []
+  },
+  {
+    "day": 76,
+    "week": 11,
+    "phase": 2,
+    "issue_number": 76,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/76",
+    "title": "Day 076: Working increment: API testing, containers, and operations",
+    "depends_on_issue": 75,
+    "assignees": []
+  },
+  {
+    "day": 77,
+    "week": 11,
+    "phase": 2,
+    "issue_number": 77,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/77",
+    "title": "Day 077: Individual mastery and repair: API testing, containers, and operations",
+    "depends_on_issue": 76,
+    "assignees": []
+  },
+  {
+    "day": 78,
+    "week": 12,
+    "phase": 3,
+    "issue_number": 78,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/78",
+    "title": "Day 078: Arrays, shapes, and vector operations",
+    "depends_on_issue": 77,
+    "assignees": []
+  },
+  {
+    "day": 79,
+    "week": 12,
+    "phase": 3,
+    "issue_number": 79,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/79",
+    "title": "Day 079: Probability, similarity, and numeric stability",
+    "depends_on_issue": 78,
+    "assignees": []
+  },
+  {
+    "day": 80,
+    "week": 12,
+    "phase": 3,
+    "issue_number": 80,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/80",
+    "title": "Day 080: ML splits, leakage, and baselines",
+    "depends_on_issue": 79,
+    "assignees": []
+  },
+  {
+    "day": 81,
+    "week": 12,
+    "phase": 3,
+    "issue_number": 81,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/81",
+    "title": "Day 081: Tokenization, context, and transformers",
+    "depends_on_issue": 80,
+    "assignees": []
+  },
+  {
+    "day": 82,
+    "week": 12,
+    "phase": 3,
+    "issue_number": 82,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/82",
+    "title": "Day 082: Sampling, hallucination, and model limits",
+    "depends_on_issue": 81,
+    "assignees": []
+  },
+  {
+    "day": 83,
+    "week": 12,
+    "phase": 3,
+    "issue_number": 83,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/83",
+    "title": "Day 083: Working increment: Data, basic mathematics, and how LLMs work",
+    "depends_on_issue": 82,
+    "assignees": []
+  },
+  {
+    "day": 84,
+    "week": 12,
+    "phase": 3,
+    "issue_number": 84,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/84",
+    "title": "Day 084: Individual mastery and repair: Data, basic mathematics, and how LLMs work",
+    "depends_on_issue": 83,
+    "assignees": []
+  },
+  {
+    "day": 85,
+    "week": 13,
+    "phase": 3,
+    "issue_number": 85,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/85",
+    "title": "Day 085: Prompt instructions, examples, and delimiters",
+    "depends_on_issue": 84,
+    "assignees": []
+  },
+  {
+    "day": 86,
+    "week": 13,
+    "phase": 3,
+    "issue_number": 86,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/86",
+    "title": "Day 086: Provider adapters and explicit outcomes",
+    "depends_on_issue": 85,
+    "assignees": []
+  },
+  {
+    "day": 87,
+    "week": 13,
+    "phase": 3,
+    "issue_number": 87,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/87",
+    "title": "Day 087: Structured outputs and business validation",
+    "depends_on_issue": 86,
+    "assignees": []
+  },
+  {
+    "day": 88,
+    "week": 13,
+    "phase": 3,
+    "issue_number": 88,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/88",
+    "title": "Day 088: Streaming generation and request budgets",
+    "depends_on_issue": 87,
+    "assignees": []
+  },
+  {
+    "day": 89,
+    "week": 13,
+    "phase": 3,
+    "issue_number": 89,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/89",
+    "title": "Day 089: Prompt experiments, evaluation, and cost",
+    "depends_on_issue": 88,
+    "assignees": []
+  },
+  {
+    "day": 90,
+    "week": 13,
+    "phase": 3,
+    "issue_number": 90,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/90",
+    "title": "Day 090: Working increment: Prompts, provider boundaries, and structured output",
+    "depends_on_issue": 89,
+    "assignees": []
+  },
+  {
+    "day": 91,
+    "week": 13,
+    "phase": 3,
+    "issue_number": 91,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/91",
+    "title": "Day 091: Individual mastery and repair: Prompts, provider boundaries, and structured output",
+    "depends_on_issue": 90,
+    "assignees": []
+  },
+  {
+    "day": 92,
+    "week": 14,
+    "phase": 3,
+    "issue_number": 92,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/92",
+    "title": "Day 092: Document loading and ingestion states",
+    "depends_on_issue": 91,
+    "assignees": []
+  },
+  {
+    "day": 93,
+    "week": 14,
+    "phase": 3,
+    "issue_number": 93,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/93",
+    "title": "Day 093: Chunking, overlap, and provenance",
+    "depends_on_issue": 92,
+    "assignees": []
+  },
+  {
+    "day": 94,
+    "week": 14,
+    "phase": 3,
+    "issue_number": 94,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/94",
+    "title": "Day 094: Embeddings and vector indexes",
+    "depends_on_issue": 93,
+    "assignees": []
+  },
+  {
+    "day": 95,
+    "week": 14,
+    "phase": 3,
+    "issue_number": 95,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/95",
+    "title": "Day 095: Keyword, vector, hybrid, and reranking",
+    "depends_on_issue": 94,
+    "assignees": []
+  },
+  {
+    "day": 96,
+    "week": 14,
+    "phase": 3,
+    "issue_number": 96,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/96",
+    "title": "Day 096: Filters, updates, and index consistency",
+    "depends_on_issue": 95,
+    "assignees": []
+  },
+  {
+    "day": 97,
+    "week": 14,
+    "phase": 3,
+    "issue_number": 97,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/97",
+    "title": "Day 097: Working increment: Document ingestion, embeddings, and retrieval",
+    "depends_on_issue": 96,
+    "assignees": []
+  },
+  {
+    "day": 98,
+    "week": 14,
+    "phase": 3,
+    "issue_number": 98,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/98",
+    "title": "Day 098: Individual mastery and repair: Document ingestion, embeddings, and retrieval",
+    "depends_on_issue": 97,
+    "assignees": []
+  },
+  {
+    "day": 99,
+    "week": 15,
+    "phase": 3,
+    "issue_number": 99,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/99",
+    "title": "Day 099: Context assembly and grounded generation",
+    "depends_on_issue": 98,
+    "assignees": []
+  },
+  {
+    "day": 100,
+    "week": 15,
+    "phase": 3,
+    "issue_number": 100,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/100",
+    "title": "Day 100: Citations, abstention, and conflicting sources",
+    "depends_on_issue": 99,
+    "assignees": []
+  },
+  {
+    "day": 101,
+    "week": 15,
+    "phase": 3,
+    "issue_number": 101,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/101",
+    "title": "Day 101: Retrieval metrics and small evaluation sets",
+    "depends_on_issue": 100,
+    "assignees": []
+  },
+  {
+    "day": 102,
+    "week": 15,
+    "phase": 3,
+    "issue_number": 102,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/102",
+    "title": "Day 102: Prompt injection and untrusted evidence",
+    "depends_on_issue": 101,
+    "assignees": []
+  },
+  {
+    "day": 103,
+    "week": 15,
+    "phase": 3,
+    "issue_number": 103,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/103",
+    "title": "Day 103: Caching, freshness, and RAG observability",
+    "depends_on_issue": 102,
+    "assignees": []
+  },
+  {
+    "day": 104,
+    "week": 15,
+    "phase": 3,
+    "issue_number": 104,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/104",
+    "title": "Day 104: Working increment: Grounded answers, RAG evaluation, and safe retrieval",
+    "depends_on_issue": 103,
+    "assignees": []
+  },
+  {
+    "day": 105,
+    "week": 15,
+    "phase": 3,
+    "issue_number": 105,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/105",
+    "title": "Day 105: Individual mastery and repair: Grounded answers, RAG evaluation, and safe retrieval",
+    "depends_on_issue": 104,
+    "assignees": []
+  },
+  {
+    "day": 106,
+    "week": 16,
+    "phase": 3,
+    "issue_number": 106,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/106",
+    "title": "Day 106: Open weights, tokenizers, and inference",
+    "depends_on_issue": 105,
+    "assignees": []
+  },
+  {
+    "day": 107,
+    "week": 16,
+    "phase": 3,
+    "issue_number": 107,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/107",
+    "title": "Day 107: Quantization, batching, and KV cache",
+    "depends_on_issue": 106,
+    "assignees": []
+  },
+  {
+    "day": 108,
+    "week": 16,
+    "phase": 3,
+    "issue_number": 108,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/108",
+    "title": "Day 108: Fine-tuning, RAG, and adaptation choices",
+    "depends_on_issue": 107,
+    "assignees": []
+  },
+  {
+    "day": 109,
+    "week": 16,
+    "phase": 3,
+    "issue_number": 109,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/109",
+    "title": "Day 109: Images, audio, and untrusted media",
+    "depends_on_issue": 108,
+    "assignees": []
+  },
+  {
+    "day": 110,
+    "week": 16,
+    "phase": 3,
+    "issue_number": 110,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/110",
+    "title": "Day 110: Model changes and reproducible comparisons",
+    "depends_on_issue": 109,
+    "assignees": []
+  },
+  {
+    "day": 111,
+    "week": 16,
+    "phase": 3,
+    "issue_number": 111,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/111",
+    "title": "Day 111: Working increment: Local models, adaptation, and multimodal input",
+    "depends_on_issue": 110,
+    "assignees": []
+  },
+  {
+    "day": 112,
+    "week": 16,
+    "phase": 3,
+    "issue_number": 112,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/112",
+    "title": "Day 112: Individual mastery and repair: Local models, adaptation, and multimodal input",
+    "depends_on_issue": 111,
+    "assignees": []
+  },
+  {
+    "day": 113,
+    "week": 17,
+    "phase": 4,
+    "issue_number": 113,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/113",
+    "title": "Day 113: Workflows versus agents",
+    "depends_on_issue": 112,
+    "assignees": []
+  },
+  {
+    "day": 114,
+    "week": 17,
+    "phase": 4,
+    "issue_number": 114,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/114",
+    "title": "Day 114: Tool schemas and trusted dispatch",
+    "depends_on_issue": 113,
+    "assignees": []
+  },
+  {
+    "day": 115,
+    "week": 17,
+    "phase": 4,
+    "issue_number": 115,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/115",
+    "title": "Day 115: Tool-result loops and execution budgets",
+    "depends_on_issue": 114,
+    "assignees": []
+  },
+  {
+    "day": 116,
+    "week": 17,
+    "phase": 4,
+    "issue_number": 116,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/116",
+    "title": "Day 116: Tool errors, replay, and duplicate calls",
+    "depends_on_issue": 115,
+    "assignees": []
+  },
+  {
+    "day": 117,
+    "week": 17,
+    "phase": 4,
+    "issue_number": 117,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/117",
+    "title": "Day 117: Planning, self-critique, and observable reasoning",
+    "depends_on_issue": 116,
+    "assignees": []
+  },
+  {
+    "day": 118,
+    "week": 17,
+    "phase": 4,
+    "issue_number": 118,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/118",
+    "title": "Day 118: Working increment: Agents, tools, and bounded execution",
+    "depends_on_issue": 117,
+    "assignees": []
+  },
+  {
+    "day": 119,
+    "week": 17,
+    "phase": 4,
+    "issue_number": 119,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/119",
+    "title": "Day 119: Individual mastery and repair: Agents, tools, and bounded execution",
+    "depends_on_issue": 118,
+    "assignees": []
+  },
+  {
+    "day": 120,
+    "week": 18,
+    "phase": 4,
+    "issue_number": 120,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/120",
+    "title": "Day 120: Run state and checkpointing",
+    "depends_on_issue": 119,
+    "assignees": []
+  },
+  {
+    "day": 121,
+    "week": 18,
+    "phase": 4,
+    "issue_number": 121,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/121",
+    "title": "Day 121: Conversation memory and retrieval memory",
+    "depends_on_issue": 120,
+    "assignees": []
+  },
+  {
+    "day": 122,
+    "week": 18,
+    "phase": 4,
+    "issue_number": 122,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/122",
+    "title": "Day 122: Graph nodes, edges, and reducers",
+    "depends_on_issue": 121,
+    "assignees": []
+  },
+  {
+    "day": 123,
+    "week": 18,
+    "phase": 4,
+    "issue_number": 123,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/123",
+    "title": "Day 123: Human approval and action previews",
+    "depends_on_issue": 122,
+    "assignees": []
+  },
+  {
+    "day": 124,
+    "week": 18,
+    "phase": 4,
+    "issue_number": 124,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/124",
+    "title": "Day 124: Durable execution and compensating actions",
+    "depends_on_issue": 123,
+    "assignees": []
+  },
+  {
+    "day": 125,
+    "week": 18,
+    "phase": 4,
+    "issue_number": 125,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/125",
+    "title": "Day 125: Working increment: Agent state, memory, and durable workflows",
+    "depends_on_issue": 124,
+    "assignees": []
+  },
+  {
+    "day": 126,
+    "week": 18,
+    "phase": 4,
+    "issue_number": 126,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/126",
+    "title": "Day 126: Individual mastery and repair: Agent state, memory, and durable workflows",
+    "depends_on_issue": 125,
+    "assignees": []
+  },
+  {
+    "day": 127,
+    "week": 19,
+    "phase": 4,
+    "issue_number": 127,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/127",
+    "title": "Day 127: MCP roles and protocol boundaries",
+    "depends_on_issue": 126,
+    "assignees": []
+  },
+  {
+    "day": 128,
+    "week": 19,
+    "phase": 4,
+    "issue_number": 128,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/128",
+    "title": "Day 128: Resources, tools, prompts, and schema changes",
+    "depends_on_issue": 127,
+    "assignees": []
+  },
+  {
+    "day": 129,
+    "week": 19,
+    "phase": 4,
+    "issue_number": 129,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/129",
+    "title": "Day 129: Transport, authentication, and credential scope",
+    "depends_on_issue": 128,
+    "assignees": []
+  },
+  {
+    "day": 130,
+    "week": 19,
+    "phase": 4,
+    "issue_number": 130,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/130",
+    "title": "Day 130: Injection, exfiltration, and safe destinations",
+    "depends_on_issue": 129,
+    "assignees": []
+  },
+  {
+    "day": 131,
+    "week": 19,
+    "phase": 4,
+    "issue_number": 131,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/131",
+    "title": "Day 131: Audit trails, retention, and deletion",
+    "depends_on_issue": 130,
+    "assignees": []
+  },
+  {
+    "day": 132,
+    "week": 19,
+    "phase": 4,
+    "issue_number": 132,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/132",
+    "title": "Day 132: Working increment: MCP, integration boundaries, and agent security",
+    "depends_on_issue": 131,
+    "assignees": []
+  },
+  {
+    "day": 133,
+    "week": 19,
+    "phase": 4,
+    "issue_number": 133,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/133",
+    "title": "Day 133: Individual mastery and repair: MCP, integration boundaries, and agent security",
+    "depends_on_issue": 132,
+    "assignees": []
+  },
+  {
+    "day": 134,
+    "week": 20,
+    "phase": 4,
+    "issue_number": 134,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/134",
+    "title": "Day 134: Routing and specialist roles",
+    "depends_on_issue": 133,
+    "assignees": []
+  },
+  {
+    "day": 135,
+    "week": 20,
+    "phase": 4,
+    "issue_number": 135,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/135",
+    "title": "Day 135: Parallel branches and shared budgets",
+    "depends_on_issue": 134,
+    "assignees": []
+  },
+  {
+    "day": 136,
+    "week": 20,
+    "phase": 4,
+    "issue_number": 136,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/136",
+    "title": "Day 136: Agent evaluation and failure categories",
+    "depends_on_issue": 135,
+    "assignees": []
+  },
+  {
+    "day": 137,
+    "week": 20,
+    "phase": 4,
+    "issue_number": 137,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/137",
+    "title": "Day 137: Framework adapters and lock-in",
+    "depends_on_issue": 136,
+    "assignees": []
+  },
+  {
+    "day": 138,
+    "week": 20,
+    "phase": 4,
+    "issue_number": 138,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/138",
+    "title": "Day 138: Agent APIs, workers, and cancellation",
+    "depends_on_issue": 137,
+    "assignees": []
+  },
+  {
+    "day": 139,
+    "week": 20,
+    "phase": 4,
+    "issue_number": 139,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/139",
+    "title": "Day 139: Working increment: Agent orchestration, evaluation, and service operation",
+    "depends_on_issue": 138,
+    "assignees": []
+  },
+  {
+    "day": 140,
+    "week": 20,
+    "phase": 4,
+    "issue_number": 140,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/140",
+    "title": "Day 140: Individual mastery and repair: Agent orchestration, evaluation, and service operation",
+    "depends_on_issue": 139,
+    "assignees": []
+  },
+  {
+    "day": 141,
+    "week": 21,
+    "phase": 5,
+    "issue_number": 141,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/141",
+    "title": "Day 141: Use cases, requirements, and nonfunctional goals",
+    "depends_on_issue": 140,
+    "assignees": []
+  },
+  {
+    "day": 142,
+    "week": 21,
+    "phase": 5,
+    "issue_number": 142,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/142",
+    "title": "Day 142: Time, money, IDs, enums, and regular expressions",
+    "depends_on_issue": 141,
+    "assignees": []
+  },
+  {
+    "day": 143,
+    "week": 21,
+    "phase": 5,
+    "issue_number": 143,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/143",
+    "title": "Day 143: Versioned application contracts",
+    "depends_on_issue": 142,
+    "assignees": []
+  },
+  {
+    "day": 144,
+    "week": 21,
+    "phase": 5,
+    "issue_number": 144,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/144",
+    "title": "Day 144: State machines and invariant checks",
+    "depends_on_issue": 143,
+    "assignees": []
+  },
+  {
+    "day": 145,
+    "week": 21,
+    "phase": 5,
+    "issue_number": 145,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/145",
+    "title": "Day 145: Integration boundaries and modular monoliths",
+    "depends_on_issue": 144,
+    "assignees": []
+  },
+  {
+    "day": 146,
+    "week": 21,
+    "phase": 5,
+    "issue_number": 146,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/146",
+    "title": "Day 146: Working increment: Capstone integration: workspaces, plans, and contracts",
+    "depends_on_issue": 145,
+    "assignees": []
+  },
+  {
+    "day": 147,
+    "week": 21,
+    "phase": 5,
+    "issue_number": 147,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/147",
+    "title": "Day 147: Individual mastery and repair: Capstone integration: workspaces, plans, and contracts",
+    "depends_on_issue": 146,
+    "assignees": []
+  },
+  {
+    "day": 148,
+    "week": 22,
+    "phase": 5,
+    "issue_number": 148,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/148",
+    "title": "Day 148: Transactional outbox and event delivery",
+    "depends_on_issue": 147,
+    "assignees": []
+  },
+  {
+    "day": 149,
+    "week": 22,
+    "phase": 5,
+    "issue_number": 149,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/149",
+    "title": "Day 149: Optimistic concurrency and lost updates",
+    "depends_on_issue": 148,
+    "assignees": []
+  },
+  {
+    "day": 150,
+    "week": 22,
+    "phase": 5,
+    "issue_number": 150,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/150",
+    "title": "Day 150: Read models, denormalization, and consistency",
+    "depends_on_issue": 149,
+    "assignees": []
+  },
+  {
+    "day": 151,
+    "week": 22,
+    "phase": 5,
+    "issue_number": 151,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/151",
+    "title": "Day 151: Replication, partitioning, and consistency trade-offs",
+    "depends_on_issue": 150,
+    "assignees": []
+  },
+  {
+    "day": 152,
+    "week": 22,
+    "phase": 5,
+    "issue_number": 152,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/152",
+    "title": "Day 152: Reconciliation, cache invalidation, and backfills",
+    "depends_on_issue": 151,
+    "assignees": []
+  },
+  {
+    "day": 153,
+    "week": 22,
+    "phase": 5,
+    "issue_number": 153,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/153",
+    "title": "Day 153: Working increment: Capstone data reliability and scale",
+    "depends_on_issue": 152,
+    "assignees": []
+  },
+  {
+    "day": 154,
+    "week": 22,
+    "phase": 5,
+    "issue_number": 154,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/154",
+    "title": "Day 154: Individual mastery and repair: Capstone data reliability and scale",
+    "depends_on_issue": 153,
+    "assignees": []
+  },
+  {
+    "day": 155,
+    "week": 23,
+    "phase": 5,
+    "issue_number": 155,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/155",
+    "title": "Day 155: Capacity estimates and bottleneck analysis",
+    "depends_on_issue": 154,
+    "assignees": []
+  },
+  {
+    "day": 156,
+    "week": 23,
+    "phase": 5,
+    "issue_number": 156,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/156",
+    "title": "Day 156: Rate limits, quotas, and fairness",
+    "depends_on_issue": 155,
+    "assignees": []
+  },
+  {
+    "day": 157,
+    "week": 23,
+    "phase": 5,
+    "issue_number": 157,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/157",
+    "title": "Day 157: Cost budgets and graceful degradation",
+    "depends_on_issue": 156,
+    "assignees": []
+  },
+  {
+    "day": 158,
+    "week": 23,
+    "phase": 5,
+    "issue_number": 158,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/158",
+    "title": "Day 158: Incidents, diagnosis, and error budgets",
+    "depends_on_issue": 157,
+    "assignees": []
+  },
+  {
+    "day": 159,
+    "week": 23,
+    "phase": 5,
+    "issue_number": 159,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/159",
+    "title": "Day 159: Backups, restore, rollout, and rollback",
+    "depends_on_issue": 158,
+    "assignees": []
+  },
+  {
+    "day": 160,
+    "week": 23,
+    "phase": 5,
+    "issue_number": 160,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/160",
+    "title": "Day 160: Working increment: Capstone performance, cost, and incident recovery",
+    "depends_on_issue": 159,
+    "assignees": []
+  },
+  {
+    "day": 161,
+    "week": 23,
+    "phase": 5,
+    "issue_number": 161,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/161",
+    "title": "Day 161: Individual mastery and repair: Capstone performance, cost, and incident recovery",
+    "depends_on_issue": 160,
+    "assignees": []
+  },
+  {
+    "day": 162,
+    "week": 24,
+    "phase": 5,
+    "issue_number": 162,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/162",
+    "title": "Day 162: Refactoring and dependency direction",
+    "depends_on_issue": 161,
+    "assignees": []
+  },
+  {
+    "day": 163,
+    "week": 24,
+    "phase": 5,
+    "issue_number": 163,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/163",
+    "title": "Day 163: Useful UX and error explanations",
+    "depends_on_issue": 162,
+    "assignees": []
+  },
+  {
+    "day": 164,
+    "week": 24,
+    "phase": 5,
+    "issue_number": 164,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/164",
+    "title": "Day 164: Reproducible local demonstration",
+    "depends_on_issue": 163,
+    "assignees": []
+  },
+  {
+    "day": 165,
+    "week": 24,
+    "phase": 5,
+    "issue_number": 165,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/165",
+    "title": "Day 165: Trade-off records and portfolio evidence",
+    "depends_on_issue": 164,
+    "assignees": []
+  },
+  {
+    "day": 166,
+    "week": 24,
+    "phase": 5,
+    "issue_number": 166,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/166",
+    "title": "Day 166: Cross-role teach-back and release gate",
+    "depends_on_issue": 165,
+    "assignees": []
+  },
+  {
+    "day": 167,
+    "week": 24,
+    "phase": 5,
+    "issue_number": 167,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/167",
+    "title": "Day 167: Working increment: Capstone polish, maintainability, and demonstration",
+    "depends_on_issue": 166,
+    "assignees": []
+  },
+  {
+    "day": 168,
+    "week": 24,
+    "phase": 5,
+    "issue_number": 168,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/168",
+    "title": "Day 168: Individual mastery and repair: Capstone polish, maintainability, and demonstration",
+    "depends_on_issue": 167,
+    "assignees": []
+  },
+  {
+    "day": 169,
+    "week": 25,
+    "phase": 6,
+    "issue_number": 169,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/169",
+    "title": "Day 169: Python output prediction and debugging",
+    "depends_on_issue": 168,
+    "assignees": []
+  },
+  {
+    "day": 170,
+    "week": 25,
+    "phase": 6,
+    "issue_number": 170,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/170",
+    "title": "Day 170: Data structures and coding under time",
+    "depends_on_issue": 169,
+    "assignees": []
+  },
+  {
+    "day": 171,
+    "week": 25,
+    "phase": 6,
+    "issue_number": 171,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/171",
+    "title": "Day 171: FastAPI, async, and security debugging",
+    "depends_on_issue": 170,
+    "assignees": []
+  },
+  {
+    "day": 172,
+    "week": 25,
+    "phase": 6,
+    "issue_number": 172,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/172",
+    "title": "Day 172: SQL, transactions, and query reasoning",
+    "depends_on_issue": 171,
+    "assignees": []
+  },
+  {
+    "day": 173,
+    "week": 25,
+    "phase": 6,
+    "issue_number": 173,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/173",
+    "title": "Day 173: Backend system-design mock and remediation",
+    "depends_on_issue": 172,
+    "assignees": []
+  },
+  {
+    "day": 174,
+    "week": 25,
+    "phase": 6,
+    "issue_number": 174,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/174",
+    "title": "Day 174: Working increment: Python, API, SQL, and coding interviews",
+    "depends_on_issue": 173,
+    "assignees": []
+  },
+  {
+    "day": 175,
+    "week": 25,
+    "phase": 6,
+    "issue_number": 175,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/175",
+    "title": "Day 175: Individual mastery and repair: Python, API, SQL, and coding interviews",
+    "depends_on_issue": 174,
+    "assignees": []
+  },
+  {
+    "day": 176,
+    "week": 26,
+    "phase": 6,
+    "issue_number": 176,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/176",
+    "title": "Day 176: GenAI and RAG diagnosis interviews",
+    "depends_on_issue": 175,
+    "assignees": []
+  },
+  {
+    "day": 177,
+    "week": 26,
+    "phase": 6,
+    "issue_number": 177,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/177",
+    "title": "Day 177: Agent design and security interviews",
+    "depends_on_issue": 176,
+    "assignees": []
+  },
+  {
+    "day": 178,
+    "week": 26,
+    "phase": 6,
+    "issue_number": 178,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/178",
+    "title": "Day 178: Full mock loop: coding and debugging",
+    "depends_on_issue": 177,
+    "assignees": []
+  },
+  {
+    "day": 179,
+    "week": 26,
+    "phase": 6,
+    "issue_number": 179,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/179",
+    "title": "Day 179: Full mock loop: AI system design",
+    "depends_on_issue": 178,
+    "assignees": []
+  },
+  {
+    "day": 180,
+    "week": 26,
+    "phase": 6,
+    "issue_number": 180,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/180",
+    "title": "Day 180: Project discussion, behavior, and individual readiness",
+    "depends_on_issue": 179,
+    "assignees": []
+  },
+  {
+    "day": 181,
+    "week": 26,
+    "phase": 6,
+    "issue_number": 181,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/181",
+    "title": "Day 181: Working increment: GenAI, agent, and complete interview simulations",
+    "depends_on_issue": 180,
+    "assignees": []
+  },
+  {
+    "day": 182,
+    "week": 26,
+    "phase": 6,
+    "issue_number": 182,
+    "url": "https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues/182",
+    "title": "Day 182: Individual mastery and repair: GenAI, agent, and complete interview simulations",
+    "depends_on_issue": 181,
+    "assignees": []
+  }
+]

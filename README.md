@@ -1,6 +1,6 @@
 # Python, FastAPI, GenAI, and AI agents — team coaching
 
-**Six months · 26 weeks · 182 learning days · 598 hours per developer.**
+**Six months · 26 weeks · 182 learning days · 598 scheduled hours per developer, including breaks.**
 
 Learn through one growing product: **LearnForge**, a learning and knowledge platform. Start with a small working command-line program. Gradually add persistent study sessions, workspaces, authentication, document ingestion, cited answers, approved agent actions, durable jobs, operational controls, and recovery.
 
@@ -10,11 +10,13 @@ The default team has **two developers**. They implement separate parts, review e
 
 1. Read [START_HERE.md](START_HERE.md) and [the team agreement](TEAM.md).
 2. Open [the complete curriculum](CURRICULUM.md), then [Day 001](days/day-001.md).
-3. Find the matching [daily GitHub issue](https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/issues?q=is%3Aissue+label%3Alearning-day).
+3. Find the matching issue in the [verified 182-day issue index](ISSUES.md).
 4. Run the starter from the repository folder: `python run_demo.py`.
 5. Record each person's learning evidence in [the mastery ledger](progress/mastery.csv).
 
 The starter runs offline and displays its actual stage. Future features are course implementation work, not completed product claims.
+
+Published: **182 daily issues** with prerequisite links and **6 phase milestones**. See [the issue index](ISSUES.md) and [GitHub milestones](https://github.com/Prem-Tomar/python-fastapi-genai-agents-coaching/milestones).
 
 ## Time and learning pattern
 
@@ -58,6 +60,8 @@ Use the two longer sessions on the days that suit the team. The schedule has no 
 - [Question of the Day index](questions/README.md)
 - [Coach answer keys — use after an attempt](coach/README.md)
 - [Nuances and deeper explanations](CONCEPT_NOTES.md)
+- [AI/ML and data-science extension path](EXTENSIONS.md)
+- [Relevant mathematics with small worked examples](MATH_FOUNDATIONS.md)
 - [Small glossary](GLOSSARY.md)
 - [Progress instructions](progress/README.md)
 - [Official sources and version policy](SOURCES.md)

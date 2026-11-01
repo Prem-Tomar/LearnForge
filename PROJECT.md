@@ -69,4 +69,6 @@ Large-scale replication and partitioning are learned through a bounded routing s
 
 ## Growth constraints
 
+The [AI/ML and data-science extension plan](EXTENSIONS.md) reserves prediction, analytics, dataset/feature/model versioning, and batch/online inference boundaries. Its [mathematics bridge](MATH_FOUNDATIONS.md) connects statistics, probability, linear algebra, calculus, and optimization to the working product. It is a separate follow-on path; the core remains 26 weeks and 182 issues.
+
 Build useful vertical slices. Keep a last working baseline. Do not create a framework for a hypothetical future feature. Never let a model enforce its own permission policy. Bind approvals and idempotency at actual effect boundaries. Keep user data scoped in database reads, retrieval, caches, memory, and logs. Make partial and unknown outcomes visible. Add API documentation only on request; keep testing light and attached to implementation.

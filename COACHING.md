@@ -36,6 +36,10 @@ No developer gets a testing-only role, issue, or daily slice. Coach checks can p
 
 Do not generate API documentation unless the user asks. FastAPI applications introduced later use `docs_url=None`, `redoc_url=None`, and `openapi_url=None` by default. Do not add an endpoint catalog, Swagger/ReDoc assets, or an API-documentation assignment. Internal input/output agreements, teaching examples, startup instructions, architecture notes, and short learning notes remain useful and are not consumer API documentation.
 
+## Public contribution identity
+
+Use the contributors' ordinary GitHub identities and descriptive branch/commit names. Keep generated-by signatures, automated co-author trailers, and platform names used as attribution out of the published files, issue text, commits, and branch names. Technical product/library names remain appropriate when they are the subject being taught.
+
 ## Quality and the six-month target
 
 The target is 26 weeks at 23 hours each. Preserve core explanations, individual proof, independent questions, cross-review, and a working increment. First cut optional polish and excessive tooling when a day overruns. Use the weekly repair block. If a critical prerequisite still fails, record additional time and move dependent work honestly. Do not claim interview readiness or advance personal mastery on attendance alone.
