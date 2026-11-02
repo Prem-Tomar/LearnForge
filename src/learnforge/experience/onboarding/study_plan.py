@@ -1,3 +1,3 @@
 def planned_minutes():
-    minutes = 0
+    minutes = 30
     return minutes
