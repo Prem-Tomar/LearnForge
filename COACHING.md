@@ -8,6 +8,8 @@ Teach the needed syntax first with a tiny runnable example, then ask for a bound
 
 ## Explain one idea at a time
 
+Bug feedback follows the **non-negotiable six-part format** in [the review guide](REVIEW_GUIDE.md): where, current behavior, the day/task's expected behavior, why they differ, the smallest change, and how to check it. Name the task and requirement; a task link is optional. Write for a learner whose first language may not be English. A learner must not have to guess what to change or how the finding relates to their task.
+
 Start with the outcome and real problem. Say what the code receives, what it returns, and what failure looks like. Define a technical word beside its first use: “idempotent means repeating the request does not repeat its intended effect.” Use familiar words, short sentences, small values, and diagrams with named arrows. Avoid idioms, slang, trick wording, and long chains of unexplained abbreviations.
 
 Use this sequence: **goal → problem → small example → concept → design choice → implementation → review → reflection**. The daily guide supplies a bounded feature and research hints. Ask the learner to predict before running code. Explain differences using actual values and the current project, not another programming language's content.

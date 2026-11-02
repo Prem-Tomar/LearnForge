@@ -13,6 +13,38 @@ FORBIDDEN_POLICY = (
     'Rolling queue', 'seven open tasks', 'Only one open task is assigned',
 )
 VAGUE_CONTRACT = ('agreed status dict', 'no useful return value', 'tbd', '(...)', 'see the linked guide')
+REVIEW_PARTS = ('Where', 'What happens now', 'What the task asks for',
+                'Why this does not meet the task', 'Smallest change', 'How to check')
+
+
+def validate_review_policy(policy):
+    feedback = policy.get('review_feedback', {})
+    errors = []
+    for flag in ('mandatory', 'applies_to_all_tracks', 'plain_english', 'explain_new_terms',
+                 'explicit_task_reference', 'task_links_optional', 'separate_bugs_suggestions_and_coaching'):
+        if feedback.get(flag) is not True:
+            errors.append('non-negotiable review feedback rule missing: ' + flag)
+    if feedback.get('required_parts') != list(REVIEW_PARTS):
+        errors.append('review findings must retain all six learner-friendly parts')
+    return errors
+
+
+def validate_review_finding(body):
+    """Check structure only; reviewers still verify clarity, correctness and evidence."""
+    errors = []
+    sections = {}
+    for part in REVIEW_PARTS:
+        match = re.search(r'^\*\*' + re.escape(part) + r':\*\*\s*(.*?)(?=^\*\*|\Z)', body, re.M | re.S)
+        if not match or not match.group(1).strip():
+            errors.append('review finding missing: ' + part)
+        else:
+            sections[part] = match.group(1)
+    if not re.search(r'`[^`\n]+\.[A-Za-z0-9]+:\d+(?:-\d+)?`', sections.get('Where', '')):
+        errors.append('review finding must name the exact file and line(s) in Where')
+    task_reference = r'\b(?:day|session)\s+\d{1,3}\b|\btask\s+#?\d+\b|(?<!\w)#\d+\b|https://github\.com/[^/\s)]+/[^/\s)]+/issues/\d+'
+    if not re.search(task_reference, sections.get('What the task asks for', ''), re.I):
+        errors.append('review finding must name the day/task beside its expected behavior; a link is optional')
+    return errors
 
 
 def validate_blueprint(row, policy, core):
@@ -54,7 +86,7 @@ def validate_blueprint(row, policy, core):
 
 def validate(root=ROOT):
     policy = json.loads((root/'curriculum/coaching-policy.json').read_text(encoding='utf-8'))
-    errors = []
+    errors = validate_review_policy(policy)
     cohort=json.loads((root/'curriculum/cohort.json').read_text(encoding='utf-8'))
     frontend=json.loads((root/'curriculum/frontend-cohort.json').read_text(encoding='utf-8'))
     if (cohort['open_limit'],cohort['assigned_limit']) != (policy['core_queue']['prepared'],policy['core_queue']['assigned']):
@@ -92,7 +124,10 @@ def validate(root=ROOT):
 if __name__ == '__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--json',action='store_true')
+    parser.add_argument('--review-finding',type=Path,help='Check a bug finding before posting it')
     args=parser.parse_args()
     errors,counts=validate()
+    if args.review_finding:
+        errors.extend(validate_review_finding(args.review_finding.read_text(encoding='utf-8')))
     print(json.dumps({'valid':not errors,'task_counts':counts,'errors':errors},indent=2))
     raise SystemExit(1 if errors else 0)

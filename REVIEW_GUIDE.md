@@ -1,5 +1,26 @@
 # Step-by-step implementation explanations and reviews
 
+## Non-negotiable: clear feedback for every learner
+
+English may not be a developer's first language. Use short sentences, familiar words and one problem per finding. Explain a new technical term when it first appears. Do not comment on grammar or treat English fluency as code correctness.
+
+Before posting **any bug finding**, complete these six parts. This applies to all tracks, existing review updates, issue discussions and future reviews. A priority label or an inline location alone is not enough.
+
+```text
+**Where:** `path/to/file.py:6-7`, function/value name.
+**What happens now:** Input, command and actual output/error. Say "not executed" if it was not run, and label any prediction.
+**What the task asks for:** Name the day/task and state the exact required behavior or location. A link is optional.
+**Why this does not meet the task:** Explain the cause and how it changes the requested project behavior.
+**Smallest change:** Name the bounded correction. Let the owner implement it.
+**How to check:** Give the command/input and expected result after correction.
+```
+
+Put this short action block first. Keep detailed execution traces below it, optionally in an expandable section. State what already works when useful. Distinguish a required implementation correction from an optional improvement or conceptual follow-up. If our task wording is unclear or contradictory, acknowledge it and clarify the original ask; do not add a surprise requirement.
+
+Example: “In `welcome_message.py:6-7`, these two lines print while Python loads the file. The app later prints the returned value again. Day 001 asks the function to return the welcome for the app to display. Remove the two extra lines. Run onboarding: the welcome must appear once.” Include the real file path, specific task requirement and executed evidence in the actual finding. A day/task reference is enough; no task link is required.
+
+Run `python tools/validate_curriculum.py --review-finding PATH` against a finding's text before posting. The check enforces the six parts, explicit location and day/task reference. It accepts findings without links. It cannot judge language clarity, factual accuracy or whether evidence is real; the reviewer must still verify those. The mandatory rule is also recorded in AGENTS.md and curriculum/coaching-policy.json.
+
 ## Execute, then trace each relevant line
 
 For implementation feedback and Question of the Day responses, show the command, input and **actual output/error** from the learner's revision. Then explain each relevant line's purpose, behavior and contribution to LearnForge. Follow execution order: a function body runs when called, not just because its definition appears earlier in a file.
@@ -29,6 +50,7 @@ Each finding includes:
 - **Location:** exact file and smallest relevant line range in the current revision.
 - **Observed case:** input, initial state, dependency behavior, actual result.
 - **Expected case:** original contract and the specific difference.
+- **Connection to the ask:** name the day/task and say which requested behavior or acceptance criterion is not met. A link is optional. Explain this directly in the finding, not only in another comment.
 - **Step-by-step cause:** execution path and the mechanism producing that difference.
 - **Bounded correction:** requested behavior, affected unit, and why that layer owns it.
 - **Research hint:** useful phrase or small comparison to investigate.

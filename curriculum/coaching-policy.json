@@ -15,6 +15,23 @@
   "project_rules_in_issues": false,
   "production_paths_use_feature_names": true,
   "reviews_require_actual_execution_or_explicit_not_executed": true,
+  "review_feedback": {
+    "mandatory": true,
+    "applies_to_all_tracks": true,
+    "plain_english": true,
+    "explain_new_terms": true,
+    "explicit_task_reference": true,
+    "task_links_optional": true,
+    "separate_bugs_suggestions_and_coaching": true,
+    "required_parts": [
+      "Where",
+      "What happens now",
+      "What the task asks for",
+      "Why this does not meet the task",
+      "Smallest change",
+      "How to check"
+    ]
+  },
   "reference_patterns": [
     "https://github.com/Prem-Tomar/fieldops-mastery/issues/8",
     "https://github.com/Prem-Tomar/fieldops-mastery/issues/14",
