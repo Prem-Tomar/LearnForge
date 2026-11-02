@@ -211,16 +211,6 @@
   },
   {
     "learner": 4,
-    "day": 1,
-    "issue_number": 185,
-    "url": "https://github.com/Prem-Tomar/LearnForge/issues/185",
-    "assignees": [
-      "praadeep28101995"
-    ],
-    "snapshot": "verified-seven-assigned"
-  },
-  {
-    "learner": 4,
     "day": 2,
     "issue_number": 190,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/190",
@@ -274,6 +264,16 @@
     "day": 7,
     "issue_number": 215,
     "url": "https://github.com/Prem-Tomar/LearnForge/issues/215",
+    "assignees": [
+      "praadeep28101995"
+    ],
+    "snapshot": "verified-seven-assigned"
+  },
+  {
+    "learner": 4,
+    "day": 8,
+    "issue_number": 220,
+    "url": "https://github.com/Prem-Tomar/LearnForge/issues/220",
     "assignees": [
       "praadeep28101995"
     ],
